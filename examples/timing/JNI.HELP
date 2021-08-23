@@ -1,0 +1,19 @@
+
+
+  1.Begin by writing the Java program. Create a Java class that declares
+    the native method; this class contains the declaration or signature
+    for the native method. It also includes a main method which calls the
+    native method.
+
+  2.Compile the Java class that declares the native method and the main method. 
+
+  3.Generate a header file for the native method using javah with the
+    native interface flag -jni. Once you've generated the header file you
+    have the formal signature for your native method.
+
+  4.Write the implementation of the native method in the programming
+    language of your choice, such as C or C++.
+
+  5.Compile the header and implementation files into a shared library file. 
+
+  6.Run the Java program.

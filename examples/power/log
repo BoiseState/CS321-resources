@@ -1,0 +1,28 @@
+x=2 n=1000
+time taken for version 1= 0.01 seconds
+time taken for version 2= 0.0 seconds
+time taken for pow= 0.0 seconds
+x=2 n=10000
+time taken for version 1= 0.03 seconds
+time taken for version 2= 0.0 seconds
+time taken for pow= 0.0 seconds
+x=2 n=50000
+time taken for version 1= 0.22999999 seconds
+time taken for version 2= 0.0 seconds
+time taken for pow= 0.02000001 seconds
+x=2 n=100000
+time taken for version 1= 0.8 seconds
+time taken for version 2= 0.01999998 seconds
+time taken for pow= 0.00999999 seconds
+x=2 n=200000
+time taken for version 1= 3.03 seconds
+time taken for version 2= 0.029999971 seconds
+time taken for pow= 0.03999996 seconds
+x=2 n=500000
+time taken for version 1= 19.9 seconds
+time taken for version 2= 0.1800003 seconds
+time taken for pow= 0.13999939 seconds
+x=2 n=1000000
+time taken for version 1= 81.85 seconds
+time taken for version 2= 0.7400055 seconds
+time taken for pow= 0.5499954 seconds
