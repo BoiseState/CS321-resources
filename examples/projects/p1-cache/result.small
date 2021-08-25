@@ -1,0 +1,105 @@
+[jhyeh@onyx sol]$ java Test 2 5 10 small.txt
+First level cache with 5 entries has been created
+Second level cache with 10 entries has been created
+
+The number of global references: 20
+The number of global cache hits: 1
+The global hit ratio                  : 0.05
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 0
+The 2nd-level cache hit ratio             : 0.0
+
+----------------------------------------------------------------
+
+[jhyeh@onyx sol]$ java Test 2 5 11 small.txt
+First level cache with 5 entries has been created
+Second level cache with 11 entries has been created
+.
+The number of global references: 20
+The number of global cache hits: 1
+The global hit ratio                  : 0.05
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 0
+The 2nd-level cache hit ratio             : 0.0
+
+---------------------------------------------------------------
+
+[jhyeh@onyx sol]$ java Test 2 5 12 small.txt
+First level cache with 5 entries has been created
+Second level cache with 12 entries has been created
+.
+The number of global references: 20
+The number of global cache hits: 3
+The global hit ratio                  : 0.15
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 2
+The 2nd-level cache hit ratio             : 0.10526315789473684
+
+----------------------------------------------------------------
+
+[jhyeh@onyx sol]$ java Test 2 5 13 small.txt
+First level cache with 5 entries has been created
+Second level cache with 13 entries has been created
+
+The number of global references: 20
+The number of global cache hits: 3
+The global hit ratio                  : 0.15
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 2
+The 2nd-level cache hit ratio             : 0.10526315789473684
+
+----------------------------------------------------------------
+
+[jhyeh@onyx sol]$ java Test 2 5 14 small.txt
+First level cache with 5 entries has been created
+Second level cache with 14 entries has been created
+
+The number of global references: 20
+The number of global cache hits: 4
+The global hit ratio                  : 0.2
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 3
+The 2nd-level cache hit ratio             : 0.15789473684210525
+
+----------------------------------------------------------------
+
+[jhyeh@onyx sol]$ java Test 2 5 15 small.txt
+First level cache with 5 entries has been created
+Second level cache with 15 entries has been created
+
+The number of global references: 20
+The number of global cache hits: 4
+The global hit ratio                  : 0.2
+
+The number of 1st-level references: 20
+The number of 1st-level cache hits: 1
+The 1st-level cache hit ratio             : 0.05
+
+The number of 2nd-level references: 19
+The number of 2nd-level cache hits: 3
+The 2nd-level cache hit ratio             : 0.15789473684210525

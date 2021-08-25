@@ -1,0 +1,3 @@
+This is a testing text file for the CS321 programming assignment one.
+
+This assignment is to implement a cache abstract.
