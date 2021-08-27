@@ -1,0 +1,15 @@
+[jhyeh@onyx sol]$ java Test 2 1000 2000 Encyclopedia.txt
+First level cache with 1000 entries has been created
+Second level cache with 2000 entries has been created
+..............................
+The number of global references: 1347451
+The number of global cache hits: 908305
+The global hit ratio                  : 0.6740913027635143
+
+The number of 1st-level references: 1347451
+The number of 1st-level cache hits: 837461
+The 1st-level cache hit ratio             : 0.6215149938661962
+
+The number of 2nd-level references: 509990
+The number of 2nd-level cache hits: 70844
+The 2nd-level cache hit ratio             : 0.1389125276966215
