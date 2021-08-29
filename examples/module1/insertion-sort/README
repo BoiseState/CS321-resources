@@ -1,0 +1,9 @@
+Add Java VM argument
+
+-Djava.library.path=.
+
+to run using libtiming.so  NativeTiming library.
+
+For extra memroy add Java VM arguments
+
+-Xmx500m -Xms500m
