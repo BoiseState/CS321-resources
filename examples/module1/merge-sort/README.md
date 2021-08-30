@@ -4,7 +4,7 @@ Experiments with mergesort
 
 Add Java VM argument
 
--Djava.library.path=.
+-Djava.library.path=../../timing/
 
 to run using libtiming.so  NativeTiming library.
 
