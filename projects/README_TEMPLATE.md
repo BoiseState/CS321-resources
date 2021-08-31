@@ -26,6 +26,11 @@ also appropriate to instruct the user how to use your code. Does your
 program require user input? If so, what does your user need to know
 about it to use it as quickly as possible?
 
+## Results 
+
+This section presents timing and other results of the experiments that 
+you were asked to perform as part of the project.
+
 ## Sources used
 
 If you used any sources outside of the lecture notes, class lab files,
