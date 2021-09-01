@@ -1,0 +1,103 @@
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 10 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        1         
+
+The global hit ratio:              0.0500    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    0         
+2nd-level cache hit ratio:         0.0000    
+Time elapsed: 6 milliseconds
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 11 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        1         
+
+The global hit ratio:              0.0500    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    0         
+2nd-level cache hit ratio:         0.0000    
+Time elapsed: 9 milliseconds
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 12 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        3         
+
+The global hit ratio:              0.1500    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    2         
+2nd-level cache hit ratio:         0.1053    
+Time elapsed: 5 milliseconds
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 13 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        3         
+
+The global hit ratio:              0.1500    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    2         
+2nd-level cache hit ratio:         0.1053    
+Time elapsed: 7 milliseconds
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 14 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        4         
+
+The global hit ratio:              0.2000    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    3         
+2nd-level cache hit ratio:         0.1579    
+Time elapsed: 5 milliseconds
+--------------------------------------------------------------------
+First level cache with 5 entries has been created
+Second level cache with 15 entries has been created
+................................
+Total number of references:        20        
+Total number of cache hits:        4         
+
+The global hit ratio:              0.2000    
+
+Number of 1st-level cache references:20        
+Number of 1st-level cache hits:    1         
+1st-level cache hit ratio:         0.0500    
+
+Number of 2nd-level cache references:19        
+Number of 2nd-level cache hits:    3         
+2nd-level cache hit ratio:         0.1579    
+Time elapsed: 5 milliseconds
+--------------------------------------------------------------------

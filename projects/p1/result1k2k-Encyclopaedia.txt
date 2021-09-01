@@ -1,0 +1,16 @@
+First level cache with 1000 entries has been created
+Second level cache with 2000 entries has been created
+................................
+Total number of references:        1347451   
+Total number of cache hits:        908305    
+
+The global hit ratio:              0.6741    
+
+Number of 1st-level cache references:1347451   
+Number of 1st-level cache hits:    837461    
+1st-level cache hit ratio:         0.6215    
+
+Number of 2nd-level cache references:509990    
+Number of 2nd-level cache hits:    70844     
+2nd-level cache hit ratio:         0.1389    
+Time elapsed: 1797 milliseconds
