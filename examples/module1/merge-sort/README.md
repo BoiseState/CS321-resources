@@ -2,15 +2,21 @@
 Experiments with mergesort
 ==========================
 
-Add Java VM argument
+You will need a copy of the timing library in the file libtiming.so (in the ../../timing folder).
+If you run the make command in this folder, it will generate the library and copy it over.
 
--Djava.library.path=../../timing/
+Then define LD_LIBRARY_PATH in the shell as follows:
 
-to run using libtiming.so  NativeTiming library.
+```
+export LD_LIBRARY_PATH=.
+```
 
-For extra memroy add Java VM arguments
+before running the program. You can also define that in the java VM arguments (for running in an
+IDE) as follows:
 
--Xmx500m -Xms500m
+```
+-Djava.library.path=.
+```
 
 
 *test1.sh tries various cutoff values for insertion sort to see which one is the best.
