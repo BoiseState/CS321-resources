@@ -1,0 +1,30 @@
+Name:
+
+Grade: /50
+
+Rubric for Cache project:
+
+Comments:
+
+-Submission
+	-Required file (CacheTest.java) is missing. [return to student for fixing]
+
+Documentation: [7 points]
+	-README.md 
+	-Javadoc and inline comments
+
+Code design and style: [8 points]
+	-The Test class does not contain any of the Cache functionality (like level 1/2 simulation
+	 and keeping track of stats on hits/misses) [5 points] 
+	-Uses multiple constructors in the Cache class to specify levels. [3 points]
+
+Functionality: [35 points]
+	-Provides proper usage message when run without arguments [3 points]
+	-Executes command line arguments as specified [7 points]
+	-Calculates cache hits/misses correctly for all three sample files [25 points]
+		-All results match: 25 points
+		-Results are off by less than ten on Encylopaedia.txt, but matches 
+		 perfectly on smaller files: 20 points
+		-Results match more than 90%: 15 points 
+
+
