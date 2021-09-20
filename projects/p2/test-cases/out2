@@ -1,0 +1,19 @@
+second   0: 
+second   1: 
+second   2: 
+second   3: JOB 3 arrives, timeRequired 1, priority 1
+	        (Assign to JOB 3: FINISH, priority 1)
+second   4: JOB 4 arrives, timeRequired 1, priority 1
+	        (Assign to JOB 4: FINISH, priority 1)
+second   5: 
+second   6: 
+second   7: JOB 7 arrives, timeRequired 1, priority 1
+	        (Assign to JOB 7: FINISH, priority 1)
+second   8: JOB 8 arrives, timeRequired 1, priority 1
+	        (Assign to JOB 8: FINISH, priority 1)
+second   9: JOB 9 arrives, timeRequired 1, priority 1
+	        (Assign to JOB 9: FINISH, priority 1)
+--- Simulation completed ---
+Simulation time: 10 unit time.
+Number of finished processes: 5
+Average Turn around time for a process: 1.00
