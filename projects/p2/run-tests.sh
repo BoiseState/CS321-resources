@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in 1 2 3
+for i in 1 2 3 4 5 
 do
 	cmd=$(cat test-cases/in$i)
 	echo "Running  " $cmd
