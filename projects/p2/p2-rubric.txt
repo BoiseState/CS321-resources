@@ -21,12 +21,13 @@ Code design and style: [20 points]
 	-MaxHeap: grows by doubling the array using a private method
 
 Functionality: [70 points]
-	-Matches supplied outputs for the corresponding five inputs in the test-cases subfolder
-		-in1/out1
-		-in2/out2
-		-in3/out3
-		-in4/out4
-		-in5/out5
-	-Additional testing: percentage of tests passsing
+	-Provided separate test class for MaxHeap [10 points]
+	-Matches outputs for the five inputs in the test-cases subfolder [50 points]
+		-in1/out1:
+		-in2/out2:
+		-in3/out3:
+		-in4/out4:
+		-in5/out5:
+	-Additional testing: percentage of tests passsing [10 points]
 
 
