@@ -1,0 +1,32 @@
+Name:
+
+Grade: /100
+
+Rubric for the CPU Job Scheduler project
+
+Comments:
+
+-Submission
+	-Required files are missing. [return to student for fixing]
+	-Submitted unnessary files (such as .class files)
+	-CPUScheduling.java and Averager.java classes were modified [0 points, not graded]
+
+Documentation: [10 points]
+	-README.md 
+	-Javadoc and inline comments
+
+Code design and style: [20 points]
+	-Interfaces: All provided interfaces were implemented
+	-Inheritance: MyPriorityQueue class extends MaxHeap class appropriately
+	-MaxHeap: grows by doubling the array using a private method
+
+Functionality: [70 points]
+	-Matches supplied outputs for the corresponding five inputs in the test-cases subfolder
+		-in1/out1
+		-in2/out2
+		-in3/out3
+		-in4/out4
+		-in5/out5
+	-Additional testing: percentage of tests passsing
+
+
