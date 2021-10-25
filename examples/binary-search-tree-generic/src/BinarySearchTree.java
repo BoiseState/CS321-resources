@@ -17,16 +17,16 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	 * @author amit
 	 *
 	 */
-	public class Node<T extends Comparable<T>> implements Comparable<Node<T>> {
-		Node<T> left;
-		Node<T> right;
-		Node<T> parent;
-		T key;
+	public class Node<S extends Comparable<S>> implements Comparable<Node<S>> {
+		Node<S> left;
+		Node<S> right;
+		Node<S> parent;
+		S key;
 		
 		/**
 		 * @param element
 		 */
-		public Node(T element) {
+		public Node(S element) {
 			key = element;
 			left = right = parent = null;
 		}
@@ -34,7 +34,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		/*
 		 * Implements Comparable interface. 
 		 */
-		public int compareTo(Node<T> otherNode){
+		public int compareTo(Node<S> otherNode){
 			return key.compareTo(otherNode.key);
 		}
 		
