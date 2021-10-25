@@ -42,7 +42,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		 * @override java.lang.Object.toString()
 		 */
 		public String toString() {
-			return "Node:  key = " + key;
+			return "Node:  key = " + key.toString();
 		}
 	
 	}

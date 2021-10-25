@@ -7,11 +7,11 @@ public class BinarySearchTreeTest {
 	private static void runRandomExperiment(int n, int count) {
 	    int sum = 0;
 	    for (int i = 0; i < count; i++) {
-		BinarySearchTree tree = new BinarySearchTree();
+	    	BinarySearchTree tree = new BinarySearchTree();
 		    createRandomTree(n, tree);
 		    sum += tree.getHeight(tree.getRoot());
 	    }
-	    System.out.printf("Average height after %d random experiments = %4.2f\n", n, sum/(double)count);
+	    System.out.printf("Average height after %d random experiments = %4.2f\n", count, sum/(double)count);
 	    
 	}
 	
