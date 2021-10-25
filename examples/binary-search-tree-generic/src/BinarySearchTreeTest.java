@@ -4,7 +4,7 @@ public class BinarySearchTreeTest {
 	
 	private static Random generator = new Random();
 	
-	private static void createRandomTree(int n, BinarySearchTree tree) {
+	private static void createRandomTree(int n, BinarySearchTree<Integer> tree) {
 		for (int i = 0; i < n; i++) {
 			int next = generator.nextInt(n);
 			tree.insert(next);
@@ -19,7 +19,7 @@ public class BinarySearchTreeTest {
 		}
 		int n = Integer.parseInt(args[0]);
 
-		BinarySearchTree tree = new BinarySearchTree();
+		BinarySearchTree<Integer> tree = new BinarySearchTree<Integer>();
 		
 		createRandomTree(n, tree);
 		
