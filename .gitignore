@@ -3,3 +3,4 @@ examples/binary-search-tree-generic/.classpath
 examples/binary-search-tree-generic/.gitignore
 examples/binary-search-tree-generic/.project
 examples/binary-search-tree-generic/.settings/org.eclipse.jdt.core.prefs
+examples/binary-search-tree/.settings/
