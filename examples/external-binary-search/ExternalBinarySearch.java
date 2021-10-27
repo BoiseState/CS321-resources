@@ -1,14 +1,10 @@
-
-import java.io.*;
-import java.nio.*;
-import java.nio.channels.*;
-
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 
 public class ExternalBinarySearch
 {
 	private int DEBUG = 0;
-	
-
 
 	public void setDebug(int debug) 
 	{
@@ -21,7 +17,7 @@ public class ExternalBinarySearch
 
 	Input: 
 			dataFile  file channel to an open file.
-			key       intgere key value to use for searching
+			key       integer key value to use for searching
 
 	Output: Reference to a record structure if search was successful
 			otherwise a null pointer .
@@ -61,7 +57,7 @@ public class ExternalBinarySearch
 			dataFile.read(buffer);
 			buffer.flip();
 			if (DEBUG >= 2) {
-				System.err.println("low = "+low+" mid = "+mid+" high = "+high);
+				System.err.println("low = " + low + " mid = " + mid + " high = " + high);
 			}
 			recordKey = buffer.getInt();
 			if (recordKey == key) {

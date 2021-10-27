@@ -7,8 +7,8 @@ import java.util.Random;
 
 
 /**
-  Illusrates how to write a binary file. Show difference between buffered and unbuffered I/O
-  @author Amit Jain
+  Illustrates how to write a binary file using standard data stream.
+  @author amit
 
 */
 
@@ -68,7 +68,6 @@ public class GenerateBinarySlower
 		} catch (IOException e) {
 			System.err.println(e);
 			System.exit(1);
-
 		}
 		System.exit(0);
 	}

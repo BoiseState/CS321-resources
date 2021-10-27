@@ -1,6 +1,8 @@
-
-import java.io.*;
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Random;
 
 public class GenerateText
 {
@@ -22,7 +24,7 @@ public class GenerateText
 			value1 = generator.nextDouble() * MAX_DOUBLE;
 			value2 = generator.nextDouble() * MAX_DOUBLE;
 			value3 = generator.nextDouble() * MAX_DOUBLE;
-			out.println(key+" "+value1+" "+value2+" "+value3);
+			out.println(key+" " + value1 + " " + value2 + " " + value3);
 		}
 	}
 
@@ -50,7 +52,6 @@ public class GenerateText
 		} catch (IOException e) {
 			System.err.println(e);
 			System.exit(1);
-
 		}
 		System.exit(0);
 	}

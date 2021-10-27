@@ -4,7 +4,7 @@ import java.io.IOException;
 
 
 /**
- * Program to demo time difference between memory access and disk access
+ * Program to demo time difference between memory access and disk access.
  * @author amit
  *
  */
@@ -85,7 +85,7 @@ public class MemoryVersusDisk {
 	 */
 	public static void main(String[] args) 
 	{
-		int n = 1024;
+		int n = 1024; // do this many operations
 		
 		runMemoryTest(n);
 		

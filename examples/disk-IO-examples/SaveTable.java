@@ -4,7 +4,7 @@ import java.util.Hashtable;
 
 /**
   Example of freeze-drying (or serializing) a hash table to disk.
-  Any class that extends the Serializable intercace can be saved to disk.
+  Any class that extends the Serializable interface can be saved to disk.
   The serialization interface has no methods or fields and serves only
   to identify the semantics of being serializable.
 */
@@ -20,10 +20,10 @@ public class SaveTable {
 		StudentRecord s3 = new StudentRecord("Curly", 32141);
 		StudentRecord s4 = new StudentRecord("MooMoo", 22211);
 		
-		h.put(new Integer(s1.getId()), s1);
-		h.put(new Integer(s2.getId()), s2);
-		h.put(new Integer(s3.getId()), s3);
-		h.put(new Integer(s4.getId()), s4); 
+		h.put(s1.getId(), s1);
+		h.put(s2.getId(), s2);
+		h.put(s3.getId(), s3);
+		h.put(s4.getId(), s4); 
 		
 		try {
 			FileOutputStream fileout = new FileOutputStream("hash.serial");

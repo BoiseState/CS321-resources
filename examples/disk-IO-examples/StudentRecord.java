@@ -3,6 +3,7 @@ import java.io.Serializable;
 
 public class StudentRecord implements Serializable
 {
+	//auto generated using the Eclipse IDE
 	private static final long serialVersionUID = -1676113151880982053L;
 	
 	private String name;
@@ -16,7 +17,7 @@ public class StudentRecord implements Serializable
 	
 	public String toString()
 	{
-		return id+":"+name;
+		return id + ":" + name;
 	}
 
 	public int getId() {

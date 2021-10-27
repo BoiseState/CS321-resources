@@ -5,8 +5,8 @@ import java.nio.channels.*;
 import java.util.*;
 
 /**
-  Illusrates how to write a binary file efficiently using java.nio stuff.
-  @author Amit Jain
+  Illustrates how to write a binary file efficiently using java.nio stuff.
+  @author amit
 
 */
 
@@ -15,8 +15,8 @@ public class GenerateBinary
 	final static int MAX_KEY = 1000000;
 	final static int MAX_DOUBLE = 2148;
 	final static int RECORD_SIZE = 28;
-	final static int NUM_OF_RECORD_PER_BUFFER = 146;
-	final static int BUFFER_SIZE = RECORD_SIZE * NUM_OF_RECORD_PER_BUFFER;
+	final static int NUM_OF_RECORDS_PER_BUFFER = 146;
+	final static int BUFFER_SIZE = RECORD_SIZE * NUM_OF_RECORDS_PER_BUFFER;
 
 
     private static void generateFile(int n, long seed, FileChannel fout)
@@ -29,7 +29,7 @@ public class GenerateBinary
 		double value3;
 		Random generator = new Random(seed);
 		// make buffer be a multiple of the record size
-		ByteBuffer buff = ByteBuffer.allocateDirect(28*146);
+		ByteBuffer buff = ByteBuffer.allocateDirect(RECORD_SIZE * NUM_OF_RECORDS_PER_BUFFER);
 	
 		for (i=0; i<n; i++) {
 			/*key = generator.nextInt(MAX_KEY); */
@@ -60,7 +60,7 @@ public class GenerateBinary
 		long seed = 0;
 
 		if (argv.length < 1) {
-			System.err.println("Usage: java GenerateText <n> [<seed>]\n");
+			System.err.println("Usage: java GenerateBinary <n> [<seed>]");
 			System.exit(1);
 		}
 
@@ -76,12 +76,11 @@ public class GenerateBinary
 			fout.truncate(0); // truncate the file
 			generateFile(n ,seed, fout);
 			fout.close();
+			out.close();
 		} catch (IOException e) {
 			System.err.println(e);
 			System.exit(1);
-
 		}
 		System.exit(0);
 	}
-
 }

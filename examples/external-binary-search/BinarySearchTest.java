@@ -1,9 +1,7 @@
-
-
-import java.io.*;
-import java.nio.*;
-import java.nio.channels.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.nio.channels.FileChannel;
+import java.util.Random;
 
 public class BinarySearchTest
 {
@@ -71,5 +69,3 @@ public class BinarySearchTest
 		}
 	}
 }
-
-// vim: set ts=4;

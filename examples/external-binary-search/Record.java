@@ -1,6 +1,6 @@
 
 
-public class Record implements Comparable, DiskSize
+public class Record implements Comparable<Record>, DiskSize
 {
     private int key;
     private double value1;
@@ -31,7 +31,7 @@ public class Record implements Comparable, DiskSize
 		return "key="+key+" value1="+value1+" value2="+value2+" value3="+value3;
 	}
 
-	public int compareTo(Object obj)
+	public int compareTo(Record obj)
 	{
 		if (obj instanceof Record) {
 			Record other = (Record) obj;
