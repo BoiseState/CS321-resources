@@ -1,0 +1,93 @@
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+/**
+ * Program to demo time difference between memory access and disk access
+ * @author amit
+ *
+ */
+public class MemoryVersusDisk {
+
+	private static void runMemoryTest(int n)
+	{
+		int[] buffer1 = new int[n];
+		int[] buffer2 = new int[n];
+		float start = NativeTiming.report_cpu_time();
+		for (int k=0; k<10000; k++) {
+			System.arraycopy(buffer1, 0, buffer2, 0, n);
+		}
+		float end = NativeTiming.report_cpu_time();
+		System.out.printf("time for memory access = %6.2f microseconds\n", (end - start)*1000000/10);
+	}
+	
+	private static void runDiskTest(int n)
+	{
+		float start, end;
+		
+		try {
+			char[] charBuffer = new char[n*2];
+			Runtime system = Runtime.getRuntime();
+			start = NativeTiming.report_cpu_time();
+			FileWriter fout = new FileWriter("data");
+			for (int k=0; k<1000; k++) {
+				fout.write(charBuffer);
+				fout.flush();
+				// Call Linux system call sync to force writing to disk
+				// Otherwise the OS just writes the file in memory to speed
+				// up the operation
+				system.exec("sync");
+			}
+			fout.close();
+			end = NativeTiming.report_cpu_time();
+			System.out.printf("time for disk access = %6.2f microseconds\n", (end - start)*1000000);
+
+		} catch (FileNotFoundException e) {
+			System.err.println(e);
+			System.exit(1);
+		} catch (IOException e) {
+			System.err.println(e);
+			System.exit(1);
+		}
+	}
+	
+	private static void runBufferedDiskTest(int n)
+	{
+		float start, end;
+		
+		try {
+			char[] charBuffer = new char[n*2];
+			start = NativeTiming.report_cpu_time();
+			FileWriter fout = new FileWriter("data");
+			for (int k=0; k<1000; k++) {
+				fout.write(charBuffer);
+			}
+			fout.close();
+			end = NativeTiming.report_cpu_time();
+			System.out.printf("time for buffered disk access = %6.2f microseconds\n", (end - start)*1000000);
+
+		} catch (FileNotFoundException e) {
+			System.err.println(e);
+			System.exit(1);
+		} catch (IOException e) {
+			System.err.println(e);
+			System.exit(1);
+		}
+	}	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		int n = 1024;
+		
+		runMemoryTest(n);
+		
+		runBufferedDiskTest(n);
+		
+		runDiskTest(n);
+		
+	}
+
+}
