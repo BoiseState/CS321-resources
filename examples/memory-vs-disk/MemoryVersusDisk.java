@@ -34,7 +34,7 @@ public class MemoryVersusDisk {
 
 			char[] charBuffer = new char[n*2];
 			FileWriter fout = new FileWriter("data");
-			for (int k = 0; k < 1000; k++) {
+			for (int k = 0; k < 10000; k++) {
 				fout.write(charBuffer);
 				fout.flush();
 				// Call Linux system call sync to force writing to disk
@@ -65,7 +65,7 @@ public class MemoryVersusDisk {
 
 			char[] charBuffer = new char[n*2];
 			FileWriter fout = new FileWriter("data");
-			for (int k = 0; k < 1000; k++) {
+			for (int k = 0; k < 10000; k++) {
 				fout.write(charBuffer);
 			}
 			fout.close();

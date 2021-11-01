@@ -10,3 +10,9 @@ examples/external-binary-search/.classpath
 examples/external-binary-search/.project
 examples/memory-vs-disk/.classpath
 examples/memory-vs-disk/.project
+examples/disk-IO-examples/.settings/
+examples/disk-IO-examples/data.bin
+examples/disk-IO-examples/data.txt
+examples/memory-vs-disk/data
+projects/p3/inheritance-example/.project
+projects/p3/inheritance-example/.classpath
