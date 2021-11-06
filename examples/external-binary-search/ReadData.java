@@ -7,11 +7,8 @@ import java.io.FileInputStream;
 
 public class ReadData {
 
-	private static int MAX_KEY = 1000000;
-	
 	/**
-	 * @param n
-	 * @param seed
+	 * Read the binary file and display on the console.
 	 * @param file
 	 * @throws IOException
 	 */
@@ -37,8 +34,6 @@ public class ReadData {
 	public static void main(String[] args) 
 	throws IOException 
 	{
-		long seed = 0;
-
 		if (args.length < 1) {
 			System.err.println("Usage: java ReadData <data file>");
 			System.exit(1);

@@ -5,11 +5,17 @@ import java.io.FileOutputStream;
 import java.util.Random;
 
 
+/**
+ * Generates a sample binary data file that can be used to test the ExternalBinarySearch class.
+ * @author amit
+ *
+ */
 public class GenerateData {
 
 	private static int MAX_KEY = 1000000;
 	
 	/**
+	 * Generate sorted binary data file with some fictitious data.
 	 * @param n
 	 * @param seed
 	 * @param file
