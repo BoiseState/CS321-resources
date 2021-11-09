@@ -38,8 +38,9 @@ public class BinarySearchTree {
 			return key.compareTo(otherNode.key);
 		}
 		
+		
 		/**
-		 * @override java.lang.Object.toString()
+		 *
 		 */
 		public String toString() {
 			return "Node:  key = " + key;
