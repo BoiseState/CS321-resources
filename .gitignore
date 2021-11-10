@@ -16,3 +16,5 @@ examples/disk-IO-examples/data.txt
 examples/memory-vs-disk/data
 projects/p3/inheritance-example/.project
 projects/p3/inheritance-example/.classpath
+examples/bitwise-operators-example/.classpath
+examples/bitwise-operators-example/.project
