@@ -10,9 +10,6 @@
 public class BitwiseShiftDemo
 {
     public static void main(String[] args) {
-
-	
-	
 	String dnaSequence = "gatcctccat";
 	int seqLength = dnaSequence.length();
 	System.out.println("original sequence: " + dnaSequence);
@@ -57,5 +54,4 @@ public class BitwiseShiftDemo
 	}
 	System.out.println("extracted sequence: " + seqString);
     }
-
 }

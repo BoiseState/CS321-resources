@@ -4,7 +4,7 @@
  * See <a href="https://www.baeldung.com/java-bitwise-operators">Java Bitwise Operators</a> for 
  * a brief tutorial.
  * 
- * Bitwise operators can be used with ny integral type such as byte, short, int, and long.
+ * Bitwise operators can be used with any integral type such as byte, short, int, and long.
  * 
  * @author amit
  *
@@ -28,7 +28,7 @@ public class BitwiseOperatorsDemo
     
     
     /**
-     * Print the result of a unary operation nicely.
+     * Print the result of an unary operation nicely.
      * @param operator  the operator used
      * @param value	first operand
      * @param result	the result of the operation
