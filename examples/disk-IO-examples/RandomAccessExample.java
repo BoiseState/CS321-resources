@@ -6,7 +6,7 @@
  example of reading from a  binary file
  example of random access read/write
 
- @author Amit Jain
+ @author amit
 
 */
 
