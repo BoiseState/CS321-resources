@@ -13,8 +13,7 @@ JFLAGS=
 	javac $(JFLAGS) $<
 
 CC=gcc
-JDK_HOME=/usr/java/default/
-INCLUDE=-I$(JDK_HOME)/include -I$(JDK_HOME)/include/linux
+INCLUDE=-I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
 CFLAGS= -fPIC -shared -c $(INCLUDE)
 
 

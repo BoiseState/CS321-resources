@@ -52,7 +52,7 @@ public class BitwiseOperatorsDemo
 	int result = value1 | value2;
 	printResult("bitwise or |", value1, value2, result);
 	
-	value1 = 0b110; //a binary constant, use 0x for hexadecimal. Upper case )b or Ox also works.
+	value1 = 0b110; //a binary constant, use 0x for hexadecimal. Upper case 0b or Ox also works.
 	value2 = 0b101;
 		
 	result = value1 | value2; //bitwise OR
@@ -88,14 +88,14 @@ public class BitwiseOperatorsDemo
 	//for positive numbers, this behaves the same as signed right shift
 	value1 = 0b1100; //12
 	result = value1 >>> 2; //multiply by 2^2 or 4
-	printResult("unsigned right shift: value1 >> 2", value1, result);
+	printResult("unsigned right shift: value1 >>> 2", value1, result);
 	
 	//for negative numbers, unsigned right shift loses the sign! 
 	//this is useful when we are storing data in the primitive type and the
 	//sign of the number has no relevance
 	value1 = -12;
 	result = value1 >>> 2; //divide by 2^2 or 4
-	printResult("unsigned right shift: value1 >> 2", value1, result);
+	printResult("unsigned right shift: value1 >>> 2", value1, result);
     }
 
 }

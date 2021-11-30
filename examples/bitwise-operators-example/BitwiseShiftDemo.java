@@ -32,7 +32,7 @@ public class BitwiseShiftDemo
 		    break;
 	    }   
 	}
-	System.out.println(Long.toString(sequence, 2));
+	System.out.println(sequence + " " + Long.toString(sequence, 2));
 	
 	long value = sequence;
 	String seqString = "";

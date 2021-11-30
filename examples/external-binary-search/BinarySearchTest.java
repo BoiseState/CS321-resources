@@ -48,7 +48,8 @@ public class BinarySearchTest
 		int n = Integer.parseInt(argv[1]);
 		int maxKey = Integer.parseInt(argv[2]);
 		try {
-			FileChannel dataFile = new RandomAccessFile(argv[0],"r").getChannel();
+			RandomAccessFile file = new RandomAccessFile(argv[0], "r");
+			FileChannel dataFile = file.getChannel();
 
 			count = dataFile.size()/(long ) record.getDiskSize();
 			if (tester.DEBUG >= 1) {
@@ -62,6 +63,7 @@ public class BinarySearchTest
 			System.out.println("Elapsed time for " + n + " searches = " + totalTime/1000.0 
 								+ " seconds"); 
 			dataFile.close();
+			file.close();
 			System.exit(0);
 		} catch (IOException e) {
 		   	System.err.println(e);
