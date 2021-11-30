@@ -21,4 +21,5 @@ examples/bitwise-operators-example/.project
 examples/SQLite/sample.db
 examples/binary-search-tree/doc/
 examples/bitwise-operators-example/.settings/
+examples/disk-IO-examples/test.data
 
