@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.util.Random;
 
 /**
  * 
@@ -276,10 +277,14 @@ public class DiskReadWrite {
     public static void createTree(File file) throws IOException {
         DiskReadWrite test = new DiskReadWrite(file);
 
-        for (int i = 1; i <= 1000; i++) {
-            TreeObject next = new TreeObject(i, 1);
+        int n = 1000;
+        long seed = 1234;
+        Random generator = new Random(seed);
+        for (int i = 1; i <= n; i++) {
+            TreeObject next = new TreeObject(generator.nextInt(n), 1);
             test.insert(next);
         }
+        test.print();
         test.finishUp(); // needed to make sure file is written and closed up
     }
     
