@@ -24,6 +24,12 @@ import java.nio.channels.FileChannel;
  * (long - 8 bytes) 
  * 
  * This example is for demonstration purposes and and has only gone through a few smoke tests.
+ * First create a binary search tree on disk with the command:
+ * <tt> java DiskReadWrite --create </tt>
+ * 
+ * Then dump the tree to show we can read the tree from the disk. Use the following command to 
+ * print out the tree.
+ * <tt> java DiskReadWrite --dump </tt>
  * 
  * @author amit
  *
@@ -270,7 +276,7 @@ public class DiskReadWrite {
     public static void createTree(File file) throws IOException {
         DiskReadWrite test = new DiskReadWrite(file);
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 1000; i++) {
             TreeObject next = new TreeObject(i, 1);
             test.insert(next);
         }
