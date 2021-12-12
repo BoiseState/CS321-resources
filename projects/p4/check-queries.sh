@@ -11,7 +11,7 @@ do
 	echo
 	echo "Running queryfile " query$i "on $datafile.btree.data.$i.0"
 	echo
-	time java GeneBankSearchBTree --degree=0 --btreefile=$datafile.btree.data.$i.0 --length=$i --queryfile=queries/query$i --debug=1  > queries/query$i-$datafile.out
+	time java -jar build/libs/GeneBankSearchBTree.jar 0 0 $datafile.btree.data.$i.0 $i queries/query$i 1  > queries/query$i-$datafile.out
 done
 echo
 
@@ -29,7 +29,6 @@ done
 echo
 
 
-
-
-
+do
+done
 
