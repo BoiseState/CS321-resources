@@ -1,0 +1,43 @@
+Name:
+
+Grade: /100
+
+Rubric for Cache project:
+
+Comments:
+
+-Submission
+	
+	-Required files (Cache.java, CacheTest.java) are present:
+
+	-Compiles without unexplained warnings:
+
+Documentation:
+	-README.md [10 points]:
+
+	-Javadoc and inline comments [10 points]:
+
+
+Code design and style: [10 points]
+	-The Test class does not contain any of the Cache functionality (like keeping track of stats on hits/misses): [5 points]
+
+
+Functionality: [70 points]
+	-Provides proper usage message when run without arguments: [5 points]
+
+	-Executes command line arguments as specified: [5 points]
+
+	-Calculates cache hits/misses correctly for all three sample files: [55 points]
+
+		-Results match on all data files: 55 points
+
+		-Results are off on one file: 40 points
+
+		-Results are off on two data files: 20 points 
+
+	-Update the test script to generate the data files if they don't exist [5 points]:
+
+Extra credit:
+	-LinkedHashMap cache was implmeneted and works correctly  [10 points]
+	
+
