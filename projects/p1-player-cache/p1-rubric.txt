@@ -8,7 +8,7 @@ Comments:
 
 -Submission
 	
-	-Required files (Cache.java, CacheTest.java) are present:
+	-Required files (Cache.java, CacheTest.java, etc.) are present:
 
 	-Compiles without unexplained warnings:
 
