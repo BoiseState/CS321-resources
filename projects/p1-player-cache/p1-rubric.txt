@@ -8,7 +8,8 @@ Comments:
 
 -Submission
 	
-	-Required files (Cache.java, CacheTest.java, etc.) are present:
+	-Required files (README.md, Cache.java, CacheTest.java, Player.java, 
+	   PlayerGenerator.java, run-tests.sh, test-cases/) are present:
 
 	-Compiles without unexplained warnings:
 
