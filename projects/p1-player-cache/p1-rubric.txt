@@ -20,7 +20,8 @@ Documentation:
 
 
 Code design and style: [10 points]
-	-The Test class does not contain any of the Cache functionality (like keeping track of stats on hits/misses): [5 points]
+	-The Test class does not contain any of the Cache functionality 
+	(like keeping track of stats on hits/misses): [5 points]
 
 
 Functionality: [70 points]
@@ -32,7 +33,7 @@ Functionality: [70 points]
 
 		-Results match on all data files: 55 points
 
-		-Results are off on one file: 40 points
+		-Results are off on one data file: 40 points
 
 		-Results are off on two data files: 20 points 
 
