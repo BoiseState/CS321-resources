@@ -19,7 +19,8 @@ Documentation:
 	-Javadoc and inline comments [10 points]:
 
 
-Code design and style: [10 points]
+Code design and style: 
+	-Cache class is defined to be generic: [10 points]
 	-The Test class does not contain any of the Cache functionality 
 	(like keeping track of stats on hits/misses): [5 points]
 
@@ -29,17 +30,18 @@ Functionality: [70 points]
 
 	-Executes command line arguments as specified: [5 points]
 
-	-Calculates cache hits/misses correctly for all three sample files: [55 points]
-
-		-Results match on all data files: 55 points
-
-		-Results are off on one data file: 40 points
-
-		-Results are off on two data files: 20 points 
-
 	-Update the test script to generate the data files if they don't exist [5 points]:
 
+	-Calculates cache hits/misses correctly for all three sample files: [50 points]
+
+		-Results match on all data files: 50 points
+
+		-Results are off on one data file: 30 points
+
+		-Results are off on two data files: 10 points 
+
+
 Extra credit:
-	-LinkedHashMap cache was implmeneted and works correctly  [10 points]
+	-LinkedHashMap cache was implemented and works correctly  [10 points]
 	
 
