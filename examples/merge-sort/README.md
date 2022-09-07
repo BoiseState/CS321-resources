@@ -2,22 +2,7 @@
 Experiments with mergesort
 ==========================
 
-You will need a copy of the timing library in the file libtiming.so (in the ../../timing folder).
-If you run the make command in this folder, it will generate the library and copy it over.
-
-Then define LD_LIBRARY_PATH in the shell as follows:
-
-```
-export LD_LIBRARY_PATH=.
-```
-
-before running the program. You can also define that in the java VM arguments (for running in an
-IDE) as follows:
-
-```
--Djava.library.path=.
-```
-
+Run the MergeSortTest class to run and test merge sort.
 
 *test1.sh tries various cutoff values for insertion sort to see which one is the best.
 
