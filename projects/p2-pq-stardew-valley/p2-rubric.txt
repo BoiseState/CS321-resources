@@ -8,6 +8,7 @@ Comments:
 
 -Checkpoint [10 point]:
 	-The project files have been copied an setup correctly.
+	-Study the provided files and ask questions!
 	-The MaxHeap class has been written.
 	-The MaxHeapTest class has at least been started.
 
