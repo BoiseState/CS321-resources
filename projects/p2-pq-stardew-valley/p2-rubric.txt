@@ -6,6 +6,11 @@ Rubric for the Stardew Valley using Priority Queue project
 
 Comments:
 
+-Checkpoint [10 point]:
+	-The project files have been copied an setup correctly.
+	-The MaxHeap class has been written.
+	-The MaxHeapTest class has at least been started.
+
 -Submission
 	-Required files are missing. [return to student for fixing]
 	-Did not submit unnessary files (such as .class files)
@@ -16,27 +21,27 @@ Documentation: [20 points]
 	-Javadoc for all methods 
 	-Appropriate but not excessive inline comments
 
-Code design and style: [20 points]
+Code design and style: [15 points]
 	-Appropriate variable and method names
 	-Appropriate code style
 	-Interfaces: All provided interfaces were implemented 
 	-Inheritance: MyPriorityQueue class extends MaxHeap class appropriately 
 	-MaxHeap: grows by doubling the array using a private method 
 
-Functionality: [60 points]
+Functionality: [55 points]
 	-MaxHeapTest: Appropriate unit test for MaxHeap class [10 points]
-	-Matches outputs for the six inputs in the test-cases subfolder [42 points]
+	-Matches outputs for the six inputs in the test-cases subfolder [36 points]
 		-in1/out1:
 		-in2/out2:
 		-in3/out3:
 		-in4/out4:
 		-in5/out5:
 		-in6/out6:
-	-Additional testing: percentage of tests passsing [8 points]
+	-Additional testing: percentage of tests passsing [9 points]
 
-Extra Credit: Multiplayer Stardew Valley
-	-Used generic MaxHeap and Priority Queues [5 points]
-	-Implemenetd the multiplayer driver simualtion correctly [10 points]
+Extra Credit: Multiplayer Stardew Valley [up to 15 points]
+	-Used generic MaxHeap and Priority Queues [+5 points]
+	-Implemenetd the multiplayer driver simualtion correctly [+10 points]
 		
 
 
