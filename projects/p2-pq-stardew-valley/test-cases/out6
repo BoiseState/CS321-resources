@@ -1,0 +1,457 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 1	LUCK: 0.67
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Pigs at Hour: 0:00
+		6:00AM	     Feeding the Pigs at 200 energy points (Priority:0)
+							NEW TASK: FEEDING the Cows at Hour: 1:00
+		7:00AM	     Feeding the Pigs at 190 energy points (Priority:0)
+							NEW TASK: FEEDING the Pigs at Hour: 2:00
+		8:00AM	     Feeding the Pigs at 180 energy points (Priority:0)
+							NEW TASK: FEEDING the Cows at Hour: 3:00
+		9:00AM	     Feeding the Pigs at 170 energy points (Priority:0)
+							NEW TASK: FISHING in the Pond at Hour: 4:00
+		10:00AM	     Feeding the Pigs at 160 energy points (Priority:0)
+							NEW TASK: FEEDING the Cows at Hour: 5:00
+		11:00AM	     Feeding the Pigs at 150 energy points (Priority:0)
+							NEW TASK: FEEDING the Goats at Hour: 6:00
+		12:00PM	     Feeding the Cows at 140 energy points (Priority:1)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 7:00
+		1:00PM	     Feeding the Pigs at 130 energy points (Priority:1)
+							NEW TASK: MINING for Gold at Hour: 8:00
+		2:00PM	     Feeding the Cows at 120 energy points (Priority:1)
+							NEW TASK: FISHING in the River at Hour: 9:00
+		3:00PM	     Fishing in the Pond at 110 energy points (Priority:1)
+							NEW TASK: FEEDING the Pigs at Hour: 10:00
+		4:00PM	     Feeding the Cows at 90 energy points (Priority:1)
+							NEW TASK: FARM_MAINTENANCE of Clearing Rocks at Hour: 11:00
+		5:00PM	     Feeding the Pigs at 80 energy points (Priority:1)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 12:00
+		6:00PM	     Feeding the Cows at 70 energy points (Priority:1)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 13:00
+		7:00PM	     Feeding the Pigs at 60 energy points (Priority:1)
+							NEW TASK: MINING for Iron at Hour: 14:00
+		8:00PM	     Feeding the Cows at 50 energy points (Priority:1)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 15:00
+		9:00PM	     Fishing in the Pond at 40 energy points (Priority:1)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 16:00
+		10:00PM	     Feeding the Goats at 20 energy points (Priority:2)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 17:00
+		11:00PM	     Farm Maintenance of Wood Chopping at 10 energy points (Priority:2)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 18:00
+		12:00AM	     Mining for Gold at 0 energy points (Priority:2)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1550$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 2	LUCK: 0.67
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Chickens at Hour: 19:00
+		6:00AM	     Fishing in the River at 200 energy points (Priority:2)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 20:00
+		7:00AM	     Feeding the Pigs at 180 energy points (Priority:2)
+							NEW TASK: MINING for Gold at Hour: 21:00
+		8:00AM	     Feeding the Cows at 170 energy points (Priority:2)
+							NEW TASK: FEEDING the Goats at Hour: 22:00
+		9:00AM	     Feeding the Pigs at 160 energy points (Priority:2)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 23:00
+		10:00AM	     Feeding the Cows at 150 energy points (Priority:2)
+							NEW TASK: MINING for Diamonds at Hour: 24:00
+		11:00AM	     Feeding the Pigs at 140 energy points (Priority:2)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 25:00
+		12:00PM	     Feeding the Cows at 130 energy points (Priority:2)
+							NEW TASK: FEEDING the Goats at Hour: 26:00
+		1:00PM	     Farm Maintenance of Clearing Rocks at 120 energy points (Priority:3)
+							NEW TASK: FISHING in the Ocean at Hour: 27:00
+		2:00PM	     Farm Maintenance of Watering Plants at 110 energy points (Priority:3)
+							NEW TASK: MINING for Copper at Hour: 28:00
+		3:00PM	     Farm Maintenance of Watering Plants at 100 energy points (Priority:3)
+							NEW TASK: FEEDING the Cows at Hour: 29:00
+		4:00PM	     Mining for Iron at 90 energy points (Priority:3)
+							NEW TASK: FEEDING the Goats at Hour: 30:00
+		5:00PM	     Socializing with Mayor Lewis at 70 energy points (Priority:3)
+							NEW TASK: MINING for Gold at Hour: 31:00
+		6:00PM	     Fishing in the Pond at 70 energy points (Priority:3)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 32:00
+		7:00PM	     Feeding the Goats at 50 energy points (Priority:3)
+							NEW TASK: FORAGING for Roots at Hour: 33:00
+		8:00PM	     Farm Maintenance of Wood Chopping at 40 energy points (Priority:3)
+							NEW TASK: SOCIALIZING with Store Owner Pierre at Hour: 34:00
+		9:00PM	     Mining for Gold at 30 energy points (Priority:3)
+							NEW TASK: FORAGING for Berries at Hour: 35:00
+		10:00PM	     Fishing in the River at 10 energy points (Priority:3)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1300$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 3	LUCK: 0.68
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FARM_MAINTENANCE of Clearing Rocks at Hour: 36:00
+		6:00AM	     Socializing with Mayor Lewis at 200 energy points (Priority:4)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 37:00
+		7:00AM	     Socializing with Blacksmith Clint at 200 energy points (Priority:4)
+							NEW TASK: FISHING in the Lake at Hour: 38:00
+		8:00AM	     Socializing with Mayor Lewis at 200 energy points (Priority:4)
+							NEW TASK: FEEDING the Cows at Hour: 39:00
+		9:00AM	     Feeding the Chickens at 200 energy points (Priority:4)
+							NEW TASK: FISHING in the Pond at Hour: 40:00
+		10:00AM	     Farm Maintenance of Wood Chopping at 190 energy points (Priority:4)
+							NEW TASK: MINING for Copper at Hour: 41:00
+		11:00AM	     Feeding the Pigs at 180 energy points (Priority:4)
+							NEW TASK: FEEDING the Chickens at Hour: 42:00
+		12:00PM	     Feeding the Cows at 170 energy points (Priority:4)
+							NEW TASK: MINING for Diamonds at Hour: 43:00
+		1:00PM	     Feeding the Pigs at 160 energy points (Priority:4)
+							NEW TASK: FEEDING the Cows at Hour: 44:00
+		2:00PM	     Feeding the Cows at 150 energy points (Priority:4)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 45:00
+		3:00PM	     Feeding the Pigs at 140 energy points (Priority:4)
+							NEW TASK: FEEDING the Cows at Hour: 46:00
+		4:00PM	     Mining for Gold at 130 energy points (Priority:5)
+							NEW TASK: FISHING in the Lake at Hour: 47:00
+		5:00PM	     Feeding the Goats at 110 energy points (Priority:5)
+							NEW TASK: FEEDING the Goats at Hour: 48:00
+		6:00PM	     Farm Maintenance of Harvesting Wheat at 100 energy points (Priority:5)
+							NEW TASK: FEEDING the Chickens at Hour: 49:00
+		7:00PM	     Mining for Diamonds at 90 energy points (Priority:5)
+							NEW TASK: MINING for Diamonds at Hour: 50:00
+		8:00PM	     Farm Maintenance of Harvesting Wheat at 70 energy points (Priority:5)
+							NEW TASK: MINING for Iron at Hour: 51:00
+		9:00PM	     Feeding the Cows at 60 energy points (Priority:5)
+							NEW TASK: MINING for Iron at Hour: 52:00
+		10:00PM	     Farm Maintenance of Clearing Rocks at 50 energy points (Priority:5)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 53:00
+		11:00PM	     Farm Maintenance of Watering Plants at 40 energy points (Priority:5)
+							NEW TASK: FORAGING for Roots at Hour: 54:00
+		12:00AM	     Farm Maintenance of Watering Plants at 30 energy points (Priority:5)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 55:00
+		1:00AM	     Mining for Iron at 20 energy points (Priority:5)
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1125$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 4	LUCK: 0.38
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: MINING for Copper at Hour: 56:00
+		6:00AM	     Feeding the Goats at 200 energy points (Priority:6)
+							NEW TASK: FEEDING the Chickens at Hour: 57:00
+		7:00AM	     Fishing in the Ocean at 190 energy points (Priority:6)
+							NEW TASK: FEEDING the Cows at Hour: 58:00
+		8:00AM	     Mining for Copper at 170 energy points (Priority:6)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 59:00
+		9:00AM	     Feeding the Cows at 150 energy points (Priority:6)
+							NEW TASK: FISHING in the River at Hour: 60:00
+		10:00AM	     Feeding the Goats at 140 energy points (Priority:6)
+							NEW TASK: FEEDING the Goats at Hour: 61:00
+		11:00AM	     Socializing with Mayor Lewis at 130 energy points (Priority:6)
+							NEW TASK: FISHING in the Ocean at Hour: 62:00
+		12:00PM	     Fishing in the Pond at 130 energy points (Priority:6)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 63:00
+		1:00PM	     Feeding the Goats at 110 energy points (Priority:6)
+							NEW TASK: MINING for Diamonds at Hour: 64:00
+		2:00PM	     Farm Maintenance of Wood Chopping at 100 energy points (Priority:6)
+							NEW TASK: FISHING in the Lake at Hour: 65:00
+		3:00PM	     Mining for Gold at 90 energy points (Priority:6)
+							NEW TASK: FEEDING the Cows at Hour: 66:00
+		4:00PM	     Mining for Gold at 70 energy points (Priority:7)
+							NEW TASK: FEEDING the Pigs at Hour: 67:00
+		5:00PM	     Farm Maintenance of Wood Chopping at 50 energy points (Priority:7)
+							NEW TASK: FORAGING for Flowers at Hour: 68:00
+		6:00PM	     Foraging for Roots at 40 energy points (Priority:7)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 69:00
+		7:00PM	     Socializing with Store Owner Pierre at 40 energy points (Priority:7)
+							NEW TASK: FORAGING for Berries at Hour: 70:00
+		8:00PM	     Foraging for Berries at 40 energy points (Priority:7)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 71:00
+		9:00PM	     Fishing in the River at 40 energy points (Priority:7)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 72:00
+		10:00PM	     Socializing with Mayor Lewis at 20 energy points (Priority:7)
+							NEW TASK: FORAGING for Mushrooms at Hour: 73:00
+		11:00PM	     Socializing with Blacksmith Clint at 20 energy points (Priority:7)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 74:00
+		12:00AM	     Socializing with Mayor Lewis at 20 energy points (Priority:7)
+							NEW TASK: FORAGING for Mushrooms at Hour: 75:00
+		1:00AM	     Feeding the Chickens at 20 energy points (Priority:7)
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1450$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 5	LUCK: 0.62
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Cows at Hour: 76:00
+		6:00AM	     Farm Maintenance of Clearing Rocks at 200 energy points (Priority:8)
+							NEW TASK: FEEDING the Cows at Hour: 77:00
+		7:00AM	     Farm Maintenance of Watering Plants at 190 energy points (Priority:8)
+							NEW TASK: FISHING in the Ocean at Hour: 78:00
+		8:00AM	     Fishing in the Lake at 180 energy points (Priority:8)
+							NEW TASK: FEEDING the Chickens at Hour: 79:00
+		9:00AM	     Feeding the Cows at 160 energy points (Priority:8)
+							NEW TASK: FISHING in the River at Hour: 80:00
+		10:00AM	     Fishing in the Pond at 150 energy points (Priority:8)
+							NEW TASK: FEEDING the Goats at Hour: 81:00
+		11:00AM	     Farm Maintenance of Wood Chopping at 130 energy points (Priority:8)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 82:00
+		12:00PM	     Feeding the Pigs at 120 energy points (Priority:8)
+							NEW TASK: FEEDING the Goats at Hour: 83:00
+		1:00PM	     Feeding the Cows at 110 energy points (Priority:8)
+							NEW TASK: FISHING in the Lake at Hour: 84:00
+		2:00PM	     Feeding the Pigs at 100 energy points (Priority:8)
+							NEW TASK: MINING for Gold at Hour: 85:00
+		3:00PM	     Feeding the Cows at 90 energy points (Priority:8)
+							NEW TASK: MINING for Copper at Hour: 86:00
+		4:00PM	     Mining for Copper at 80 energy points (Priority:9)
+							NEW TASK: FISHING in the Ocean at Hour: 87:00
+		5:00PM	     Feeding the Chickens at 60 energy points (Priority:9)
+							NEW TASK: MINING for Copper at Hour: 88:00
+		6:00PM	     Mining for Diamonds at 50 energy points (Priority:9)
+							NEW TASK: FORAGING for Flowers at Hour: 89:00
+		7:00PM	     Feeding the Cows at 30 energy points (Priority:9)
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 90:00
+		8:00PM	     Farm Maintenance of Harvesting Wheat at 20 energy points (Priority:9)
+							NEW TASK: FORAGING for Berries at Hour: 91:00
+		9:00PM	     Feeding the Pigs at 10 energy points (Priority:9)
+							NEW TASK: FORAGING for Mushrooms at Hour: 92:00
+		10:00PM	     Mining for Gold at 0 energy points (Priority:9)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1300$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 6	LUCK: 0.45
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Cows at Hour: 93:00
+		6:00AM	     Feeding the Goats at 200 energy points (Priority:9)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 94:00
+		7:00AM	     Farm Maintenance of Harvesting Wheat at 190 energy points (Priority:9)
+							NEW TASK: FEEDING the Cows at Hour: 95:00
+		8:00AM	     Mining for Diamonds at 180 energy points (Priority:9)
+							NEW TASK: FEEDING the Goats at Hour: 96:00
+		9:00AM	     Feeding the Cows at 160 energy points (Priority:10)
+							NEW TASK: MINING for Iron at Hour: 97:00
+		10:00AM	     Fishing in the Lake at 150 energy points (Priority:10)
+							NEW TASK: FEEDING the Cows at Hour: 98:00
+		11:00AM	     Feeding the Goats at 130 energy points (Priority:10)
+							NEW TASK: MINING for Diamonds at Hour: 99:00
+		12:00PM	     Feeding the Chickens at 120 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 100:00
+		1:00PM	     Mining for Diamonds at 110 energy points (Priority:10)
+							NEW TASK: MINING for Gold at Hour: 101:00
+		2:00PM	     Farm Maintenance of Harvesting Wheat at 90 energy points (Priority:10)
+							NEW TASK: MINING for Iron at Hour: 102:00
+		3:00PM	     Feeding the Cows at 80 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 103:00
+		4:00PM	     Farm Maintenance of Clearing Rocks at 70 energy points (Priority:10)
+							NEW TASK: MINING for Diamonds at Hour: 104:00
+		5:00PM	     Farm Maintenance of Watering Plants at 60 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 105:00
+		6:00PM	     Farm Maintenance of Watering Plants at 50 energy points (Priority:10)
+							NEW TASK: FORAGING for Flowers at Hour: 106:00
+		7:00PM	     Mining for Iron at 40 energy points (Priority:11)
+							NEW TASK: FORAGING for Roots at Hour: 107:00
+		8:00PM	     Mining for Iron at 20 energy points (Priority:11)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 108:00
+		9:00PM	     Socializing with Blacksmith Clint at 0 energy points (Priority:11)
+							NEW TASK: SOCIALIZING with Store Owner Pierre at Hour: 109:00
+		10:00PM	     Foraging for Roots at 0 energy points (Priority:11)
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 110:00
+		11:00PM	     Socializing with Mayor Lewis at 0 energy points (Priority:11)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 111:00
+		12:00AM	     Mining for Iron at 0 energy points (Priority:11)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1275$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 7	LUCK: 0.38
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Chickens at Hour: 112:00
+		6:00AM	     Feeding the Goats at 200 energy points (Priority:11)
+							NEW TASK: MINING for Copper at Hour: 113:00
+		7:00AM	     Fishing in the Ocean at 190 energy points (Priority:11)
+							NEW TASK: FEEDING the Chickens at Hour: 114:00
+		8:00AM	     Mining for Copper at 170 energy points (Priority:11)
+							NEW TASK: MINING for Gold at Hour: 115:00
+		9:00AM	     Feeding the Cows at 150 energy points (Priority:11)
+							NEW TASK: FEEDING the Chickens at Hour: 116:00
+		10:00AM	     Mining for Copper at 140 energy points (Priority:12)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 117:00
+		11:00AM	     Feeding the Chickens at 120 energy points (Priority:12)
+							NEW TASK: FEEDING the Cows at Hour: 118:00
+		12:00PM	     Feeding the Cows at 110 energy points (Priority:12)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 119:00
+		1:00PM	     Farm Maintenance of Wood Chopping at 100 energy points (Priority:12)
+							NEW TASK: FISHING in the Ocean at Hour: 120:00
+		2:00PM	     Fishing in the River at 90 energy points (Priority:12)
+							NEW TASK: MINING for Diamonds at Hour: 121:00
+		3:00PM	     Feeding the Goats at 70 energy points (Priority:12)
+							NEW TASK: FISHING in the Ocean at Hour: 122:00
+		4:00PM	     Socializing with Mayor Lewis at 60 energy points (Priority:12)
+							NEW TASK: FEEDING the Cows at Hour: 123:00
+		5:00PM	     Fishing in the Pond at 60 energy points (Priority:12)
+							NEW TASK: FORAGING for Mushrooms at Hour: 124:00
+		6:00PM	     Feeding the Goats at 40 energy points (Priority:12)
+							NEW TASK: FORAGING for Flowers at Hour: 125:00
+		7:00PM	     Farm Maintenance of Wood Chopping at 30 energy points (Priority:12)
+							NEW TASK: FORAGING for Berries at Hour: 126:00
+		8:00PM	     Feeding the Goats at 20 energy points (Priority:13)
+							NEW TASK: SOCIALIZING with Store Owner Pierre at Hour: 127:00
+		9:00PM	     Fishing in the Ocean at 10 energy points (Priority:13)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1400$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 8	LUCK: 0.06
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: MINING for Iron at Hour: 128:00
+		6:00AM	     Farm Maintenance of Watering Plants at 200 energy points (Priority:13)
+							NEW TASK: FEEDING the Goats at Hour: 129:00
+		7:00AM	     Mining for Diamonds at 190 energy points (Priority:13)
+							NEW TASK: FEEDING the Pigs at Hour: 130:00
+		8:00AM	     Fishing in the Lake at 170 energy points (Priority:13)
+							NEW TASK: FARM_MAINTENANCE of Clearing Rocks at Hour: 131:00
+		9:00AM	     Mining for Gold at 150 energy points (Priority:13)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 132:00
+		10:00AM	     Mining for Gold at 130 energy points (Priority:13)
+							NEW TASK: FISHING in the Pond at Hour: 133:00
+		11:00AM	     Farm Maintenance of Wood Chopping at 110 energy points (Priority:13)
+							NEW TASK: FEEDING the Goats at Hour: 134:00
+		12:00PM	     Foraging for Roots at 100 energy points (Priority:13)
+							NEW TASK: MINING for Iron at Hour: 135:00
+		1:00PM	     Socializing with Store Owner Pierre at 100 energy points (Priority:13)
+							NEW TASK: FISHING in the Lake at Hour: 136:00
+		2:00PM	     Feeding the Cows at 100 energy points (Priority:14)
+							NEW TASK: FEEDING the Goats at Hour: 137:00
+		3:00PM	     Feeding the Pigs at 90 energy points (Priority:14)
+							NEW TASK: MINING for Gold at Hour: 138:00
+		4:00PM	     Foraging for Flowers at 80 energy points (Priority:14)
+							NEW TASK: MINING for Copper at Hour: 139:00
+		5:00PM	     Socializing with Mayor Lewis at 80 energy points (Priority:14)
+							NEW TASK: FEEDING the Chickens at Hour: 140:00
+		6:00PM	     Foraging for Berries at 80 energy points (Priority:14)
+							NEW TASK: MINING for Diamonds at Hour: 141:00
+		7:00PM	     Foraging for Berries at 80 energy points (Priority:14)
+							NEW TASK: FISHING in the River at Hour: 142:00
+		8:00PM	     Fishing in the River at 80 energy points (Priority:14)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 143:00
+		9:00PM	     Socializing with Mayor Lewis at 60 energy points (Priority:14)
+							NEW TASK: FEEDING the Cows at Hour: 144:00
+		10:00PM	     Socializing with Blacksmith Clint at 60 energy points (Priority:14)
+							NEW TASK: FARM_MAINTENANCE of Clearing Rocks at Hour: 145:00
+		11:00PM	     Socializing with Mayor Lewis at 60 energy points (Priority:14)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 146:00
+		12:00AM	     Socializing with Blacksmith Clint at 60 energy points (Priority:15)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 147:00
+		1:00AM	     Socializing with Blacksmith Clint at 60 energy points (Priority:15)
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1275$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 9	LUCK: 0.09
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Cows at Hour: 148:00
+		6:00AM	     Foraging for Mushrooms at 200 energy points (Priority:15)
+							NEW TASK: FEEDING the Pigs at Hour: 149:00
+		7:00AM	     Socializing with Mayor Lewis at 200 energy points (Priority:15)
+							NEW TASK: FISHING in the Pond at Hour: 150:00
+		8:00AM	     Foraging for Mushrooms at 200 energy points (Priority:15)
+							NEW TASK: FISHING in the Pond at Hour: 151:00
+		9:00AM	     Feeding the Chickens at 200 energy points (Priority:15)
+							NEW TASK: FEEDING the Goats at Hour: 152:00
+		10:00AM	     Farm Maintenance of Clearing Rocks at 190 energy points (Priority:15)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 153:00
+		11:00AM	     Farm Maintenance of Watering Plants at 180 energy points (Priority:15)
+							NEW TASK: FISHING in the Lake at Hour: 154:00
+		12:00PM	     Fishing in the Lake at 170 energy points (Priority:15)
+							NEW TASK: FEEDING the Goats at Hour: 155:00
+		1:00PM	     Feeding the Cows at 150 energy points (Priority:15)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 156:00
+		2:00PM	     Feeding the Cows at 140 energy points (Priority:16)
+							NEW TASK: MINING for Diamonds at Hour: 157:00
+		3:00PM	     Feeding the Cows at 130 energy points (Priority:16)
+							NEW TASK: FEEDING the Pigs at Hour: 158:00
+		4:00PM	     Fishing in the Ocean at 120 energy points (Priority:16)
+							NEW TASK: FISHING in the Lake at Hour: 159:00
+		5:00PM	     Feeding the Chickens at 100 energy points (Priority:16)
+							NEW TASK: MINING for Copper at Hour: 160:00
+		6:00PM	     Fishing in the River at 90 energy points (Priority:16)
+							NEW TASK: FISHING in the Pond at Hour: 161:00
+		7:00PM	     Fishing in the Pond at 70 energy points (Priority:16)
+							NEW TASK: FEEDING the Cows at Hour: 162:00
+		8:00PM	     Farm Maintenance of Wood Chopping at 50 energy points (Priority:16)
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 163:00
+		9:00PM	     Feeding the Pigs at 40 energy points (Priority:16)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 164:00
+		10:00PM	     Feeding the Cows at 30 energy points (Priority:16)
+							NEW TASK: FORAGING for Roots at Hour: 165:00
+		11:00PM	     Feeding the Pigs at 20 energy points (Priority:16)
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 166:00
+		12:00AM	     Feeding the Goats at 10 energy points (Priority:17)
+							NEW TASK: FORAGING for Mushrooms at Hour: 167:00
+		1:00AM	     Farm Maintenance of Watering Plants at 0 energy points (Priority:17)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1550$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 10	LUCK: 0.29
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 168:00
+		6:00AM	     Feeding the Goats at 200 energy points (Priority:17)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+							NEW TASK: FEEDING the Chickens at Hour: 169:00
+		7:00AM	     Fishing in the Lake at 95 energy points (Priority:17)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+							NEW TASK: FORAGING for Mushrooms at Hour: 170:00
+		8:00AM	     Mining for Gold at 37 energy points (Priority:17)
+					 =====================================================
+						YOU DIED in the mines
+						Energy meter depleted by 75% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +325$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- Simulation completed ---
+Simulation time: 10 days
+Total Tasks generated: 171
+Total Simulation hours: 171 hours
+Total Money made: 10380$
+Total deaths/passouts: 3

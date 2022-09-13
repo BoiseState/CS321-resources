@@ -1,0 +1,200 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 1	LUCK: 0.93
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FISHING in the Pond at Hour: 0:00
+		6:00AM	     Fishing in the Pond at 200 energy points (Priority:0)
+		7:00AM	     Fishing in the Pond at 180 energy points (Priority:0)
+							NEW TASK: FISHING in the Lake at Hour: 2:00
+		8:00AM	     Fishing in the Pond at 160 energy points (Priority:0)
+							NEW TASK: FISHING in the Lake at Hour: 3:00
+		9:00AM	     Fishing in the Lake at 140 energy points (Priority:1)
+		10:00AM	     Fishing in the Pond at 120 energy points (Priority:1)
+		11:00AM	     Fishing in the Lake at 100 energy points (Priority:2)
+							NEW TASK: FISHING in the Ocean at Hour: 6:00
+		12:00PM	     Fishing in the Lake at 80 energy points (Priority:2)
+							NEW TASK: FISHING in the Ocean at Hour: 7:00
+		1:00PM	     Fishing in the Pond at 60 energy points (Priority:2)
+							NEW TASK: FORAGING for Mushrooms at Hour: 8:00
+		2:00PM	     Fishing in the Lake at 40 energy points (Priority:2)
+							NEW TASK: FORAGING for Flowers at Hour: 9:00
+		3:00PM	     Fishing in the Ocean at 20 energy points (Priority:3)
+							NEW TASK: FORAGING for Mushrooms at Hour: 10:00
+		4:00PM	     Fishing in the Lake at 0 energy points (Priority:3)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1650$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 2	LUCK: 0.62
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FISHING in the Ocean at Hour: 11:00
+		6:00AM	     Fishing in the Ocean at 200 energy points (Priority:4)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+							NEW TASK: FISHING in the Ocean at Hour: 12:00
+		7:00AM	     Fishing in the Pond at 90 energy points (Priority:4)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 13:00
+		8:00AM	     Foraging for Mushrooms at 35 energy points (Priority:5)
+							NEW TASK: FORAGING for Berries at Hour: 14:00
+		9:00AM	     Fishing in the Lake at 35 energy points (Priority:5)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 15:00
+		10:00AM	     Foraging for Flowers at 7 energy points (Priority:6)
+							NEW TASK: FORAGING for Berries at Hour: 16:00
+		11:00AM	     Fishing in the Ocean at 7 energy points (Priority:6)
+					 =====================================================
+							YOU PASSED OUT
+							Energy meter depleted by 50% and
+							Doctor's visit took 25% of your income!
+					 =====================================================
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +750$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 3	LUCK: 0.86
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FISHING in the Ocean at Hour: 17:00
+		6:00AM	     Foraging for Mushrooms at 200 energy points (Priority:7)
+							NEW TASK: FISHING in the Pond at Hour: 18:00
+		7:00AM	     Fishing in the Lake at 200 energy points (Priority:7)
+							NEW TASK: FISHING in the Ocean at Hour: 19:00
+		8:00AM	     Fishing in the Ocean at 180 energy points (Priority:8)
+							NEW TASK: FISHING in the Pond at Hour: 20:00
+		9:00AM	     Fishing in the Ocean at 160 energy points (Priority:8)
+							NEW TASK: FISHING in the Pond at Hour: 21:00
+		10:00AM	     Fishing in the Ocean at 140 energy points (Priority:9)
+							NEW TASK: FISHING in the River at Hour: 22:00
+		11:00AM	     Fishing in the Pond at 120 energy points (Priority:9)
+		12:00PM	     Socializing with Carpenter Robin at 100 energy points (Priority:10)
+							NEW TASK: FISHING in the Lake at Hour: 24:00
+		1:00PM	     Foraging for Mushrooms at 100 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 25:00
+		2:00PM	     Fishing in the Lake at 100 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 26:00
+		3:00PM	     Foraging for Flowers at 80 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 27:00
+		4:00PM	     Fishing in the Ocean at 80 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 28:00
+		5:00PM	     Foraging for Mushrooms at 60 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 29:00
+		6:00PM	     Fishing in the Lake at 60 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 30:00
+		7:00PM	     Fishing in the Ocean at 40 energy points (Priority:10)
+		8:00PM	     Fishing in the Ocean at 20 energy points (Priority:10)
+		9:00PM	     Fishing in the Ocean at 0 energy points (Priority:10)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1975$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 4	LUCK: 0.76
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FISHING in the Ocean at Hour: 33:00
+		6:00AM	     Fishing in the Pond at 200 energy points (Priority:10)
+		7:00AM	     Socializing with Carpenter Robin at 180 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 35:00
+		8:00AM	     Foraging for Mushrooms at 180 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 36:00
+		9:00AM	     Fishing in the Lake at 180 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 37:00
+		10:00AM	     Foraging for Flowers at 160 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 38:00
+		11:00AM	     Fishing in the Ocean at 160 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 39:00
+		12:00PM	     Foraging for Mushrooms at 140 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 40:00
+		1:00PM	     Fishing in the Lake at 140 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 41:00
+		2:00PM	     Fishing in the Ocean at 120 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 42:00
+		3:00PM	     Fishing in the Ocean at 100 energy points (Priority:10)
+		4:00PM	     Fishing in the Ocean at 80 energy points (Priority:10)
+							NEW TASK: FISHING in the Pond at Hour: 44:00
+		5:00PM	     Fishing in the Pond at 60 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 45:00
+		6:00PM	     Socializing with Carpenter Robin at 40 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 46:00
+		7:00PM	     Foraging for Mushrooms at 40 energy points (Priority:10)
+		8:00PM	     Fishing in the Lake at 40 energy points (Priority:10)
+							NEW TASK: FORAGING for Mushrooms at Hour: 48:00
+		9:00PM	     Foraging for Flowers at 20 energy points (Priority:10)
+							NEW TASK: FORAGING for Berries at Hour: 49:00
+		10:00PM	     Fishing in the Ocean at 20 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Carpenter Robin at Hour: 50:00
+		11:00PM	     Foraging for Mushrooms at 0 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Mayor Lewis at Hour: 51:00
+		12:00AM	     Fishing in the Lake at 0 energy points (Priority:10)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +2150$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 5	LUCK: 0.30
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+							NEW TASK: FEEDING the Pigs at Hour: 52:00
+		6:00AM	     Fishing in the Ocean at 200 energy points (Priority:10)
+		7:00AM	     Fishing in the Ocean at 180 energy points (Priority:10)
+		8:00AM	     Fishing in the Ocean at 160 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Harvesting Wheat at Hour: 55:00
+		9:00AM	     Fishing in the Pond at 140 energy points (Priority:10)
+							NEW TASK: FEEDING the Goats at Hour: 56:00
+		10:00AM	     Socializing with Carpenter Robin at 120 energy points (Priority:10)
+							NEW TASK: MINING for Iron at Hour: 57:00
+		11:00AM	     Foraging for Mushrooms at 120 energy points (Priority:10)
+		12:00PM	     Fishing in the Lake at 120 energy points (Priority:10)
+		1:00PM	     Foraging for Flowers at 100 energy points (Priority:10)
+							NEW TASK: FISHING in the Ocean at Hour: 60:00
+		2:00PM	     Fishing in the Ocean at 100 energy points (Priority:10)
+		3:00PM	     Foraging for Mushrooms at 80 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Wood Chopping at Hour: 62:00
+		4:00PM	     Fishing in the Lake at 80 energy points (Priority:10)
+							NEW TASK: FARM_MAINTENANCE of Watering Plants at Hour: 63:00
+		5:00PM	     Fishing in the Ocean at 60 energy points (Priority:10)
+							NEW TASK: SOCIALIZING with Blacksmith Clint at Hour: 64:00
+		6:00PM	     Fishing in the Ocean at 40 energy points (Priority:10)
+		7:00PM	     Fishing in the Ocean at 20 energy points (Priority:10)
+							NEW TASK: FORAGING for Roots at Hour: 66:00
+		8:00PM	     Fishing in the Pond at 0 energy points (Priority:10)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1900$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- Simulation completed ---
+Simulation time: 5 days
+Total Tasks generated: 52
+Total Simulation hours: 67 hours
+Total Money made: 7983$
+Total deaths/passouts: 4

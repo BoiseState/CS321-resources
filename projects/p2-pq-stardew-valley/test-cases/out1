@@ -1,0 +1,33 @@
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		DAY: 1	LUCK: 0.76
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+		6:00AM	
+		7:00AM	
+							NEW TASK: FISHING in the River at Hour: 2:00
+		8:00AM	     Fishing in the River at 200 energy points (Priority:0)
+		9:00AM	     Fishing in the River at 180 energy points (Priority:0)
+		10:00AM	     Fishing in the River at 160 energy points (Priority:0)
+		11:00AM	     Fishing in the River at 140 energy points (Priority:0)
+		12:00PM	     Fishing in the River at 120 energy points (Priority:0)
+							NEW TASK: FISHING in the Lake at Hour: 7:00
+		1:00PM	     Fishing in the River at 100 energy points (Priority:0)
+		2:00PM	     Fishing in the Lake at 80 energy points (Priority:1)
+		3:00PM	     Fishing in the River at 60 energy points (Priority:1)
+		4:00PM	     Fishing in the Lake at 40 energy points (Priority:1)
+							NEW TASK: FORAGING for Berries at Hour: 11:00
+		5:00PM	     Fishing in the River at 20 energy points (Priority:1)
+		6:00PM	     Fishing in the Lake at 0 energy points (Priority:1)
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					 THE DAY IS OVER
+					 Energy sufficiently depleted!
+					 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+					 Cash made today: +1650$
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- Simulation completed ---
+Simulation time: 1 days
+Total Tasks generated: 3
+Total Simulation hours: 13 hours
+Total Money made: 1650$
+Total deaths/passouts: 0
