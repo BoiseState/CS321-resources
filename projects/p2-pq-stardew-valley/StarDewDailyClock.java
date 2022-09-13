@@ -19,7 +19,7 @@ public class StarDewDailyClock {
     /**
      * Returns a boolean for if the day is over (i.e. 20 hours)
      *
-     * @return - True when hour is 20, false when less than 20
+     * @return  true when hour is 20, false when less than 20
      */
     public boolean getNight() {
         if (currentClockNumber >= 20) { return true; }
@@ -49,7 +49,7 @@ public class StarDewDailyClock {
 
     /**
      * Creates a readable time value of the clock based on the
-     * clock's current hour
+     * clock's current hour.
      *
      * @param currentClockNumber - the current clock's hour
      * @return clockTime - a String of the clock's current time

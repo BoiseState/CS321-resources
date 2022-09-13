@@ -9,7 +9,7 @@
  */
 public interface TaskInterface {
     /**
-     * Enum for the six different types of Tasks.
+     * enum for the six different types of Tasks.
      */
     public enum TaskType {
 
@@ -54,33 +54,33 @@ public interface TaskInterface {
     }
 
     /**
-     * Returns a reference to the Priority
+     * Returns the priority.
      *
      * @return the priority
      */
     public int getPriority();
 
     /**
-     * Sets the Priority at the specified priority with the given prirority.
+     * Sets the priority to the specified value.
      *
      * @param priority
      */
     public void setPriority(int priority);
 
     /**
-     * Gets the waiting time of a process
+     * Gets the waiting time of a process.
      *
      * @return - Task.TaskType - the Task's type
      */
     public Task.TaskType getTaskType();
 
     /**
-     * Increments the waiting time by one
+     * Increments the waiting time by one.
      */
     public void incrementWaitingTime();
 
     /**
-     * Resets the waiting time to 0
+     * Resets the waiting time to 0.
      */
     public void resetWaitingTime();
 
@@ -92,7 +92,7 @@ public interface TaskInterface {
     public int getWaitingTime();
 
     /**
-     * Given method that creates a String containing the Task's information
+     * Creates a string containing the Task's information.
      *
      * @return String of the Task
      */

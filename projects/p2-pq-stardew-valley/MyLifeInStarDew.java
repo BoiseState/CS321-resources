@@ -2,7 +2,7 @@ import java.util.Random;
 
 /**
  * Simulates a task management system for daily
- * activities/tasks based on the game: Stardew Valley.
+ * activities/tasks based on the Stardew Valley game.
  *
  * @author CS321 instructors
  */
@@ -13,7 +13,10 @@ public class MyLifeInStarDew {
     private  int simulationDays;
     private  double taskGenerationProbability;
     private  long seed;
-    private int debugLevel = 1;
+    
+    private final int SHOW_HEAP = 1;
+    private final int DEFAULT = 0;
+    private int debugLevel = DEFAULT; 
 
     private  StarDewDailyClock starDewDailyClock;
     private  TaskGenerator taskGenerator;
@@ -33,11 +36,6 @@ public class MyLifeInStarDew {
     /**
      * Show usage for the program.
      *
-     * args[0] = <max-priority>
-     * args[1] = <time-to-increment-priority>
-     * args[2] = <total simulation-time in days>
-     * args[3] = <probability>f
-     * args[4] = [<seed>]
      */
     public void showUsage() {
         System.out.println(
@@ -69,7 +67,7 @@ public class MyLifeInStarDew {
 
         taskGenerationProbability = Double.parseDouble(args[3]);
 
-        seed = 0L;
+        seed = 0L; //needs to be a long type
         if (args.length == 5) {
             seed = Long.parseLong(args[4]);
             taskGenerator = new TaskGenerator(taskGenerationProbability, seed);
@@ -81,7 +79,7 @@ public class MyLifeInStarDew {
 
     /**
      * Gets the type of Task based on Luck of the Day,
-     * random probability, and current energy levels
+     * random probability, and current energy levels.
      * @param luckOfTheDay - the daily luckiness
      */
     private TaskInterface.TaskType getTaskType(double luckOfTheDay){
@@ -153,17 +151,20 @@ public class MyLifeInStarDew {
     }
 
     /**
-     * Runs the simulation of Task management
-     * with a specified time period
+     * Runs the simulation of Task management with a specified time period.
      */
         public  void runSimulation() {
             PriorityQueueInterface priorityQueue = new MyPriorityQueue();
+            
             int day = 1;
             int hourTotal = 0;
+            
             for (int currentTime = 0; currentTime < simulationDays; currentTime++) {
+                
                 int hour = 0;
                 int dailyMoney = 0;
                 starDewDailyClock.resetCurrentClockNumber();
+                
                 if (seeded == true) {
                     seed = seed << 2; //allows for different lucks and unfortunate probabilities
                     rand = new Random(seed);
@@ -178,9 +179,11 @@ public class MyLifeInStarDew {
                 System.out.format("\t\tDAY: %s\tLUCK: %.2f\n", day, luckOfTheDay);
                 System.out.println("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+");
 
-                while(starDewDailyClock.getNight() == false) {
-                    if (debugLevel > 1) System.out.println(priorityQueue);
-                    if (taskGenerator.generateTask() == true) {
+                while(!starDewDailyClock.getNight()) {
+                    
+                    if (debugLevel == SHOW_HEAP) System.out.println(priorityQueue);
+                    
+                    if (taskGenerator.generateTask()) {
                         TaskInterface.TaskType typeOfTask = getTaskType(luckOfTheDay);
                         Task newTask = taskGenerator.getNewTask(hourTotal, typeOfTask, getDetails(typeOfTask));
                         System.out.format("\t\t\t\t\t\t\tNEW TASK: %s\n",newTask.toString());
@@ -189,11 +192,13 @@ public class MyLifeInStarDew {
                     }
 
                     System.out.format("\t\t%s\t", starDewDailyClock.toString(hour));
+                    
                     if(!priorityQueue.isEmpty()) {
                         Task currentTask = priorityQueue.dequeue();
                         System.out.println(taskGenerator.toString(currentTask, currentTask.getTaskType()));
                         taskGenerator.decrementEnergyStorage(currentTask.getTaskType());
                         badLuck = taskGenerator.getUnlucky(currentTask, unluckyProbablity);
+                        
                         if (badLuck > 0) {
                             if (badLuck == 1) { //Passing-out
                                 System.out.println("\t\t\t\t\t =====================================================");
@@ -220,7 +225,9 @@ public class MyLifeInStarDew {
                         currentTask.resetWaitingTime(); 
                         priorityQueue.enqueue(currentTask); //re-adds removed task
                     }
-                    else { System.out.println(); }
+                    else { 
+                        System.out.println(); 
+                    }
                     if(taskGenerator.getCurrentEnergyStorage() < 0) { //Energy dips below 0 then
                         System.out.println("\t\t\t\t\t =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
                         System.out.println("\t\t\t\t\t" + " THE DAY IS OVER");
@@ -249,7 +256,7 @@ public class MyLifeInStarDew {
         }
 
     /**
-     * Main driver of the program
+     * Main method for the program.
      */
     public static void main(String[] args) {
         MyLifeInStarDew simulation = new MyLifeInStarDew();

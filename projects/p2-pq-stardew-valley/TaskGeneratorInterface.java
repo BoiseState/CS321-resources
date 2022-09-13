@@ -15,36 +15,35 @@ public interface TaskGeneratorInterface {
     public Task getNewTask(int hourCreated, TaskInterface.TaskType taskType, String taskDescription);
 
     /**
-     * Decrements the total energy storage
-     * based on the current task
+     * Decrements the total energy storage based on the current task.
      *
      * @param taskType - the type of Task
      */
     public void decrementEnergyStorage(Task.TaskType taskType);
 
     /**
-     * Resets the total energy storage to 200
+     * Resets the total energy storage to 200.
      */
     public void resetCurrentEnergyStorage();
 
     /**
-     * Returns the current energy storage
+     * Returns the current energy storage.
      *
-     * @returns int - current energy storage
+     * @returns current energy storage
      */
     public int getCurrentEnergyStorage();
 
     /**
      * Sets the current energy storage
      *
-     * @param newEnergyNum - number to set the energy
+     * @param newEnergyNum number to set the energy
      */
     public void setCurrentEnergyStorage(int newEnergyNum);
 
     /**
      * Determines if a new task is to be generated
      *
-     * @return True or False - if task should be generated
+     * @return true or false - if task should be generated
      */
     public boolean generateTask();
 
@@ -55,15 +54,15 @@ public interface TaskGeneratorInterface {
      * and 2 is dying in the Mines.
      *
      * @param task - the Task
-     * @returns int 0, 1 or 2 depending on the unluckiness
+     * @returns  0, 1 or 2 depending on the unluckiness
      */
     public int getUnlucky(Task task, double unluckyProbability);
 
     /**
      * Given method that creates a String containing the Task's information
      *
-     * @param task - the Task
-     * @param taskType - the Task's type
+     * @param task  the Task
+     * @param taskType the Task's type
      */
     public String toString(Task task, Task.TaskType taskType);
 
