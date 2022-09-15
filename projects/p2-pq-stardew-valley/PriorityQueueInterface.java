@@ -8,7 +8,7 @@
  */
 public interface PriorityQueueInterface {
     /**
-     * Adds a task to the rear of the list
+     * Adds a task to the rear of the list.
      * via MaxHeap insert()
      *
      * @param task - Task to enqueue
@@ -16,7 +16,7 @@ public interface PriorityQueueInterface {
     public void enqueue(Object task);
 
     /**
-     * Removes the front element from the list
+     * Removes the front element from the list.
      * via MaxHeap ExtractMax()
      *
      * @return first element in the Task array
@@ -24,7 +24,7 @@ public interface PriorityQueueInterface {
     public Task dequeue();
 
     /**
-     * Boolean for if the Heap is empty
+     * Boolean for if the Heap is empty.
      *
      * @return true or false - depending on if the Heap is empty
      */

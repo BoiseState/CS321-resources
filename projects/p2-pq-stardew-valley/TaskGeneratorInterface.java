@@ -5,12 +5,14 @@
  */
 public interface TaskGeneratorInterface {
 
+	public final int DEFAULT_ENERGY = 200;
+
     /**
-     * Creates a new Task with zero priority
+     * Creates a new Task with default zero priority.
      *
-     * @param hourCreated - hour that the Task was created
-     * @param taskType - type of the Task
-     * @param taskDescription - the Task's description
+     * @param hourCreated hour that the Task was created
+     * @param taskType type of the Task
+     * @param taskDescription the Task's description
      */
     public Task getNewTask(int hourCreated, TaskInterface.TaskType taskType, String taskDescription);
 
@@ -22,7 +24,7 @@ public interface TaskGeneratorInterface {
     public void decrementEnergyStorage(Task.TaskType taskType);
 
     /**
-     * Resets the total energy storage to 200.
+     * Resets the total energy storage to DEFAULT_ENERGY level.
      */
     public void resetCurrentEnergyStorage();
 
@@ -34,14 +36,14 @@ public interface TaskGeneratorInterface {
     public int getCurrentEnergyStorage();
 
     /**
-     * Sets the current energy storage
+     * Sets the current energy storage.
      *
      * @param newEnergyNum number to set the energy
      */
     public void setCurrentEnergyStorage(int newEnergyNum);
 
     /**
-     * Determines if a new task is to be generated
+     * Determines if a new task is to be generated.
      *
      * @return true or false - if task should be generated
      */
@@ -59,7 +61,7 @@ public interface TaskGeneratorInterface {
     public int getUnlucky(Task task, double unluckyProbability);
 
     /**
-     * Given method that creates a String containing the Task's information
+     * Given method that creates a String containing the Task's information.
      *
      * @param task  the Task
      * @param taskType the Task's type
