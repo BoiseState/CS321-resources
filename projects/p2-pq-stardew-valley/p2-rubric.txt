@@ -14,7 +14,7 @@ Comments:
 
 -Submission
 	-Required files are missing. [return to student for fixing]
-	-Did not submit unnessary files (such as .class files)
+	-Did not submit unnecessary files (such as .class files)
 	-Provided classes were modified [0 points, not graded]
 
 Documentation: [20 points]
@@ -38,11 +38,11 @@ Functionality: [55 points]
 		-in4/out4:
 		-in5/out5:
 		-in6/out6:
-	-Additional testing: percentage of tests passsing [9 points]
+	-Additional testing: percentage of tests passing [9 points]
 
 Extra Credit: Multiplayer Stardew Valley [up to 15 points]
 	-Used generic MaxHeap and Priority Queues [+5 points]
-	-Implemenetd the multiplayer driver simualtion correctly [+10 points]
+	-Implemenetd the multiplayer driver simulation correctly [+10 points]
 		
 
 
