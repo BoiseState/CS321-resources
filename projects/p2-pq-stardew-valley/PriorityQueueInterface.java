@@ -1,7 +1,7 @@
 /**
  * Provides priority queue management via enqueue, dequeue, isEmpty and update methods.
- * You are expected to implement this interface in your MyPriorirytQueue class, which should
- * the MaxHeap class. In this case, the priority queue is the abstract data type while the
+ * You are expected to implement this interface in your MyPriorityQueue class, which should
+ * extend the MaxHeap class. In this case, the priority queue is the abstract data type while the
  * MaxHeap in the underlying concrete data structure.
  *
  * @author CS321 instructors
