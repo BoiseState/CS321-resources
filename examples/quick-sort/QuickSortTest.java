@@ -13,12 +13,10 @@ public class QuickSortTest
             A[i] = generator.nextInt() % RANGE;
     }
 
-    /*
+    /**
      * Check if A[1..n] is sorted in nondecreasing order
      * 
      */
-
-
     private static boolean check_if_sorted(int A[], int n) {
         for (int i = 1; i < n; i++) {
             if (A[i] > A[i + 1]) {
@@ -52,6 +50,7 @@ public class QuickSortTest
         sorter.quicksort(A, 1, n);
         sorting_time = System.currentTimeMillis() - start_time;
 
+<<<<<<< HEAD
         // print results if correctly sorted otherwise cry foul and exit
         if (check_if_sorted(A, n)) {
             System.err.printf("QuickSortTest: Sorting  %8d  elements took %.2f secs.\n", n, sorting_time / 1000.0);
@@ -59,5 +58,14 @@ public class QuickSortTest
             System.err.println("QuickSortTest: Sorting failed!!!!");
             System.exit(1);
         }
+=======
+	// print results if correctly sorted otherwise cry foul and exit
+	if (check_if_sorted(A, n)) {
+	    System.err.printf("QuickSortTest: Sorting  %8d  elements took %.2f secs.\n", n, sorting_time / 1000.0);
+	} else {
+	    System.err.println("QuickSortTest: Sorting failed!!!!");
+	    System.exit(1);
+	}
+>>>>>>> 48f9ae5edf90c7aa2c7999404b8047585091a583
     }
 }
