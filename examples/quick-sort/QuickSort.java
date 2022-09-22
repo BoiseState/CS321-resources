@@ -19,7 +19,6 @@ public class QuickSort
 
 
     private int partition(int[] A, int p, int r) {
-<<<<<<< HEAD
         int x = A[r];
         int i = p - 1;
         for (int j = p; j < r; j++) {
@@ -34,22 +33,6 @@ public class QuickSort
         A[i + 1] = A[r];
         A[r] = tmp;
         return i + 1;
-=======
-	int x = A[r];
-	int i = p - 1;
-	for (int j = p; j < r; j++) {
-	    if (A[j] <= x) {
-		i++;
-		int tmp = A[i];
-		A[i] = A[j];
-		A[j] = tmp;
-	    }
-	}
-	int tmp = A[i + 1];
-	A[i + 1] = A[r];
-	A[r] = tmp;
-	return i + 1;
->>>>>>> 48f9ae5edf90c7aa2c7999404b8047585091a583
     }
 
 }
