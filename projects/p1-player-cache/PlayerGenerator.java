@@ -5,7 +5,23 @@ import java.util.Random;
 /**
  * Player Generator class generates an ArrayList of Players objects that are
  * then serialized to an output file for use by other programs.
+ * 
+ * The usage for PlayerGenerator.java is as follows: 
+ *     java PlayerGenerator <number-of-players> <standard-deviation> <debug-level> [<seed>]
+ *     Where:
+ *     <number of-players>: The number of Players generated to the output file.
+ *     <standard-deviation>: The amount of standard deviation from the median Player.
+ *     <debug-level>: 0 is no debug output, 
+ *                    1 shows all the players that were generated
+ *                    2 shows the actual distribution of player names as well as all the players 
+ *                      that were generated. 
+ *     <seed>: A seed for a random number generator for testing to ensure simulation can be 
+ *             repeated. This argument can be skipped -- then the seed will be random.
  *
+ *  The idea of adding varying debug levels to be output debugging information is a 
+ *  commonly used technique in most large scale software projects. This is an example 
+ *  of code instrumentation.
+ *  
  * @author CS321 instructors
  */
 public class PlayerGenerator
