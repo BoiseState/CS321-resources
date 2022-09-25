@@ -2,7 +2,7 @@ Name:
 
 Grade: /100
 
-Rubric for the Hash Table Playground project
+Rubric for the Hashing Experiments project
 
 Comments:
 
@@ -10,27 +10,28 @@ Comments:
 	-Required files are missing: [return to student for fixing]
 	-Submitted unnecessary files (such as .class files):
 
-Documentation: [25 points]
+Documentation: [20 points]
 	-README.md 
 		-README.md file has appropriate sections: [5 points] 
 		-Output of experiments are included as proper markdown tables: [10 points]
-	-Appropriate Javadoc and inline comments [10 points]:
+	-Appropriate Javadoc and inline comments [5 points]:
 
-Code design and style: [20 points]
+Code design and style: [25 points]
 	-Inheritance: [10 points] 
 		-Hashtable class is abstract that is extended by subclasses for 
 	     linear probing and double hashing:
 	-Class design: [10 points]
 		-HashObject class uses a generic Object type for key:
-		-Overrrides the equals method appropriately:
+		-Overrides the equals method appropriately:
 		-Hash functions used are defined appropriately:
-	-Separate TwinPrime Genreator class:
+	-Separate TwinPrime Generator class [5 points]:
 	-Extra credit: 
-		-Uses generic types for the design: [+10 points]
 
 Functionality: [55 points]
-	-Provided separate class for twin prime generation: [10 points]:
-	-The results match what is expected for the given input types: [35 points]
-	-Dump output matches provided sample outputs:  [10 points]
+	-The results match what is expected for the given input types: [45 points]
+		-random data source: [10 points]
+		-date data source: [10 points]
+		-wordlist data source: [25 points]
+	-Updated run-tests.sh script to run all tests: [10 points]
 
 
