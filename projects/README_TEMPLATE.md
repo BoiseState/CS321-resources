@@ -41,11 +41,15 @@ considered plagiarism and be dealt with accordingly. So be safe CITE!
 Finally, remove these instructions from your README.md after you are finished!
 
 ----------
-This README template is using Markdown. Here is some help on using Markdown: 
+
+##Notes
+
+* This README template is using Markdown. Here is some help on using Markdown: 
 [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
-Markdown can be edited and viewed natively in most IDEs such as Eclipse and VS Code.
+* Markdown can be edited and viewed natively in most IDEs such as Eclipse and VS Code. Just toggle
+between the Markdown source and preview tabs.
 
-To preview your README.md output, you can copy your file contents to a Markdown editor/previewer
-such as [https://stackedit.io/editor](https://stackedit.io/editor).
+* To preview your README.md output online, you can copy your file contents to a Markdown editor/previewer
+such as [https://stackedit.io/editor](https://stackedit.io/editor).
