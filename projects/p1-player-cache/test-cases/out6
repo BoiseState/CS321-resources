@@ -1,10 +1,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 LinkedList Cache with 10000 entries has been created
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Total number of references:        100000
-Total number of cache hits:        83924
-1st-level cache hit ratio:         0.83924
+Total number of references:     100000
+Total number of cache hits:      83924
+Cache hit ratio:                 83.92%
 
 ----------------------------------------------------------------
-Time elapsed: 3487.0 milliseconds
+Time elapsed: 1227.0 milliseconds
 ----------------------------------------------------------------

@@ -4,7 +4,7 @@ Grade: /100
 
 Rubric for Cache project:
 
-Comments:
+Overall Comments:
 
 -Submission
 	
@@ -21,8 +21,11 @@ Documentation:
 
 Code design and style: 
 	-Cache class is defined to be generic: [10 points]
+
 	-The Test class does not contain any of the Cache functionality 
 	(like keeping track of stats on hits/misses): [5 points]
+
+	-Other comments: 
 
 
 Functionality: [70 points]
@@ -36,12 +39,12 @@ Functionality: [70 points]
 
 		-Results match on all data files: 50 points
 
-		-Results are off on one data file: 30 points
+		-Results are off on one data file: 35 points
 
-		-Results are off on two data files: 10 points 
+		-Results are off on two data files: 20 points 
 
 
 Extra credit:
-	-LinkedHashMap cache was implemented and works correctly  [10 points]
+	-LinkedHashMap cache was implemented and works correctly:  [10 points]
 	
 
