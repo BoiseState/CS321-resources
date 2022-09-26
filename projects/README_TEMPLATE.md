@@ -38,7 +38,14 @@ or text book you need to list them here. If you looked something up on
 stackoverflow.com and fail to cite it in this section it will be
 considered plagiarism and be dealt with accordingly. So be safe CITE!
 
+Finally, remove these instructions from your README.md after you are finished!
+
 ----------
-This README template is using Markdown. To preview your README output,
-you can copy your file contents to a Markdown editor/previewer such
-as [https://stackedit.io/editor](https://stackedit.io/editor).
+This README template is using Markdown. Here is some help on using Markdown: 
+[markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+Markdown can be edited and viewed natively in most IDEs such as Eclipse and VS Code.
+
+To preview your README.md output, you can copy your file contents to a Markdown editor/previewer
+such as [https://stackedit.io/editor](https://stackedit.io/editor).
