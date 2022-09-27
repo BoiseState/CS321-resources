@@ -1,5 +1,13 @@
 import java.util.Random;
 
+/**
+ * A driver class to use quick sort. It tests quick sort by generating
+ * random integers, sorting, and then verifying the sorting. It also 
+ * measures the time taken to sort.
+ * 
+ * @author amit
+ *
+ */
 public class QuickSortTest
 {
     private static final int RANGE = 1000000;
@@ -27,6 +35,9 @@ public class QuickSortTest
     }
 
 
+    /**
+     * @param argv
+     */
     public static void main(String[] argv) {
 
         if (argv.length < 1) { // there must be at least one command-line arguments

@@ -1,6 +1,6 @@
 
 /**
- * QuikSort class. Provides quicksort.
+ * A wrapper class that provides the basic quicksort algorithm on an array of integers.
  * 
  * @author amit
  */
@@ -8,6 +8,13 @@
 public class QuickSort
 {
 
+    /**
+     * Use quicksort algorithm to sort A[p:r].
+     * 
+     * @param A The array to be sorted.
+     * @param p The leftmost index in the array.
+     * @param r the rightmost index in the array.
+     */
     public void quicksort(int A[], int p, int r) {
 
         if (p < r) {
@@ -18,6 +25,14 @@ public class QuickSort
     }
 
 
+    /**
+     * Partition the array A[p:r] around a pivot element, chosen to be A[r].
+     * 
+     * @param A
+     * @param p
+     * @param r
+     * @return
+     */
     private int partition(int[] A, int p, int r) {
         int x = A[r];
         int i = p - 1;
