@@ -2,8 +2,9 @@
 /**
  * Shows an extended example using bitwise operators and DNA sequences.
  * The extended example shows how to pack the bases in a DNA sequence 
- * into a long and how to extract the bases back out. This will result in around 8x savings in memory
- * (and on disk as well). 
+ * into a long and how to extract the bases back out. This will result 
+ * in around 8x savings in memory (and on disk as well). 
+ * 
  * @author amit
  *
  */
