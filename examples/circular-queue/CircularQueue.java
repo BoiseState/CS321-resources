@@ -3,6 +3,7 @@
 /**
  * A circular queue implemented in a  fixed-size array. This follows the pseudocode from the book:
  * <a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/">Intro to Algorithms</a>
+ * See Section 10.1 and Exercise 10.1-5.
  * 
  *  @author amit
  *

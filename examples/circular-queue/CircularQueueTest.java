@@ -1,16 +1,16 @@
 
-
 /**
+ * Perform various types of tests on CircularQueue class.
  * 
- */
-
-/**
  * @author amit
  *
  */
 public class CircularQueueTest
 {
-
+    /**
+     *  Run a simple smoke test. Add 10 elements, check queue, then remove ten elements
+     *  and check queue again.
+     */
     private static void smokeTest() {
         CircularQueue queue = new CircularQueue(10);
         try {
@@ -34,6 +34,9 @@ public class CircularQueueTest
         }
     }
     
+    /**
+     * Check for underflow by doing a dequeue on an empty queue.
+     */
     private static void testUnderflow() {
         CircularQueue queue = new CircularQueue(1);
         try {
@@ -44,6 +47,9 @@ public class CircularQueueTest
         }
     }
     
+    /**
+     *  Check for overflow by enqueueuing a element into a full queue.
+     */
     private static void testOverflow() {
         CircularQueue queue = new CircularQueue(1);
             try {
@@ -55,7 +61,8 @@ public class CircularQueueTest
             }    
     }
     /**
-     * @param args
+     * Run various tests.
+     * @param args no command line arguments used at present
      */
     public static void main(String[] args) {
         System.out.println("CircularQueueTest: a simple smoke test with 10 elements");

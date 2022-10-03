@@ -1,6 +1,7 @@
 
 /**
  * Represents a queue overflow exception, thrown when circular queue is full.
+ * 
  * @author amit
  *
  */
