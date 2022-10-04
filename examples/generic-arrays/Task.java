@@ -2,6 +2,7 @@
 
 /**
  * Simple class to demo a concept.
+ * Javadocs left incomplete on purpose.
  * @author amit
  *
  */

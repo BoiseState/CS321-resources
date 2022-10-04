@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 
 /**
- * Uses the Set class to show how to set up with various types.
+ * Uses the Set class to show how to pass in various types.
  * 
  * @author amit
  *
@@ -45,7 +45,7 @@ public class SetTest
         System.out.println(setOfTasks);
 
         
-               
+        // we can even put generic types inside our set!       
         LinkedList<Integer> list = new LinkedList<Integer>();
         Set<LinkedList<Integer>> setOfLists = new Set<LinkedList<Integer>>((Class<LinkedList<Integer>>)list.getClass(), 10);
         LinkedList<Integer>[] lists = (LinkedList<Integer>[]) Array.newInstance((Class<LinkedList<Integer>>)list.getClass(), 10);
