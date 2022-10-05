@@ -6,14 +6,14 @@ public class MammalTest {
 			Dog dog1 = new Dog("Leo", 1);
 			Cat cat1 = new Cat("Leela", 3);
 			
-			System.out.println(dog1.speak());
-			System.out.println(cat1.speak());
+			System.out.println("MammalTest: " + dog1.speak());
+			System.out.println("MammamlTest: " + cat1.speak());
 			
 			Mammal m = dog1;
-			System.out.println(m.speak());
+			System.out.println("MammalTest: " + m.speak());
 			
 			m = cat1;
-			System.out.println(m.speak());
+			System.out.println("MammalTest: " + m.speak());
 	}
 
 }
