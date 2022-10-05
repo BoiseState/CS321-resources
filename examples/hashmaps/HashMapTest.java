@@ -14,8 +14,6 @@ import java.util.Scanner;
  */
 public class HashMapTest
 {
-   
-
     public static void main(String[] args) throws FileNotFoundException {
 	
 	HashMap<String, Integer> words = new HashMap<String, Integer>(95791, 0.5f); //use a twin prime, load factor of 90%
