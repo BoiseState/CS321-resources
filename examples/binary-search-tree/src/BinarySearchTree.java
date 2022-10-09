@@ -1,9 +1,7 @@
-/**
- * 
- */
+
 
 /**
- * A simple generic binary search tree implementation.
+ * A simple binary search tree implementation. This isn't generic.
  * 
  * @author amit
  *
@@ -26,6 +24,7 @@ public class BinarySearchTree {
 		Integer key;
 
 		/**
+		 * Constructor for a node.
 		 * @param element
 		 */
 		public Node(Integer element) {
@@ -33,15 +32,16 @@ public class BinarySearchTree {
 			left = right = parent = null;
 		}
 
-		/*
-		 * Implements Comparable interface.
+		
+		/**
+		 * {@inheritDoc}
 		 */
 		public int compareTo(BinarySearchTree.Node otherNode) {
 			return key.compareTo(otherNode.key);
 		}
 
 		/**
-		 *
+		 * {@inheritDoc}
 		 */
 		public String toString() {
 			return "Node:  key = " + key;
@@ -49,7 +49,7 @@ public class BinarySearchTree {
 	}
 
 	/**
-	 * 
+	 * Create an empty binary search tree.
 	 */
 	public BinarySearchTree() {
 		root = null;
@@ -71,9 +71,12 @@ public class BinarySearchTree {
 	}
 
 	/**
-	 * Insert the provided element into the binary search tree.
+	 * Insert the provided element into the binary search tree. If we have duplicate key
+	 * values, they are inserted into the right subtree because of the comparison in line 86
+	 * below. A better way to handle duplicates is to store the frequency in the node itself. 
+	 * This will prevent duplicates from causing the tree to be skewed in height.
 	 * 
-	 * @param element
+	 * @param element  the element to insert
 	 */
 	public void insert(Integer element) {
 		size++;
@@ -114,7 +117,7 @@ public class BinarySearchTree {
 	/**
 	 * Calculate the number of elements in the subtree rooted at the provided node.
 	 * 
-	 * @param x
+	 * @param x the root of the subtree
 	 * @return
 	 */
 	public int getSize(Node x) {
@@ -131,7 +134,7 @@ public class BinarySearchTree {
 	/**
 	 * Print the tree out using an inorder tree traversal.
 	 * 
-	 * @param x
+	 * @param x  the root of the subtree
 	 */
 	public void inorderTreeWalk(Node x) {
 		if (x != null) {
@@ -140,4 +143,5 @@ public class BinarySearchTree {
 			inorderTreeWalk(x.right);
 		}
 	}
+	
 }
