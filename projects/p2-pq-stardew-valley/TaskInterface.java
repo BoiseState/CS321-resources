@@ -68,7 +68,7 @@ public interface TaskInterface {
     public void setPriority(int priority);
 
     /**
-     * Gets the waiting time of a process.
+     * Gets the waiting time of a task.
      *
      * @return - Task.TaskType - the Task's type
      */
@@ -85,14 +85,14 @@ public interface TaskInterface {
     public void resetWaitingTime();
 
     /**
-     * Gets the waiting time of a process
+     * Gets the waiting time of a task.
      *
      * @return the waiting time
      */
     public int getWaitingTime();
 
     /**
-     * Creates a string containing the Task's information.
+     * Creates a string containing the task's information.
      *
      * @return String of the Task
      */

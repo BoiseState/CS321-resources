@@ -50,13 +50,15 @@ public interface TaskGeneratorInterface {
     public boolean generateTask();
 
     /**
-     * Determines the likelihood of passing out or dying
-     * based on the task and death probability.  Where
-     * 0 is not dying or passing out, 1 is passing out,
-     * and 2 is dying in the Mines.
+     * Given method that determines if a player passes out
+     * or dies during an activity.
      *
-     * @param task - the Task
-     * @returns  0, 1 or 2 depending on the unluckiness
+     * Returning 0 - represents no death/passing-out
+     * Returning 1 - represents passing out
+     * Returning 2 - represents death in mine
+     *
+     * @param task - the current Task
+     * @param unluckyProbability - the unluckiness probability
      */
     public int getUnlucky(Task task, double unluckyProbability);
 
