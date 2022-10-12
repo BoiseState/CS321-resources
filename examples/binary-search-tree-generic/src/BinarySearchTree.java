@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 
 /**
  * A simple generic binary search tree implementation.
@@ -133,10 +131,14 @@ public class BinarySearchTree<T extends Comparable<T>>
      */
     public int getSize(Node<T> x) {
         int size = 0;
-        if (x.left != null || x.right != null) size++;
-        if (x.left != null) size += getSize(x.left);
-        if (x.right != null) size += getSize(x.right);
-        return size;
+        if (x == null)
+            return 0;
+        else {
+            size = 1;
+            size += getSize(x.left);
+            size += getSize(x.right);
+            return size;
+        }
     }
 
 
