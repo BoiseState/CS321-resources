@@ -17,7 +17,7 @@ public class BinarySearchTree {
 	 * @author amit
 	 *
 	 */
-	public class Node implements Comparable<Node> {
+	private class Node implements Comparable<Node> {
 		Node left;
 		Node right;
 		Node parent;

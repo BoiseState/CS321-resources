@@ -42,7 +42,7 @@ public class BinarySearchTreeTest
      */
     private static void createRandomTree(int n, BinarySearchTree<Integer> tree) {
         for (int i = 0; i < n; i++) {
-            int next = generator.nextInt(n);
+            int next = generator.nextInt(5*n);
             tree.insert(next);
         }
     }
