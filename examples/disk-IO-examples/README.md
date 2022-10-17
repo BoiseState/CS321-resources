@@ -12,5 +12,7 @@ file so it isn't suitable for BTrees or other data structures that require rando
 the object.
 
 ## GenerateText.java, GenerateBinary.java,  GenerateBinarySlower.java
-These example show how to store the same information in a text file and a binary files. The binary files are more compact and faster to read/write while the text files are easier for
-humans to examine. The GenerateBinary.java uses the java.nio package, which is faster than he normal file IO found in java.io package.
+These example show how to store the same information in a text file and a binary files. The
+binary files are more compact and faster to read/write while the text files are easier for
+humans to examine. The GenerateBinary.java uses the java.nio package, which is faster than he
+normal file IO found in java.io package.
