@@ -9,7 +9,16 @@ import java.io.IOException;
  *
  */
 public class MemoryVersusDisk {
+    
+    private static long memorySpeed;
+    private static long diskSpeed;
+    private static long diskBufferedSpeed;
 
+
+	/**
+	 * Test speed of memory access by copying an array multiple times.
+	 * @param n number of copies to make
+	 */
 	private static void runMemoryTest(int n)
 	{
 		int[] buffer1 = new int[n];
@@ -21,9 +30,19 @@ public class MemoryVersusDisk {
 		}
 		long end = System.currentTimeMillis();
 
-		System.out.printf("time for memory access = %d microseconds\n", (end - start) * 1000);
+		memorySpeed = (end - start); //in milliseconds
 	}
 	
+	/**
+	 * Test raw disk access speed. Note that this requires calling an operating
+	 * system specific command to avoid memory buffer used by the operating system
+	 * that masks the slowness of disk access. 
+	 * 
+	 * The char type uses 2 bytes whereas in uses 4 bytes, so we make an array of 
+	 * 2*n char here to match the n int array in the memory test.
+	 * 
+	 * @param n number of access to try
+	 */
 	private static void runDiskTest(int n)
 	{
 		long start, end;
@@ -43,10 +62,9 @@ public class MemoryVersusDisk {
 				system.exec("sync");
 			}
 			fout.close();
-
+			
 			end = System.currentTimeMillis();
-			System.out.printf("time for disk access = %d microseconds\n", (end - start) * 1000);
-
+			diskSpeed = end - start;
 		} catch (FileNotFoundException e) {
 			System.err.println(e);
 			System.exit(1);
@@ -56,6 +74,15 @@ public class MemoryVersusDisk {
 		}
 	}
 	
+	/**
+	 * Run disk access speed using built-in buffering in the operating system.
+	 * This shows that even with buffering, disk access is much slower than memory access.
+	 * 
+	 * The char type uses 2 bytes whereas in uses 4 bytes, so we make an array of 
+     * 2*n char here to match the n int array in the memory test.
+     * 
+	 * @param n Number of disk accessed to try.
+	 */
 	private static void runBufferedDiskTest(int n)
 	{
 		long start, end;
@@ -70,8 +97,7 @@ public class MemoryVersusDisk {
 			}
 			fout.close();
 			end = System.currentTimeMillis();
-			System.out.printf("time for buffered disk access = %d microseconds\n", (end - start) * 1000);
-
+			diskBufferedSpeed = end - start;
 		} catch (FileNotFoundException e) {
 			System.err.println(e);
 			System.exit(1);
@@ -80,18 +106,27 @@ public class MemoryVersusDisk {
 			System.exit(1);
 		}
 	}	
+	
+	
 	/**
-	 * @param args
+	 * The main driver to test the three scenarios and print results.
+	 * 
+	 * @param args No command line arguments are accepted.
 	 */
 	public static void main(String[] args) 
 	{
 		int n = 1024; // do this many operations
 		
 		runMemoryTest(n);
+	    System.out.printf("time for memory access = %d microseconds\n", memorySpeed);
 		
 		runBufferedDiskTest(n);
+        System.out.printf("time for buffered disk access = %d microseconds\n", diskBufferedSpeed);
 		
 		runDiskTest(n);
+        System.out.printf("time for disk access = %d microseconds\n", diskSpeed);
+        
+        System.out.println("Raw disk access is " + diskSpeed/(double) memorySpeed + " times slower!");
 		
 	}
 

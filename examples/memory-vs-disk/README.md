@@ -1,4 +1,4 @@
 Memory vs Disk writing speeds
 ============================
 
-Compares writing to memory versus buffered writes to disk
+Compares writing to memory versus buffered writes to disk.
