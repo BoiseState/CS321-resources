@@ -2,28 +2,35 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
+/**
+ * Provides an external binary search method that can search a sorted file of records. 
+ * This is a demonstration of searching binary files on disk that store data.
+ * 
+ * @author amit
+ *
+ */
 public class ExternalBinarySearch
 {
 	private int DEBUG = 0;
 
+	/**
+	 * Set debug level. 
+	 * @param debug 0 is no debug output, 1 is more output of intermediate steps 
+	 */
 	public void setDebug(int debug) 
 	{
 		this.DEBUG = debug;
 	}
 
-/*
-	Search for a record with the input key value in the specified binary file
-	on the disk. Uses binary search to minimize the number of disk reads.
-
-	Input: 
-			dataFile  file channel to an open file.
-			key       integer key value to use for searching
-
-	Output: Reference to a record structure if search was successful
-			otherwise a null pointer .
-			
-	Side Effects: None
-*/
+	/**
+	 * Search for a record with the input key value in the specified binary file 
+	 * on the disk. Uses binary search to minimize the number of disk reads.
+	 * 
+	 * @param dataFile file channel to an open file
+	 * @param key integer key value to use for searching
+	 * @return Reference to a record structure if search was successful, otherwise a null pointer
+	 * @throws IOException
+	 */
 	public Record search(FileChannel dataFile, int key)
 	throws IOException
 	{
@@ -44,7 +51,7 @@ public class ExternalBinarySearch
 		/* set high to number of records in the file */
 		high = high/recordSize - 1;
 
-		if (DEBUG >= 2) {
+		if (DEBUG >= 1) {
 			System.err.println("data file has "+high+" records");
 		}
 
@@ -56,7 +63,7 @@ public class ExternalBinarySearch
 			buffer.clear();
 			dataFile.read(buffer);
 			buffer.flip();
-			if (DEBUG >= 2) {
+			if (DEBUG >= 1) {
 				System.err.println("low = " + low + " mid = " + mid + " high = " + high);
 			}
 			recordKey = buffer.getInt();

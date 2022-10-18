@@ -5,6 +5,12 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 
 
+/**
+ * 
+ * Demonstrates how to read a binary file.
+ * @author amit
+ *
+ */
 public class ReadData {
 
 	/**
@@ -22,7 +28,7 @@ public class ReadData {
 										  file.readDouble(),file.readDouble());
 	    	}
 		} catch (EOFException e) {
-			// reached end of file
+		    System.out.println("ReadData: reached end of file");
 		}
 	}
 	
