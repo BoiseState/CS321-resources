@@ -320,15 +320,19 @@ public class DiskReadWrite {
      */
     public static void main(String[] args) throws IOException {
 
-        File file = new File("test.data");
+        File file = new File("bst.data");
         if (args.length != 1) {
-            System.err.println("Usage: java DiskReadWrite [--create|--print]");
+            System.err.println("Usage: java DiskReadWrite [--create|--dump]");
             System.exit(1);
         }
         if (args[0].equals("--create")) {
             createTree(file);
+            System.out.println("DiskReadWrite: created a binary search tree in bst.data binary file");
         } else if (args[0].equals("--dump")) {
             dumpTree(file);
+            System.out.println("DiskReadWrite: dumping a binary search tree from the file bst.data");
+        } else {
+            System.err.println("DiskReadWrite: unknown option: " + args[0]);
         }
     }
 
