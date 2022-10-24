@@ -3,10 +3,24 @@ import java.io.RandomAccessFile;
 import java.nio.channels.FileChannel;
 import java.util.Random;
 
+/**
+ * Demonstrates external binary search by conducting random binary searches on a sorted file.
+ * 
+ *@author amit
+ *
+ */
 public class BinarySearchTest
 {
 	private int DEBUG = 0;
 
+	/**
+	 * Conduct n random binary searches in the external data file.
+	 * 
+	 * @param dataFile file channel pointing to the sorted data file
+	 * @param n   how man searches to run
+	 * @param MAX_KEY  range of keys to use in random searches
+	 * @throws IOException
+	 */
 	private void conductRandomSearches(FileChannel dataFile, int n, int MAX_KEY)
 	throws IOException
 	{
@@ -35,6 +49,11 @@ public class BinarySearchTest
 	}
 
 
+	/**
+	 * The main driver. 
+	 * 
+	 * @param argv
+	 */
 	public static void main (String [] argv)
 	{
 		long count;

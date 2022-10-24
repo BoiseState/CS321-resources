@@ -27,16 +27,16 @@ if test "$?" = 0
 then
 	echo "Test PASSED for linear probing and load = $load !!!!"
 else
-	echo "==> Test FAILED for double probing load = $load !!!!!!!! "
+	echo "==> Test FAILED for linear probing load = $load !!!!!!!! "
 	echo "       Check the file diff-linear-$load.out for differences"
 fi
 
 diff double-dump.txt test-cases/word-list-$load-double-dump.txt > diff-double-$load.out
 if test "$?" = 0
 then
-	echo "Test PASSED for linear probing and load = $load !!!!"
+	echo "Test PASSED for double hashing and load = $load !!!!"
 else
-	echo "==> Test FAILED for double probing load = $load !!!!!!!! "
+	echo "==> Test FAILED for double hashing load = $load !!!!!!!! "
 	echo "       Check the file diff-double-$load.out for differences"
 fi
 echo

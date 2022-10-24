@@ -47,6 +47,13 @@ public class DiskReadWrite {
     private Node root; // the root node in memory
 
 
+    /**
+     * Create a binary search tree on disk if it doesn't exist, otherwise read the
+     * metadata for a tree that already exists on disk.
+     * 
+     * @param fileName
+     * @throws IOException
+     */
     @SuppressWarnings("resource")
     public DiskReadWrite(File fileName) throws IOException {
         
@@ -97,6 +104,11 @@ public class DiskReadWrite {
             }
         }
         
+        /**
+         * Calculate the size of a node as stored on disk (in bytes).
+         * 
+         * @return the size of a node on disk
+         */
         public int getDiskSize() {
             // We will store boolean as 1 byte as its size is not defined in Java
             return Integer.BYTES + TreeObject.getDiskSize() + 1 + 3 * Long.BYTES;
@@ -218,7 +230,8 @@ public class DiskReadWrite {
 
     /**
      * Insert a new object into the external binary search tree. This follows the algorithm 
-     * from the book at page 294 except for adding disk read/writes.
+     * from the book at page 321 of CLRS Introduction to Algorithms book, except for adding disk read/writes.
+     * 
      * @param obj the object t insert
      * @throws IOException
      */
@@ -257,6 +270,7 @@ public class DiskReadWrite {
     
     /**
      * Recursive inorder traversal. The usual procedure except for the inclusion of disk reads.
+     * 
      * @param x the starting node
      * @throws IOException
      */
