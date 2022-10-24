@@ -43,4 +43,4 @@ html:
 	mkdir html
 
 clean:
-		rm --force  *.class data data.bin data.txt
+		rm --force  *.class data data.bin data.txt bst.data
