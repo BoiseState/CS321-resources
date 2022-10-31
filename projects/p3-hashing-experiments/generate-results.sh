@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function header(){
 	output=$1
