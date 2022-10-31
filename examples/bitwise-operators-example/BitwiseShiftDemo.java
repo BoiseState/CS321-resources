@@ -5,35 +5,62 @@
  * into a long and how to extract the bases back out. This will result 
  * in around 8x savings in memory (and on disk as well). 
  * 
+ * You can convert this into two methods, one for encoding a DNA string 
+ * into a long and the second for decoding a long into a DNA string.
+ * 
  * @author amit
  *
  */
+
+
 public class BitwiseShiftDemo
 {
-    public static void main(String[] args) {
-	String dnaSequence = "gatcctccat";
+    
+    /**
+     * Converts a DNA sequence provide as a string of A,C, D and G into a long
+     * by encoding into a binary number.
+     * 
+     * @param dnaSequence the DNA string to encode
+     * @return the encoded long representing the DNA string
+     */
+    private static long encode(String dnaSequence) 
+    {
 	int seqLength = dnaSequence.length();
-	System.out.println("original sequence: " + dnaSequence);
 	
-	long sequence = 0;
+	long encoding = 0;
 	for (int i = 0; i < seqLength; i++) {
-	    sequence = sequence << 2;
+	    encoding = encoding << 2;
 	    switch (dnaSequence.charAt(i)) {
 		case 'a':
-		    sequence = sequence | DNA.A;
+		    encoding = encoding | DNA.A;
 		    break;
 		case 'c':
-		    sequence = sequence | DNA.C;
+		    encoding = encoding | DNA.C;
 		    break;
 		case 't':
-		    sequence = sequence | DNA.T;
+		    encoding = encoding | DNA.T;
 		    break;
 		case 'g':
-		    sequence = sequence | DNA.G;
+		    encoding = encoding | DNA.G;
 		    break;
 	    }   
 	}
-	System.out.println(sequence + " " + Long.toString(sequence, 2));
+	return encoding;
+    }
+    
+    /**
+     * Converts a long representing a DNA string (of up to length 31) back into a DNA string 
+     * of A,C, D and G  by decoding the binary number stored as a long.
+     * 
+     * @param sequence the long that encodes a DNA string
+     * @param seqLength the length of the sequence to decode
+     * @return the decode DNA string
+     * @throws IllegalAccessException 
+     */
+    private static String decode(long sequence, int seqLength) throws IllegalArgumentException
+    {
+	if (seqLength > 31)
+	    throw new IllegalArgumentException("seqlength must be <= 31");
 	
 	long value = sequence;
 	String seqString = "";
@@ -53,6 +80,22 @@ public class BitwiseShiftDemo
 	    length++;
 	    if (length == seqLength) break;
 	}
+	return seqString;
+	
+    }
+    
+    public static void main(String[] args) throws IllegalArgumentException {
+	
+	String dnaSequence = "gatcctccat";
+	int seqLength = dnaSequence.length();
+	System.out.println("original sequence: " + dnaSequence);
+	
+	long sequence = encode(dnaSequence);
+	// the Long.toString(sequence, 2) prints as binary, use 16 to print in hexadecimal
+	System.out.println(sequence + " " + Long.toString(sequence, 2)); 
+	
+	
+	String seqString = decode(sequence, seqLength);
 	System.out.println("extracted sequence: " + seqString);
     }
 }

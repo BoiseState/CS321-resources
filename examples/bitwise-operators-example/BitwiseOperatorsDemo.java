@@ -46,16 +46,13 @@ public class BitwiseOperatorsDemo
      */
     public static void main(String[] args) {
 	
-	int value1 = 6;
-	int value2 = 5;
+	int value1;
+	int value2;
 	
-	int result = value1 | value2;
-	printResult("bitwise or |", value1, value2, result);
-	
-	value1 = 0b110; //a binary constant, use 0x for hexadecimal. Upper case 0b or Ox also works.
-	value2 = 0b101;
+	value1 = 0b110; //value is 6 (as a binary constant), use 0x for hexadecimal. Upper case 0b or Ox also works.
+	value2 = 0b101; //value is 5 (as a binary constant), use 0x for hexadecimal. Upper case 0b or Ox also works.
 		
-	result = value1 | value2; //bitwise OR
+	int result = value1 | value2; //bitwise OR
 	printResult("bitwise or |", value1, value2, result);
 
 	result = value1 & value2; //bitwise AND
