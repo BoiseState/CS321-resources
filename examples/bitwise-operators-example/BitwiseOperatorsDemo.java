@@ -2,18 +2,21 @@
 /**
  * Demo bitwise operators in Java. Bitwise operators can be used with any integral number type such as byte, short,
  * int, and long.
- * 
+ * <p>
  * Basic definitions of bitwise operators. For two k-bit numbers, the operators are applied to
  * each pair of corresponding bits:
- * bitwise or :   <pre>0 | 0 = 0, 0 | 1 = 1, 1 | 0 = 1, 1 | 1 = 1</pre>
- * bitwise and:   <pre>0 & 0 = 0, 0 & 1 = 0, 1 & 0 = 0, 1 & 1 = 1</pre>
- * bitwise xor:   <pre>0 ^ 0 = 1, 0 ^ 1 = 1, 1 ^ 0 = 1, 1 ^ 1 = 1</pre>
- * bitwise left shift: <pre> x = x <<k </pre> shift x left by k bits and fill in with zeros from the right. 
- * bitwise signed right shift: <pre> x = x >>k </pre> shift x right by k bits and fill in with the sign bit from the left.
- * bitwise unsigned (arithmetic)right shift: <pre> x = x >>>k </pre> shift x right by k bits and fill in with 
- *                                                                   zeroes from the left
+ * <p>
+ * bitwise or :   0 | 0 = 0, 0 | 1 = 1, 1 | 0 = 1, 1 | 1 = 1 <br>
+ * bitwise and:   0 &amp; 0 = 0, 0 &amp; 1 = 0, 1 &amp; 0 = 0, 1 &amp; 1 = 1 <br>
+ * bitwise xor:   0 ^ 0 = 1, 0 ^ 1 = 1, 1 ^ 0 = 1, 1 ^ 1 = 1 <br>
+ * bitwise left shift: x = x &lt;&lt; k  --> shift x left by k bits and fill in with zeros from the right. <br>
+ * bitwise signed right shift: x = x &gt;&gt; k --> shift x right by k bits and fill in with the sign bit 
+ *                                           from the left. <br>
+ * bitwise unsigned (arithmetic)right shift: x = x &gt;&gt;&gt; k --> shift x right by k bits and fill in with 
+ *                                                                   zeroes from the left <br>
+ * <p>
  * Note: bitwise signed shift and unsigned shift are the same for positive numbers.
- * 
+ * <p>
  * See <a href="https://www.baeldung.com/java-bitwise-operators">Java Bitwise Operators</a> for a brief tutorial.
  * 
  * @author amit
@@ -57,9 +60,9 @@ public class BitwiseOperatorsDemo
 
 
     /**
-     * Demo all the bitwise operators in Java
+     * Demo all the bitwise operators in Java.
      * 
-     * @param args
+     * @param args The command line arguments aren't used.
      */
     public static void main(String[] args) {
 

@@ -9,8 +9,20 @@
  */
 public class DNA
 {
-    public static final int A = 0b00; // 0  Adenine
-    public static final int T = 0b11; // 3  Thiamine
-    public static final int C = 0b01; // 1  Cytosine
-    public static final int G = 0b10; // 2  Guanine
+    /**
+     * 0  Adenine
+     */
+    public static final int A = 0b00; 
+    /**
+     *  3 Thiamine
+     */
+    public static final int T = 0b11; 
+    /**
+     *  1 Cytosine
+     */
+    public static final int C = 0b01; 
+    /**
+     * 2 Guanine
+     */
+    public static final int G = 0b10; 
 }
