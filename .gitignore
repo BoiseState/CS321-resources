@@ -23,3 +23,8 @@ examples/binary-search-tree/doc/
 examples/bitwise-operators-example/.settings/
 examples/disk-IO-examples/test.data
 examples/disk-IO-examples/bst.data
+examples/SQLite/.classpath
+examples/SQLite/.project
+
+nothing added to commit but untracked files present (use "git add" to track)
+

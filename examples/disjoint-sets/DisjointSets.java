@@ -1,6 +1,6 @@
 
 /**
- * Disjoint Sets implementation from CLR, Chapter 21.
+ * Disjoint Sets implementation from CLRS, Chapter 19.
  * Can perform m operations on n elements in O(m lg*n) time, which is 
  * O(m) for all practical purposes.
  * 
@@ -20,7 +20,7 @@ public class DisjointSets<T>
 	 */
 	public DisjointSets(int n) 
 	{
-		sets = (SetElement<T>[]) new SetElement[n];
+		sets = (SetElement<T>[]) new SetElement<?>[n];
 		this.n = n;
 	}
 	
