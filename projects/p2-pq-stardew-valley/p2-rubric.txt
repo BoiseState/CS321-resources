@@ -19,7 +19,7 @@ Comments:
 
 Documentation: [20 points]
 	-README.md: 
-	-Javadoc for all methods :
+	-Javadoc for all methods:
 	-Appropriate but not excessive inline comments:
 
 Code design and style: [15 points]
