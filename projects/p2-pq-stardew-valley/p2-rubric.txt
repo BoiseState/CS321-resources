@@ -7,42 +7,41 @@ Rubric for the Stardew Valley using Priority Queue project
 Comments:
 
 -Checkpoint [10 point]:
-	-The project files have been copied and set up properly.
-	-Study the provided files and ask questions!
-	-The MaxHeap class has been written.
-	-The MaxHeapTest class has at least been started.
+	-The project files have been copied and set up properly:
+	-Study the provided files and ask questions:
+	-The MaxHeap class has been written:
+	-The MaxHeapTest class has at least been started:
 
 -Submission
-	-Required files are missing. [return to student for fixing]
-	-Did not submit unnecessary files (such as .class files)
-	-Provided classes were modified [0 points, not graded]
+	-Required files are not missing [return to student for fixing, if needed]:
+	-Did not submit unnecessary files (such as .class files):
+	-Provided classes weren't modified [0 points, not graded]:
 
 Documentation: [20 points]
-	-README.md 
-	-Javadoc for all methods 
-	-Appropriate but not excessive inline comments
+	-README.md: 
+	-Javadoc for all methods :
+	-Appropriate but not excessive inline comments:
 
 Code design and style: [15 points]
-	-Appropriate variable and method names
-	-Appropriate code style
-	-Interfaces: All provided interfaces were implemented 
-	-Inheritance: MyPriorityQueue class extends MaxHeap class appropriately 
-	-MaxHeap: grows by doubling the array using a private method 
+	-Appropriate variable and method names:
+	-Appropriate code style:
+	-Interfaces - all provided interfaces were implemented:
+	-Inheritance - MyPriorityQueue class extends MaxHeap class appropriately:
+	-MaxHeap - grows by doubling the array using a private method:
 
 Functionality: [55 points]
-	-MaxHeapTest: Appropriate unit test for MaxHeap class [10 points]
-	-Matches outputs for the six inputs in the test-cases subfolder [36 points]
+	-MaxHeapTest - appropriate unit test for MaxHeap class [10 points]:
+	-Matches outputs for the six inputs in the test-cases subfolder [36 points]:
 		-in1/out1:
 		-in2/out2:
 		-in3/out3:
 		-in4/out4:
 		-in5/out5:
 		-in6/out6:
-	-Additional testing: percentage of tests passing [9 points]
 
 Extra Credit: Multiplayer Stardew Valley [up to 15 points]
-	-Used generic MaxHeap and Priority Queues [+5 points]
-	-Implemenetd the multiplayer driver simulation correctly [+10 points]
+	-Used generic MaxHeap and Priority Queues [+5 points]:
+	-Implemented the multiplayer driver simulation correctly [+10 points]:
 		
 
 
