@@ -7,26 +7,26 @@ Rubric for the Hashing Experiments project
 Overall Comments:
 
 -Submission
-    -Required files are missing: [return to student for fixing]
+    -No required files are missing [return to student for fixing, if needed]:
 
-    -Submitted unnecessary files (such as .class files):
+    -Did not submit unnecessary files (such as .class files):
 
-Documentation: [20 points]
+Documentation [20 points]:
     -README.md 
-        -README.md file uses provide template: 
+        -README.md file uses provided template [5 points]: 
 
-        -Output of experiments are included as proper markdown tables: [10 points]
+        -Output of experiments are included as proper markdown tables [5 points]:
 
     -Appropriate Javadoc and inline comments [10 points]:
 
-Code design and style: [25 points]
+Code design and style [25 points]:
 
-    -Inheritance: [10 points] 
+    -Inheritance [10 points]:
 
         -Hashtable class is abstract that is extended by subclasses for 
          linear probing and double hashing:
 
-    -Class design: [10 points]
+    -Class design [10 points]:
 
         -HashObject class uses a generic Object type for key:
 
@@ -37,16 +37,16 @@ Code design and style: [25 points]
     -Separate TwinPrime Generator class [5 points]:
 
 
-Functionality: [55 points]
+Functionality [55 points]:
 
-    -The results match what is expected for the given input types: [45 points]
+    -The results match what is expected for the given input types [45 points]:
 
-        -random data source: [10 points]
+        -random data source [10 points]:
 
-        -date data source: [10 points]
+        -date data source [10 points]:
 
-        -wordlist data source: [25 points]
+        -wordlist data source [25 points]:
 
-    -Updated run-tests.sh script to run all tests: [10 points]
+    -Updated run-tests.sh script to run all tests [10 points]:
 
 
