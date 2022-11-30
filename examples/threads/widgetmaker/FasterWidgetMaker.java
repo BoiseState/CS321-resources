@@ -65,7 +65,7 @@ public class FasterWidgetMaker extends Thread
         long startTime = System.currentTimeMillis();
         int numThreads = Runtime.getRuntime().availableProcessors();
         //int numThreads = 16;
-		System.out.println("FasterWidgetMaker: using " + numThreads + " threads");
+	//System.out.println("FasterWidgetMaker: using " + numThreads + " threads");
 
         FasterWidgetMaker[] robotFactory = new FasterWidgetMaker[numThreads];
         for (int i = 0; i < numThreads - 1; i++) {
@@ -82,7 +82,7 @@ public class FasterWidgetMaker extends Thread
         }
 
         long totalTime = System.currentTimeMillis() - startTime;
-        System.out.println("WidgetMaker: made " + n + " widgets in " + totalTime / 1000.0 + " seconds");
+        System.out.println("WidgetMaker: made " + n + " widgets in " + totalTime / 1000.0 + " seconds -- using " + numThreads + " threads");
     }
 
 }
