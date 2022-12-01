@@ -86,7 +86,7 @@ public class FasterWidgetMaker extends Thread
         }
 
         long totalTime = System.currentTimeMillis() - startTime;
-        System.out.println("WidgetMaker: made " + n + " widgets in " + totalTime / 1000.0 + " seconds" + " using " + numThreads + " threads");
+        System.out.println("WidgetMaker: made " + n + " widgets in " + totalTime / 1000.0 + " seconds -- using " + numThreads + " threads");
     }
 
 }
