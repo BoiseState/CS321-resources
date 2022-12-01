@@ -16,15 +16,17 @@ public class WidgetMaker
     private final int RANGE = 100; // milliseconds
     private final int BASE = 100; // milliseconds
     private static final int INCORRECT_ARGUMENTS = 1;
+    private int startIndex;
     private int count;
 
-    public WidgetMaker(int count) {
+    public WidgetMaker(int startIndex, int count) {
+        this.startIndex = startIndex;
         this.count = count;
     }
 
 
     private void make() {
-        for (int i = 0; i < count; i++) {
+        for (int i = startIndex; i < count + startIndex; i++) {
             int time = generator.nextInt(RANGE) + BASE;
             // simulate variable amount of time to make one widget
             try {
@@ -51,7 +53,7 @@ public class WidgetMaker
 
         long startTime = System.currentTimeMillis();
         
-        WidgetMaker robotFactory = new WidgetMaker(n);
+        WidgetMaker robotFactory = new WidgetMaker(1, n);
         robotFactory.make();
         
         long totalTime = System.currentTimeMillis() - startTime;
