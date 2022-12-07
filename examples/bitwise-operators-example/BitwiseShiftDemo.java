@@ -15,7 +15,7 @@
 public class BitwiseShiftDemo
 {
     /**
-     * Converts a DNA sequence provide as a string of A,C, D and G into a long by
+     * Converts a DNA sequence provide as a string of A,C, T and G into a long by
      * encoding into a binary number.
      * 
      * @param dnaSequence

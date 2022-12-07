@@ -19,6 +19,8 @@ projects/p3/inheritance-example/.classpath
 examples/bitwise-operators-example/.classpath
 examples/bitwise-operators-example/.project
 examples/SQLite/sample.db
+examples/disjoint-sets/.classpath
+examples/disjoint-sets/.project
 examples/binary-search-tree/doc/
 examples/bitwise-operators-example/.settings/
 examples/disk-IO-examples/test.data

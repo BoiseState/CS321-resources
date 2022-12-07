@@ -19,7 +19,7 @@ public class BigPower
 	}
 
     /**
-	 Compute x^n using recursive doubling technique. O(lg n) multilications.
+	 Compute x^n using recursive doubling technique. O(lg n) multiplications.
 	 @param x  The base value, unlimited precision using BigInteger type.
 	 @param n  The exponent, an integer.
 	 @return   The computed power as a BigInteger

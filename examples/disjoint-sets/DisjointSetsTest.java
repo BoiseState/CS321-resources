@@ -2,6 +2,8 @@ import java.util.Random;
 
 
 /**
+ * A smoke test and a performance test class for disjoint sets.
+ * 
  * @author amit
  *
  */
@@ -15,7 +17,8 @@ public class DisjointSetsTest
 	 * @param n
 	 * @param seed
 	 */
-	private static void runRandomExperiments(DisjointSets S, int n, long seed)
+	@SuppressWarnings("unused")
+    private static void runRandomExperiments(DisjointSets<Integer> S, int n, long seed)
 	{
 	    // set the seed for random number generator
 
@@ -30,9 +33,11 @@ public class DisjointSetsTest
 
 	    // perform random unions until only one set is left
 	    while (num_unions < n-1) {
+	        
 	        // pick two elements at random
 	        x = generator.nextInt(n);
 	        y = generator.nextInt(n);
+	        
 	        // find the representatives of the sets to which x and y belong
 	        before = S.getCounter();
 	        Sx = S.find(x);
@@ -62,6 +67,7 @@ public class DisjointSetsTest
 	}
 
 	/**
+	 * The main driver.
 	 * @param args
 	 */
 	public static void main(String[] args) 
@@ -75,11 +81,9 @@ public class DisjointSetsTest
 		
 		DisjointSets<Integer> S = new DisjointSets<Integer>(n);
 		for (int i=0; i<n; i++) {
-			S.makeSet(new Integer(i), i);
+			S.makeSet(i, i);
 		}
-		
 		runRandomExperiments(S, n, seed);
-		
 	}
 
 }
