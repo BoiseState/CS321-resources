@@ -6,27 +6,34 @@ Rubric for the Hashing Experiments project
 
 Overall Comments:
 
+-Checkpoint [10 points]:
+    -The project files have been copied and set up properly:
+    -Study the provided files and ask questions:
+    -The abstract Hashtable and Linearprobing and DoubleHashing subclasses have been written:
+    -The TwinprimeGenerator class has been written:
+
+
 -Submission
     -No required files are missing [return to student for fixing, if needed]:
 
     -Did not submit unnecessary files (such as .class files):
 
-Documentation [20 points]:
+Documentation [15 points]:
     -README.md 
         -README.md file uses provided template [5 points]: 
 
         -Output of experiments are included as proper markdown tables [5 points]:
 
-    -Appropriate Javadoc and inline comments [10 points]:
+    -Appropriate Javadoc and inline comments [5 points]:
 
-Code design and style [25 points]:
+Code design and style [20 points]:
 
     -Inheritance [10 points]:
 
         -Hashtable class is abstract that is extended by subclasses for 
          linear probing and double hashing:
 
-    -Class design [10 points]:
+    -Class design [5 points]:
 
         -HashObject class uses a generic Object type for key:
 
