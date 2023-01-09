@@ -6,17 +6,23 @@ Rubric for Cache project:
 
 Overall Comments:
 
+-Checkpoint [10 points]:
+    -The project files have been copied and set up properly:
+    -Study the provided files and ask questions:
+    -The Cache class has been written:
+    -The CacheTest class has at least been started:
+
 -Submission
 	
 	-Required files (README.md, Cache.java, CacheTest.java, Player.java, 
-	   PlayerGenerator.java, run-tests.sh, test-cases/) are present:
+	 PlayerGenerator.java, run-tests.sh, test-cases/) are present:
 
 	-Compiles without unexplained warnings:
 
 Documentation:
-	-README.md [10 points]:
+	-README.md: [10 points]
 
-	-Javadoc and inline comments [10 points]:
+	-Javadoc and inline comments: [10 points]
 
 
 Code design and style: 
@@ -33,15 +39,15 @@ Functionality: [70 points]
 
 	-Executes command line arguments as specified: [5 points]
 
-	-Update the test script to generate the data files if they don't exist [5 points]:
+	-Update the test script to generate the data files if they don't exist: [5 points]
 
-	-Calculates cache hits/misses correctly for all three sample files: [50 points]
+	-Calculates cache hits/misses correctly for all three sample files: 
 
-		-Results match on all data files: 50 points
+		-Results match on all data files: [50 points]
 
-		-Results are off on one data file: 35 points
+		-Results are off on one data file: [35 points]
 
-		-Results are off on two data files: 20 points 
+		-Results are off on two data files: [20 points] 
 
 
 Extra credit:
