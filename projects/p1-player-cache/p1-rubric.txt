@@ -47,7 +47,6 @@ Functionality: [60 points]
 
 		-Results are off on two data files: [15 points] 
 
-
 Extra credit:
 	-LinkedHashMap cache was implemented and works correctly:  [+10 points]
 	
