@@ -14,22 +14,45 @@ public class Player implements Serializable
      */
     private static final long serialVersionUID = -3220479994421851449L;
     private String name;
+    private double balance;
 
     /**
-     * The constructor for the Player object
+     * A simple constructor for the Player object.
      *
      * @param name - the name of Player
      */
     public Player(String name) {
         this.name = name;
+        this.balance = 0.0;
+    }
+    
+    /**
+     * An overloaded constructor for the Player object.
+     * @param name
+     * @param balance
+     */
+    public Player(String name, double balance) {
+        this.name = name;
+        this.balance = balance;
     }
 
+    /**
+     * @return the name
+     */
     public String getName() {
         return name;
     }
+    
+    /**
+     * @return the balance
+     */
+    public double getBalance() {
+        return balance;
+    }
+    
 
     @Override
     public String toString() {
-        return "Player " + getName();
+        return "Player " + getName() + " balance = " + balance;
     }
 }

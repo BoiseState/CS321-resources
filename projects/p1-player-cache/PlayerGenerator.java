@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -7,26 +10,29 @@ import java.util.Random;
  * then serialized to an output file for use by other programs.
  * 
  * The usage for PlayerGenerator.java is as follows: 
- *     java PlayerGenerator <number-of-players> <standard-deviation> <debug-level> [<seed>]
- *     Where:
- *     <number of-players>: The number of Players generated to the output file.
- *     <standard-deviation>: The amount of standard deviation from the median Player.
- *     <debug-level>: 0 is no debug output, 
- *                    1 shows all the players that were generated
- *                    2 shows the actual distribution of player names as well as all the players 
- *                      that were generated. 
- *     <seed>: A seed for a random number generator for testing to ensure simulation can be 
+ *     <pre>java PlayerGenerator &lt;number-of-players&gt; &lt;standard-deviation&gt; &lt;debug-level&gt; [&lt;seed&gt;]</pre>
+ *     where:
+ *     <ul>
+ *     <li>&lt;number-of-players&gt;: The number of Players generated to the output file.</li>
+ *     <li>&lt;standard-deviation&gt;: The amount of standard deviation from the median Player.</li>
+ *     <li>&lt;debug-level&gt;: 
+ *                        <ul>
+ *                        0 is no debug output <br>
+ *                        1 shows all the players that were generated<br>
+ *                        2 shows the actual distribution of player names as well as all the players<br>
+ *                        </ul></li>
+ *     <li>&lt;seed&gt;: A seed for a random number generator for testing to ensure simulation can be 
  *             repeated. This argument can be skipped -- then the seed will be random.
+ *     </ul>
  *
  *  The idea of adding varying debug levels to be output debugging information is a 
  *  commonly used technique in most large scale software projects. This is an example 
- *  of code instrumentation.
+ *  of <b>code instrumentation</b>.
  *  
  * @author CS321 instructors
  */
 public class PlayerGenerator
 {
-
     private int numberOfPlayers;
     private double standardDeviation;
     private long seed;
@@ -47,7 +53,7 @@ public class PlayerGenerator
      */
     public void showUsage() {
         System.out.println("java PlayerGenerator " + "<number-of-players> " + 
-                           "<standard-deviation> " + "<debug-level = 0, 1, 2>" + "[<seed>]");
+                           "<standard-deviation> " + "<debug-level = 0, 1, 2>" + " [<seed>]");
         System.exit(1);
     }
 
@@ -55,15 +61,13 @@ public class PlayerGenerator
     /**
      * Processes the command line arguments
      *
-     * @param args
-     *            - String arguments: 
+     * @param args  String arguments: 
      *              args[0]: <number-of-players> 
      *              args[1]: <standard-deviation> 
      *              args[2]: <debug-level>
      *              args[3]: [<seed>]
      */
-    private void processArguments(String[] args) {
-        
+    private void processArguments(String[] args) {   
         numberOfPlayers = Integer.parseInt(args[0]);
         if (numberOfPlayers < 1) {
             throw new IllegalArgumentException("Illegal argument: number-of-players must >= 1.");
@@ -92,8 +96,10 @@ public class PlayerGenerator
             ObjectOutputStream out = new ObjectOutputStream(outputFile);
 
             players = new ArrayList<Player>(); 
+            
             // ArrayList for checking if a Player already exists
             playerNames = new int[numberOfPlayers + 1]; 
+            
             // holds the Players to eventually be referenced to
             playerObjects = new Player[numberOfPlayers + 1]; 
 
@@ -121,7 +127,7 @@ public class PlayerGenerator
                     }
                     playerNames[playerInt]++;
                     countPlayer++;
-                    players.add(nextPlayer); //adds to Player ArrayList
+                    players.add(nextPlayer);
                 }
             }
             
@@ -171,7 +177,7 @@ public class PlayerGenerator
         }
         
         System.out.println("--------------------------------------------------------------------------------");
-        System.out.println("Randomly generated Players serialized to output file: " + 
+        System.out.println("Randomly generated " + generator.numberOfPlayers + " serialized to output file: " + 
                            "Player-List" + args[0] + ".data");
         System.out.println("--------------------------------------------------------------------------------");
     }
