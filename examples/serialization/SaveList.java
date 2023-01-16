@@ -29,7 +29,9 @@ public class SaveList
         try {
             FileOutputStream fileout = new FileOutputStream("list.serial");
             ObjectOutputStream out = new ObjectOutputStream(fileout);
+            
             out.writeObject(dance);
+            
             out.close();
             System.out.println("SaveList: serializing list of dances in file list.serial");
         } catch (Exception e) {

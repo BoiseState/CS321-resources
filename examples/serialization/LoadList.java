@@ -20,6 +20,7 @@ public class LoadList
             
             LinkedList<String> list = (LinkedList<String>) in.readObject();
             System.out.println(list.toString());
+            
             in.close();
         } catch (IOException e) {
             e.printStackTrace();
