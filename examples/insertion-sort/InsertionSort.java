@@ -7,20 +7,24 @@
 
 public class InsertionSort
 {
-
     /**
-     * Sort the section of the array A[p..r] using Insertion sort. See Section 2.1
-     * of CLRS's Algorithms book.
+     * Sort the section of the array A[p:r] using Insertion sort. See Section 2.1
+     * of CLRS's Algorithms book. The algorithm in the book sorts the range [1:n]. 
+     * Here we have generalized it a bit to sort a range [p:r]
+     * 
+     * @param A The array to sort
+     * @param p The first index in the range to sort
+     * @param r The last index in the range to sort
      */
     public void insertion_sort(int A[], int p, int r) {
-        for (int j = p + 1; j <= r; j++) {
-            int key = A[j];
-            int i = j - 1;
-            while ((i > p - 1) && (A[i] > key)) {
-                A[i + 1] = A[i];
-                i--;
+        for (int i = p + 1; i <= r; i++) {
+            int key = A[i];
+            int j = i - 1;
+            while ((j > p - 1) && (A[j] > key)) {
+                A[j + 1] = A[j];
+                j--;
             }
-            A[i + 1] = key;
+            A[j + 1] = key;
         }
     }
 
