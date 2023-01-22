@@ -6,6 +6,9 @@
 public interface TaskGeneratorInterface {
 
 	public final int DEFAULT_ENERGY = 200;
+	public final int SURVIVED = 0;
+	public final int PASSED_OUT = 1;
+	public final int DEATH = 2;
 
     /**
      * Creates a new Task with default zero priority.
@@ -53,9 +56,9 @@ public interface TaskGeneratorInterface {
      * Given method that determines if a player passes out
      * or dies during an activity.
      *
-     * Returning 0 - represents no death/passing-out
-     * Returning 1 - represents passing out
-     * Returning 2 - represents death in mine
+     * Returning SURVIVED - represents no death/passing-out
+     * Returning PASSED_OUT - represents passing out
+     * Returning DEATH - represents death in mine
      *
      * @param task - the current Task
      * @param unluckyProbability - the unluckiness probability

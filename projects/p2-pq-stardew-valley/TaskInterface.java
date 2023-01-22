@@ -1,15 +1,13 @@
 /**
- * This Task Interface class is used to represent a
- * single task with name, priority, energy taken/received,
- * money gained, and varying unfortunate event probabilities.
- * It also contains a provided enum to categorize the six
- * different Task types.
+ * This interface  is used to represent a single task with name, priority, energy taken/received,
+ * money gained, and varying unfortunate event probabilities. It also contains a provided enum to 
+ * categorize the six different task types.
  *
  * @author CS321 instructors
  */
 public interface TaskInterface {
     /**
-     * enum for the six different types of Tasks.
+     * Enum for the six different types of Tasks.
      */
     public enum TaskType {
 
@@ -47,7 +45,7 @@ public interface TaskInterface {
             return passingOutProbability;
         }
 
-        public double getDyingProbabilityProbability()
+        public double getDyingProbability()
         {
             return dyingProbability;
         }
@@ -92,9 +90,7 @@ public interface TaskInterface {
     public int getWaitingTime();
 
     /**
-     * Creates a string containing the task's information.
-     *
-     * @return String of the Task
+     * {@inheritDoc}
      */
     public String toString();
 }

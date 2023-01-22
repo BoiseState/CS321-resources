@@ -39,8 +39,8 @@ Functionality: [55 points]
 		-in5/out5:
 		-in6/out6:
 
-Extra Credit: Multiplayer Stardew Valley [up to 15 points]
-	-Used generic MaxHeap and Priority Queues [+5 points]:
+Extra Credit: Multiplayer Stardew Valley [up to 20 points]
+	-Used generic MaxHeap and Priority Queues [+10 points]:
 	-Implemented the multiplayer driver simulation correctly [+10 points]:
 		
 
