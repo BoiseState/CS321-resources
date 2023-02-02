@@ -9,9 +9,10 @@ Comments:
 -Checkpoint [10 point]:
 	-The project files have been copied and set up properly:
 	-Study the provided files and ask questions:
+	-The Task class has been written:
 	-The MaxHeap class has been written:
 	-The MaxHeapTest class has at least been started:
-	-Play the Stardew Valley game to better understand the game!:
+	-Play the Stardew Valley game (optional):
 
 
 -Submission
