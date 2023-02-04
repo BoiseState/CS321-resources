@@ -1,5 +1,6 @@
 #!/bin/bash
 
+javac *.java
 
 if  test -e Player-List50.data  -a -e Player-List1000.data -a -e Player-List100000.data
 then
@@ -8,11 +9,12 @@ then
 	echo
 else
 	echo
-	echo "Expected input data files: Player-List50.data, Player-List1000.data, and Player-List100000.data not found!"
-	echo "Please generate all the data files as explained in the project specifications."
-	echo "!!!BAILING out!!!"
+	echo "Generating input data files: Player-List50.data, Player-List1000.data, and Player-List100000.data!"
 	echo
-	exit 1
+	javac PlayerGenerator.java
+	java PlayerGenerator 50 3.0 0 123
+	java PlayerGenerator 1000 15.0 0 123
+	java PlayerGenerator 100000 2500.0 0 123
 fi
 
 
@@ -22,7 +24,7 @@ do
 	echo "======================================================================="
 	echo "Running Test $i:" $cmd " "
 	$cmd > out$i
-	diff -w -I '^Time.*' out$i test-cases/out$i
+	diff -w -I -B '^Time.*' out$i test-cases/out$i
 	result=$?
 	if test "$result" = 0
 	then
