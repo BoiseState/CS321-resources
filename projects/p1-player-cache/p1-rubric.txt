@@ -17,6 +17,8 @@ Overall Comments:
 	-Required files (README.md, Cache.java, CacheTest.java, Player.java, 
 	 PlayerGenerator.java, run-tests.sh, test-cases/) are present:
 
+	-No unnecessary files are submitted (such as .class files, output files)
+
 	-Compiles without unexplained warnings:
 
 Documentation:
@@ -45,7 +47,7 @@ Functionality: [60 points]
 
 		-Results are off on one data file: [30 points]
 
-		-Results are off on two data files: [15 points] 
+		-Results are off on two or more data files: [15 points] 
 
 
 Extra credit:
