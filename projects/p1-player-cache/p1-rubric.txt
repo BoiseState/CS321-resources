@@ -1,16 +1,10 @@
 Name:
 
-Grade: /100
+Grade: /90
 
 Rubric for Cache project:
 
 Overall Comments:
-
--Checkpoint [10 points]:
-    -The project files have been copied and set up properly:
-    -Study the provided files and ask questions:
-    -The Cache class has been written (but may not be tested):
-    -The CacheTest class has at least been started:
 
 -Submission
 	
