@@ -17,9 +17,9 @@ import java.util.Random;
  *     <li>&lt;standard-deviation&gt;: The amount of standard deviation from the median Player.</li>
  *     <li>&lt;debug-level&gt;: 
  *                        <ul>
- *                        0 is no debug output <br>
- *                        1 shows all the players that were generated<br>
- *                        2 shows the actual distribution of player names as well as all the players<br>
+ *                        <li>0 is no debug output </li>
+ *                        <li>1 shows all the players that were generated</li>
+ *                        <li>2 shows the actual distribution of player names as well as all the players<li>
  *                        </ul></li>
  *     <li>&lt;seed&gt;: A seed for a random number generator for testing to ensure simulation can be 
  *             repeated. This argument can be skipped -- then the seed will be random.
@@ -88,7 +88,7 @@ public class PlayerGenerator
      * Uses a Gaussian distribution with an alterable standard deviation and mean depending on 
      * the median player number.
      */
-    public void dumpOutputFile() throws FileNotFoundException {
+    public void dumpOutputFile() {
         
         int playerMiddle = numberOfPlayers / 2;
         try {
@@ -141,6 +141,9 @@ public class PlayerGenerator
     }
 
 
+    /**
+     * Show debugging information based on the debug level.
+     */
     private void showDebugInfo() {
         if (debugLevel >= SHOW_DISTRIBUTION) {
             System.out.println("Printing the full distribution");
@@ -161,7 +164,8 @@ public class PlayerGenerator
 
 
     /**
-     * Main driver of the program
+     * Main driver of the program. 
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         
@@ -170,11 +174,7 @@ public class PlayerGenerator
             generator.showUsage();
         }
         generator.processArguments(args);
-        try {
             generator.dumpOutputFile();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
         
         System.out.println("--------------------------------------------------------------------------------");
         System.out.println("Randomly generated " + generator.numberOfPlayers + " serialized to output file: " + 

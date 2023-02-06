@@ -13,7 +13,13 @@ public class Player implements Serializable
      * that may be different enough to be compatible. Most IDEs will auto-generate this id for you. 
      */
     private static final long serialVersionUID = -3220479994421851449L;
+    /**
+     * The name of the player.
+     */
     private String name;
+    /**
+     * The balance (represents their bank balance).
+     */
     private double balance;
 
     /**
@@ -28,20 +34,22 @@ public class Player implements Serializable
     
     /**
      * An overloaded constructor for the Player object.
-     * @param name
-     * @param balance
+     * @param name  the name of the player
+     * @param balance  the initial balance they have
      */
     public Player(String name, double balance) {
         this.name = name;
         this.balance = balance;
     }
 
+    
     /**
      * @return the name
      */
     public String getName() {
         return name;
     }
+    
     
     /**
      * @return the balance
@@ -51,6 +59,9 @@ public class Player implements Serializable
     }
     
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String toString() {
         return "Player " + getName() + " balance = " + balance;
