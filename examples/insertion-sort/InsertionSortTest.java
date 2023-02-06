@@ -100,8 +100,7 @@ public class InsertionSortTest
     /**
      * The main method processes command line arguments and runs the sort.
      * 
-     * @param argv
-     *            The command line arguments
+     * @param argv the command line arguments
      */
     public static void main(String[] argv) {
         InsertionSortTest tester = new InsertionSortTest(argv);
