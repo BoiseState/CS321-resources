@@ -11,7 +11,9 @@ import java.util.LinkedList;
 public class SetTest
 {
     /**
-     * @param args
+     * 
+     * Simple main driver.
+     * @param args the command line arguments aren't used
      */
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
@@ -23,8 +25,7 @@ public class SetTest
         }
         numbers.addElements(values);
         System.out.println(numbers);
-        
-        
+         
         
         Set<String> setOfWords = new Set<String>(String.class, 10);
         String[] words = new String[10];
