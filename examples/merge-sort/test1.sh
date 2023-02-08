@@ -13,7 +13,7 @@ do
 	for cutoff in  10 20 30 40 50 100 200 500
 	do
 		echo -n "cutoff = " $cutoff ": "
-		java MergeSortTest $size $cutoff sentinel
+		java MergeSortTest $size $cutoff
 	done
 	echo
 done

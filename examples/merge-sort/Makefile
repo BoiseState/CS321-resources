@@ -28,15 +28,10 @@ JFLAGS=-O
 # class files (with date no later than the source .java files).
 # We also must have satisfied the rule named doc.
 
-compile: lib MergeSort.class MergeSortTest.class NativeTiming.class 
+compile: MergeSort.class MergeSortTest.class 
 		
 
-
-lib: 
-	cd ../../timing/; make
-	cp ../../timing/libtiming.so .
-
-# Run javadoc on all hava source files in this directory.
+# Run javadoc on all Java source files in this directory.
 # This rule depends upon the rule named html, which makes the
 # html directory if does not already exist.
 
