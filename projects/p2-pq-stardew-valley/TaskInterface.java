@@ -71,6 +71,14 @@ public interface TaskInterface {
      * @return - Task.TaskType - the Task's type
      */
     public Task.TaskType getTaskType();
+    
+    
+    /**
+     * Gets the task description.
+     * @return
+     */
+    public String getTaskDescription();
+    
 
     /**
      * Increments the waiting time by one.
