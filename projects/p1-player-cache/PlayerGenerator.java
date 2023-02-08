@@ -96,10 +96,8 @@ public class PlayerGenerator
             ObjectOutputStream out = new ObjectOutputStream(outputFile);
 
             players = new ArrayList<Player>(); 
-            
             // ArrayList for checking if a Player already exists
             playerNames = new int[numberOfPlayers + 1]; 
-            
             // holds the Players to eventually be referenced to
             playerObjects = new Player[numberOfPlayers + 1]; 
 
@@ -130,7 +128,6 @@ public class PlayerGenerator
                     players.add(nextPlayer);
                 }
             }
-            
             showDebugInfo();
             out.writeObject(players); 
             out.close();

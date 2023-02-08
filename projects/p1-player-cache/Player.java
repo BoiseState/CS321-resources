@@ -1,7 +1,8 @@
 import java.io.Serializable;
 
 /**
- * This Player class represents a Player and implements the Serializable interface.
+ * Represents a Player that also implements the Serializable interface so it can be serialized 
+ * to a file on disk.
  *
  * @author CS321 instructors
  */
@@ -34,6 +35,7 @@ public class Player implements Serializable
     
     /**
      * An overloaded constructor for the Player object.
+     * 
      * @param name  the name of the player
      * @param balance  the initial balance they have
      */
@@ -44,6 +46,7 @@ public class Player implements Serializable
 
     
     /**
+     * Getter for the name.
      * @return the name
      */
     public String getName() {
@@ -52,6 +55,7 @@ public class Player implements Serializable
     
     
     /**
+     * Getter for the balance.
      * @return the balance
      */
     public double getBalance() {
