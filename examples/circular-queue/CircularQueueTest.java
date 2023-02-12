@@ -49,7 +49,7 @@ public class CircularQueueTest
     }
     
     /**
-     *  Check for overflow by enqueueuing a element into a full queue.
+     *  Check for overflow by doing an enqueue into a full queue.
      */
     private static void testOverflow() {
         CircularQueue queue = new CircularQueue(1);
@@ -78,5 +78,4 @@ public class CircularQueueTest
         testOverflow();
         System.out.println();
     }
-
 }

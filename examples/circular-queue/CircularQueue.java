@@ -16,10 +16,10 @@ public class CircularQueue
     private int tail;
     
     /**
-     * Create a queue that can store size elements.  We use Q[1:n] and ignore Q[0] to follow
-     * the pseudocode from the book. The size denotes the maximum capacity of the 
-     * queue, so the queue array size is size+1, as we have to leave one space empty for the 
-     * circular queue to work properly.
+     * Create a queue that can store a fixed maximum number of elements.  
+     * We use Q[1:n] and ignore Q[0] to follow the pseudocode from the book. The size denotes 
+     * the maximum capacity of the queue, so the queue array size is size+1, as we have to leave 
+     * one space empty for the circular queue to work properly.
      * 
      * @param size The maximum capacity of the queue.
      */
@@ -43,7 +43,7 @@ public class CircularQueue
     
     /**
      * Add an element to the tail of the queue. If the queue is full, we will
-     * get an overflow exception as the backing array is of fixed size.
+     * get an overflow exception as the underlying array is of fixed size.
      * 
      * @param x  the element to add
      * @throws QueueOverflow  thrown when queue is full
