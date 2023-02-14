@@ -17,14 +17,12 @@ import java.util.Scanner;
 public class HashMapTest
 {
     public static void main(String[] args) throws FileNotFoundException {
-
-        HashMap<String, Integer> words = new HashMap<String, Integer>(95791, 0.90f); // use a twin prime, load factor of
-                                                                                    // 90%
+        // use a twin prime, load factor of 90%
+        HashMap<String, Integer> words = new HashMap<String, Integer>(95791, 0.90f); 
 
         long time = System.currentTimeMillis();
         Scanner in = new Scanner(new File("word-list"));
         while (in.hasNext()) {
-
             String next = in.next();
             Integer value = words.get(next);
 
@@ -44,7 +42,7 @@ public class HashMapTest
         }
 
         System.out.println("\n\nHashMapTest: Found " + words.size() + " unique words");
-        System.out.println("Time to build HashMap with loadFactor  0.75: " + time + " ms\n");
+        System.out.println("Time to build HashMap with loadFactor  0.90: " + time + " ms\n");
 
     }
 
