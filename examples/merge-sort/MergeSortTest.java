@@ -9,7 +9,6 @@ import java.util.Random;
 public class MergeSortTest
 {
     private static final int RANGE = 1000000;
-    private static boolean sentinels = false;
 
     /**
      * Generate random integers in the range [0,RANGE] and store in A[1..n].
@@ -59,6 +58,8 @@ public class MergeSortTest
 
         int n = Integer.parseInt(argv[0]);
         int cutoff = Integer.parseInt(argv[1]);
+		if (cutoff < 1) 
+			cutoff = 1;
         int seed = 1;
         if (argv.length == 3) seed = Integer.parseInt(argv[2]);
 
@@ -76,8 +77,8 @@ public class MergeSortTest
 
         // print results if correctly sorted otherwise cry foul and exit
         if (check_if_sorted(A, n)) {
-            System.err.printf("MergeSortTest: Sorting  %8d  elements took %.2f secs without sentinels\n", 
-                    n, sorting_time / 1000.0);
+            System.err.printf("%20s Sorting %8d elements took %.2f secs\n", 
+                    "MergesortTest: ", n, sorting_time / 1000.0);
         } else {
             System.err.println("MergeSortTest: Sorting failed!!!!");
             System.exit(1);

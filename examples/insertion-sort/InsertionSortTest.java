@@ -109,8 +109,8 @@ public class InsertionSortTest
 
         // print results if correctly sorted otherwise cry foul and exit
         if (tester.check_if_sorted()) {
-            System.err.printf("InsertionSortTest: Sorting  %8d  elements took %.2f secs\n", tester.getSize(),
-                    sortingTime / 1000.0);
+            System.err.printf("%20s Sorting %8d elements took %.2f secs\n", 
+				"InsertionSortTest: ", tester.getSize(), sortingTime / 1000.0);
         } else {
             System.err.println("InsertionSortTest: Sorting failed!!!!");
             System.exit(1);
