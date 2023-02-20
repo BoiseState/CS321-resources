@@ -9,7 +9,7 @@ Run the MergeSortTest class to run and test merge sort.
 * test3:sh compares  merge sort [O(n lg n)] and insertion sort [O(n^2)]
 
  | input size | insertion sort  | merge sort| speedup |
- | ---------- | -------- | ----- | ----- |
+ | ----------: | --------: | -----: | -----: |
  | 100,000    |  0.69s   | 0.01s |   69  |
  | 200,000    |  2.80s   | 0.02s |  140  |
  | 300,000    |  6.47s   | 0.03s |  215  |
