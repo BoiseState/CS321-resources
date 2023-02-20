@@ -18,4 +18,5 @@ Run the MergeSortTest class to run and test merge sort.
  | 1000,000   | 81.40s   | 0.12s |  678  |
  | 10,000,000 | 8140.00s | 1.27s | 6522  |
 
- The time for 10M is projected! For 100M elements, merge sort will be around 62000 tims faster!!
+ The insertion sort time for 10M is projected. For 100M elements, merge sort is projected to
+ be around 62000 times faster!!
