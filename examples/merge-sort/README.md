@@ -6,7 +6,7 @@ Run the MergeSortTest class to run and test merge sort.
 
 * test1.sh tries various cutoff values for insertion sort to see which one is the best.
 * test2.sh runs merge sort for various input sizes
-* test3:sh compares  merge sort [O(n lg n)] and insertion sort [O(n^2)]
+* test3:sh compares  merge sort [Theta(n lg n)] and insertion sort [Theta(n^2)]
 
  | input size | insertion sort  | merge sort| speedup | 
  | ----------: | --------: | -----: | -----: | 
