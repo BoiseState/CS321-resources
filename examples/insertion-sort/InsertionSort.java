@@ -1,6 +1,6 @@
 
 /**
- * Insertion sort class. A wrapper class that provides the basic insertion sort.
+ * A wrapper class that provides the basic insertion sort.
  * 
  * @author amit
  */
@@ -10,7 +10,7 @@ public class InsertionSort
     /**
      * Sort the section of the array A[p:r] using Insertion sort. See Section 2.1
      * of CLRS's Algorithms book. The algorithm in the book sorts the range [1:n]. 
-     * Here we have generalized it a bit to sort a range [p:r]
+     * Here we have generalized it to sort a range [p:r]
      * 
      * @param A The array to sort
      * @param p The first index in the range to sort

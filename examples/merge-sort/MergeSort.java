@@ -1,14 +1,14 @@
 
 /**
  * Provides two versions of merge sort, one without and one with cutoff to switch 
- * to insertion sort when recursion reaches small enough sub-array.
+ * to insertion sort when recursion reaches a small enough sub-array.
  * 
  * @author amit
  */
 public class MergeSort
 {
     /**
-     * Sort the section of the array A[p..r] using Insertion sort. See Section 2.3
+     * Sort the section of the array A[p..r] using Insertion sort. See Section 2.1
      * of CLRS book.
      * 
      * @param A the input array
@@ -29,7 +29,7 @@ public class MergeSort
 
 
     /**
-     * Sort the section of the array A[p..r] using mergesort with insertion sort on small
+     * Sort the section of the array A[p..r] using merge sort with insertion sort on small
      * lists below the cutoff size. See Section 2.3 of the CLRS book.
      */
     public void mergesort(int A[], int p, int r, int cutoff) {

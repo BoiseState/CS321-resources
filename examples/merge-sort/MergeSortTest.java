@@ -1,7 +1,7 @@
 import java.util.Random;
 
 /**
- * A test driver for experimenting with mergesort.
+ * A test driver for experimenting with merge sort.
  * 
  * @author amit
  *
@@ -13,12 +13,9 @@ public class MergeSortTest
     /**
      * Generate random integers in the range [0,RANGE] and store in A[1..n].
      * 
-     * @param A
-     *            the output array
-     * @param n
-     *            the size of the output
-     * @param seed
-     *            the random seed
+     * @param A the output array
+     * @param n the size of the output
+     * @param seed the random seed
      */
     private static void generate_random_array(int A[], int n, long seed) {
         Random generator = new Random(seed);

@@ -64,11 +64,9 @@ public class InsertionSortTest
     /**
      * Check if A[1..n] is sorted in monotonically increasing order.
      * 
-     * @param A
-     *            The array to check
-     * @param n
-     *            The size of the array
-     * @return true if array is sorted, false otherwise
+     * @param A  the array to check
+     * @param n  the size of the array
+     * @return true  if array is sorted, false otherwise
      */
     public boolean check_if_sorted() {
         for (int i = 1; i < n; i++) {
