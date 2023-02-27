@@ -10,7 +10,7 @@ Overall Comments:
     -The project files have been copied and set up properly:
     -Study the provided files and ask questions:
     -The abstract Hashtable and Linearprobing and DoubleHashing subclasses have been written:
-    -The TwinprimeGenerator class has been written:
+    -The TwinPrimeGenerator class has been written:
 
 
 -Submission
