@@ -17,6 +17,7 @@ Comments:
 
 -Submission
 	-Required files are not missing [return to student for fixing, if needed]:
+		-Provide junit jar file if you are using JUnit testing
 	-Did not submit unnecessary files (such as .class files):
 	-Provided classes weren't modified [0 points, not graded]:
 
