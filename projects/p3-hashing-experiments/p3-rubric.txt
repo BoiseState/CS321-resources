@@ -1,6 +1,6 @@
 Name:
 
-Grade: /100
+Grade: /90
 
 Rubric for the Hashing Experiments project
 
@@ -26,9 +26,9 @@ Documentation [15 points]:
 
     -Appropriate Javadoc and inline comments [5 points]:
 
-Code design and style [20 points]:
+Code design and style [15 points]:
 
-    -Inheritance [10 points]:
+    -Inheritance [5 points]:
 
         -Hashtable class is abstract that is extended by subclasses for 
          linear probing and double hashing:
@@ -44,15 +44,19 @@ Code design and style [20 points]:
     -Separate TwinPrime Generator class [5 points]:
 
 
-Functionality [55 points]:
+Functionality [60 points]:
 
-    -The results match what is expected for the given input types [45 points]:
+	-HashtableTest class prints usage message when invoked without command line arguments [5 points]:
 
-        -random data source [10 points]:
+	-The debug levels show approriate debug messages [5 points]
 
-        -date data source [10 points]:
+    -The results match what is expected for the given input types [40 points]:
 
-        -wordlist data source [25 points]:
+        -random data source [5 points]:
+
+        -date data source [5 points]:
+
+        -wordlist data source [30 points]:
 
     -Updated run-tests.sh script to run all tests [10 points]:
 

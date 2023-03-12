@@ -5,6 +5,15 @@ echo "Compiling the source code"
 echo
 javac *.java
 
+
+if ! test -f HashtableTest.class
+then
+	echo
+	echo "HashtableTest.class not found! Not able to test!! "
+	echo
+	exit 1
+fi
+
 echo
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "TODO:"
