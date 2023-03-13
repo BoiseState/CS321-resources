@@ -14,7 +14,6 @@ public class MemoryVersusDisk {
     private static long diskSpeed;
     private static long diskBufferedSpeed;
 
-
 	/**
 	 * Test speed of memory access by copying an array multiple times.
 	 * @param n number of copies to make
@@ -41,7 +40,7 @@ public class MemoryVersusDisk {
 	 * The char type uses 2 bytes whereas in uses 4 bytes, so we make an array of 
 	 * 2*n char here to match the n int array in the memory test.
 	 * 
-	 * @param n number of access to try
+	 * @param n number of accesses to try.
 	 */
 	private static void runDiskTest(int n)
 	{
