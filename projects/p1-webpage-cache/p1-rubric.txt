@@ -1,0 +1,55 @@
+Name:
+
+Grade: /90
+
+Rubric for Cache project:
+
+Overall Comments:
+
+-Checkpoint [10 points]:
+    -The project files have been copied and set up properly:
+    -Study the provided files and ask questions:
+    -The Cache class has been written (but may not be tested):
+    -The CacheTest class has at least been started:
+
+-Submission
+	
+	-Required files (README.md, Cache.java, CacheTest.java, Webpager.java, 
+	 WebpageGenerator.java, LoremIpsumGenerator.java, fruits.txt, run-tests.sh, 
+	 test-cases/) are present:
+
+	-Compiles without unexplained warnings:
+
+Documentation:
+	-README.md: [10 points]
+
+	-Javadoc and inline comments: [5 points]
+
+
+Code design and style: 
+	-Cache class is defined to be generic: [10 points]
+
+	-The CacheTest class does not contain any of the Cache functionality 
+	(like keeping track of stats on hits/misses): [5 points]
+
+	-Other comments: 
+
+
+Functionality: [60 points]
+	-Provides proper usage message when run without arguments: [5 points]
+
+	-The various debug levels work as defined: [10 points]
+
+	-Calculates cache hits/misses correctly for all three sample files: 
+
+		-Results match on all data files: [45 points]
+
+		-Results are off on one data file: [30 points]
+
+		-Results are off on two data files: [15 points] 
+
+
+Extra credit:
+	-LinkedHashMap cache was implemented and works correctly:  [+10 points]
+	
+
