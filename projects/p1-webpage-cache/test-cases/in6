@@ -1,1 +1,1 @@
-java CacheTest 10000 Player-List100000.data
+java CacheTest 700 50000 150.0 0 123
