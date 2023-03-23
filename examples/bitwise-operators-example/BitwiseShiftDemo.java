@@ -95,7 +95,8 @@ public class BitwiseShiftDemo
 
     /**
      * The driver for demonstrating encoding and decoding of DNA bases into and from a long.
-     * @param args does not take commend line arguments
+     * @param args does not take commend line arguments.
+     * 
      * @throws IllegalArgumentException may throw an exception if argument passed is incorrect
      */
     public static void main(String[] args) throws IllegalArgumentException {
@@ -105,8 +106,7 @@ public class BitwiseShiftDemo
         System.out.println("original sequence: " + dnaSequence);
 
         long sequence = encode(dnaSequence);
-        // the Long.toString(sequence, 2) prints as binary, use 16 to print in
-        // hexadecimal
+        // the Long.toString(sequence, 2) prints as binary, use 16 to print in hexadecimal
         System.out.println(sequence + " " + Long.toString(sequence, 2));
 
         String seqString = decode(sequence, seqLength);
