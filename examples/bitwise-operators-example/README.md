@@ -15,4 +15,4 @@ a long (as binary number) and how to extract the DNA bases back out. This will r
 
 See the javadocs for the examples for more information. Start browsing from docs/package-summary.html. Eclipse and IntelliJ will open web pages in HTML natively. For VS Code, you need to install the web browser plugin.
 
-See [Java Bitwise Operators](https://www.baeldung.com/java-bitwise-operators) for a brief tutorial.
+See [Java Bitwise Operators](https://www.baeldung.com/java-bitwise-operators) for a tutorial on bitwise operators in Java.

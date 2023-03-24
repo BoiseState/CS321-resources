@@ -18,7 +18,7 @@ public class SequenceUtils
      * @param dna The DNA sequence of bases A, C, T, and G
      * @return
      */
-    public static long DNAStringToLong(String dna) {
+    public static long dnaStringToLong(String dna) {
         if (dna.length() > 31) {
             throw new IllegalArgumentException("DNA string longer than 31");
         }
@@ -59,7 +59,7 @@ public class SequenceUtils
      * @throws IllegalArgumentException
      * @return
      */
-    public static String longToDNAString(long sequence, int seqLength) throws IllegalArgumentException {
+    public static String longToDnaString(long sequence, int seqLength) throws IllegalArgumentException {
         if (seqLength > 31) throw new IllegalArgumentException("seqlength must be <= 31");
 
         StringBuilder buffer = new StringBuilder(32);
@@ -118,17 +118,17 @@ public class SequenceUtils
         int seqLength = dnaSequence.length();
         System.out.println("original sequence: " + dnaSequence);
 
-        long sequence = DNAStringToLong(dnaSequence);
+        long sequence = dnaStringToLong(dnaSequence);
         // the Long.toString(sequence, 2) prints as binary, use 16 to print in hexadecimal
         System.out.println("Sequence (encoded as a long): " + sequence + " " + Long.toString(sequence, 2));
         
-        String seqString = longToDNAString(sequence, seqLength);
+        String seqString = longToDnaString(sequence, seqLength);
         System.out.println("decoded sequence: " + seqString);
         System.out.println();
         
         System.out.println("complementary sequence: ");
         System.out.println(" " + dnaSequence);
         long complement = getComplement(sequence, seqLength);
-        System.out.println(" " + longToDNAString(complement, seqLength));
+        System.out.println(" " + longToDnaString(complement, seqLength));
     }
 }
