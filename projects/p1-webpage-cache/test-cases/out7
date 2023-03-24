@@ -1,10 +1,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cache with 15 entries has been created
+Cache with 700 entries has been created
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Total number of references:        100
-Total number of cache hits:        85
-Cache hit percent:                 85.00%
+Total number of references:        50000
+Total number of cache hits:        47689
+Cache hit percent:                 95.38%
 
 ----------------------------------------------------------------
-Time elapsed: 61.0 milliseconds
+Time elapsed: 7610.0 milliseconds
 ----------------------------------------------------------------
