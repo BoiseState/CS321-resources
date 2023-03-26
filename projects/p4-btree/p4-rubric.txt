@@ -8,31 +8,48 @@ Rubric for the BTree group project
 
 Overall Comments:
 
--Submission
+-Checkpoint (15 points):
+	-Project repo has been setup and the instructor has been added to the repo.
+	-Reviewed and undertood the DiskReadWrite.java example and gone through the project
+	 specifications and asked questions to get the big picture.
+	-Scrum stories have been developed and added as issues to GithuB project board.
+	-BTree interface has been developed and at least som of the unit tests have been written.
+
+-Submission:
 	-Submitted all required files:
-	-Did not submit unnecessary files (such as .class files, result files and dumps):
+	-Did not submit unnecessary files (such as .class files, result files and dumps). In particualr,
+	 please remove the results folder and all your BTree binary and dump files.
 
 Documentation: 
-	-README-submission.md [10 points] 
+	-Documentation is a normal professional expectation so ther are no points for it
+	 for doing it! However, you may lose points for not doing it properly.
+
+	-README-submission.md 
 		-README-submission.md file has appropriate sections: 
 	-Appropriate Javadoc and inline comments:
 
 Code design and style: 
 
-Functionality: [105 points]
-	-GeneBankCreateBtree functionality: [45 points]
+Functionality: [90 points]
+	-GeneBankCreateBtree functionality: [30 points]
+
 	-GeneBankSearchBtree functionality: [15 points]
+
 	-SQLite Database creation and search: [15 points]
+
 	-Used Cache to improve speed: [15 points]
+
 	-Used AWS to run tests (submit a screenshot of AWS console and the terminal on your AWS instance
 	 running the BTree create script): [15 points] [Required!]
 
 Teamwork: [45 points]
-	-Filled out weekly progress reports/surveys x 4: [15 points] [Required!]
+	-Filled out weekly progress reports/surveys x 5: [15 points] [Required!]
+
 	-Evidence of teamwork: [30 points]
 		-Evidence: scrum board, project log, evaluation by teammates via surveys
+
 	-Lack of contribution from a team member can result in a penalty of up to a 100% in
-	project 4. This will be handled separately between the instructor and the team.
+	 project 4. This will be handled separately between the instructor and the team.
 
 
 
