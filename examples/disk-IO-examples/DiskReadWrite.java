@@ -7,13 +7,9 @@ import java.nio.channels.FileChannel;
 import java.util.Random;
 
 /**
- * 
- */
-
-/**
  * This is a fairly complete example showing how to manipulate a binary search tree 
- * stored on the disk as a binary file. The layout of the binary search tree in the 
- * data file is as follows.
+ * stored on the disk as a external data structure in a binary file. The layout of the 
+ * binary search tree in the data file is as follows:
  * 
  * metadata
  * node
@@ -21,15 +17,17 @@ import java.util.Random;
  * node 
  * ...
  * 
- * where metadata has one piece of information: byte offset to the root node
- * (long - 8 bytes) 
+ * where metadata has one piece of information: byte offset to the root node.
+ * The byte offset is a long value, so it takes 8 bytes (Long.BYTES).
  * 
  * This example is for demonstration purposes and and has only gone through a few smoke tests.
+ * 
  * First create a binary search tree on disk with the command:
  * <tt> java DiskReadWrite --create </tt>
  * 
  * Then dump the tree to show we can read the tree from the disk. Use the following command to 
  * print out the tree.
+ * 
  * <tt> java DiskReadWrite --dump </tt>
  * 
  * @author amit
@@ -37,7 +35,7 @@ import java.util.Random;
  */
 public class DiskReadWrite {
 
-    private int METADATA_SIZE = 8;
+    private int METADATA_SIZE = Long.BYTES;
     private long nextDiskAddress = METADATA_SIZE;
     private FileChannel file;
     private ByteBuffer buffer;
