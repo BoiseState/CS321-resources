@@ -10,7 +10,7 @@ Overall Comments:
 
 -Checkpoint (15 points):
 	-Project repo has been setup and the instructor has been added to the repo.
-	-Reviewed and undertood the DiskReadWrite.java example and gone through the project
+	-Reviewed and understood the DiskReadWrite.java example and gone through the project
 	 specifications and asked questions to get the big picture.
 	-Scrum stories have been developed and added as issues to GitHub project board.
 	-BTree interface has been developed and at least some of the unit tests have been written.
@@ -18,11 +18,11 @@ Overall Comments:
 
 -Submission:
 	-Submitted all required files:
-	-Did not submit unnecessary files (such as .class files, result files and dumps). In particualr,
+	-Did not submit unnecessary files (such as .class files, result files and dumps). In particular,
 	 please remove the results folder and all your BTree binary and dump files.
 
 Documentation: 
-	-Documentation is a normal professional expectation so ther are no points for it
+	-Documentation is a normal professional expectation so their are no points for it
 	 for doing it! However, you may lose points for not doing it properly.
 
 	-README-submission.md 
