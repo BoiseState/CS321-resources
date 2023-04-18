@@ -30,12 +30,13 @@ echo
 
 
 debugLevel=1
+dos2unix test-cases/* >& /dev/null
 
 for load in 0.5 0.6 0.7 0.8 0.9 0.95 0.99
 do
 	echo "Running java HashtableTest dataSource = 3 loadFactor = $load "
 	java HashtableTest 3 $load $debugLevel  >> /dev/null
-	dos2unix linear-dump.txt double-dump.txt test-cases/* >& /dev/null
+	dos2unix linear-dump.txt double-dump.txt  >& /dev/null
 
 	echo
 	diff linear-dump.txt test-cases/word-list-$load-linear-dump.txt > diff-linear-$load.out
