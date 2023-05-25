@@ -3,9 +3,9 @@ import java.util.Random;
 
 /**
  * A more sophisticated example using two parameter types K, V  in a generic class. Now we have
- * keys and values in each object/element. Each value has an embedded key that we can extract 
+ * keys and values in each value (element). Each value has an embedded key that we can extract 
  * because the values implement a KeyInterface. Also, each key has to be Comparable. For sorting,  
- * don't need two generic parameters but in other cases, this is handy to have!
+ * we don't really need two generic parameters but in other cases, this is handy to have!
  * 
  * @author amit
  *

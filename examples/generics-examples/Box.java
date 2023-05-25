@@ -12,11 +12,22 @@ public class Box<T>
     private LinkedList<T> box;
     private int size;
     
+    /**
+     * Create a new box and set its capacity to hold toys.
+     * @param size the maximum number of toys the box can hold.
+     */
     public Box(int size) {
 	this.size = size;
 	box = new LinkedList<T>();
     }
     
+    /**
+     * Add a new toy to the box. If the box is full, the earliest toy adde dto the 
+     * box is removed and returned to the caller.
+     * 
+     * @param toy  the toy to add
+     * @return
+     */
     public T add(T toy) {
 	T removed = null;
 	if (box.size() == size) { 
@@ -28,10 +39,17 @@ public class Box<T>
 	return removed;
     }
     
+    
+    /**
+     * @return the size of the box
+     */
     public int getSize() {
 	return size;
     }
     
+    /**
+     * {@inheritDoc}
+     */
     public String toString() {
 	String s = "";
 	for (int i = 0; i < box.size(); i++)
@@ -44,7 +62,6 @@ public class Box<T>
      * @param args
      */
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
 
 	Box<Integer> myToys = new Box<Integer>(5);
 	System.out.println("Box: created a box of size " + myToys.getSize());
