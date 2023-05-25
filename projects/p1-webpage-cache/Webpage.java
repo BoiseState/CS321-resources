@@ -4,7 +4,7 @@
  *
  * @author CS321 instructors
  */
-public class Webpage {
+public class Webpage implements KeyInterface<String> {
 
     private String webpageURL;
     private String webpageContent;
@@ -79,5 +79,13 @@ public class Webpage {
     public boolean equals(Object other) {
         Webpage webby = (Webpage) other;
         return webpageURL.equals(webby.webpageURL);
+    }
+
+    /**
+     * Returns this Webpages Key
+     */
+    @Override
+    public String getKey() {
+        return webpageURL;
     }
 }

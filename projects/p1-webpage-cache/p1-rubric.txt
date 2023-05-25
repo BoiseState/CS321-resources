@@ -6,7 +6,7 @@ Rubric for Cache project:
 
 Overall Comments:
 
--Checkpoint [10 points]:
+-Checkpoint [10 points (Graded previously on Canvas)]:
     -The project files have been copied and set up properly:
     -Study the provided files and ask questions:
     -The Cache class has been written (but may not be tested):
@@ -14,9 +14,7 @@ Overall Comments:
 
 -Submission
 	
-	-Required files (README.md, Cache.java, CacheTest.java, Webpager.java, 
-	 WebpageGenerator.java, LoremIpsumGenerator.java, fruits.txt, run-tests.sh, 
-	 test-cases/) are present:
+	-Required files (listed in project description) are present:
 
 	-Compiles without unexplained warnings:
 
@@ -27,7 +25,7 @@ Documentation:
 
 
 Code design and style: 
-	-Cache class is defined to be generic: [10 points]
+	-Cache class is defined to be generic, method signatures are correct: [10 points]
 
 	-The CacheTest class does not contain any of the Cache functionality 
 	(like keeping track of stats on hits/misses): [5 points]
@@ -40,13 +38,12 @@ Functionality: [60 points]
 
 	-The various debug levels work as defined: [10 points]
 
-	-Calculates cache hits/misses correctly for all three sample files: 
+	-Calculates cache hits/misses correctly for all eight sample files: 
 
 		-Results match on all data files: [45 points]
 
 		-Results are off on one data file: [30 points]
 
 		-Results are off on two data files: [15 points] 
-
-
+	
 
