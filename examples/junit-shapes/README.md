@@ -1,15 +1,15 @@
-# JUNIT Testing Example
+# JUnit Testing Example
 
-The purpose of this example is to show Junit5 in action!
+The purpose of this example is to show JUnit5 in action!
 
 Contained herein is a simple representation of Rectangles 
 and Squares, and unit tests for each. 
 
-See RectangleTest and SquareTest for the Junit unit tests.
+See RectangleTest and SquareTest for the JUnit unit tests.
 
-# Running Junit
+# Running JUnit
 
-Junit can be simple to set up, provided you are careful.
+JUnit can be simple to set up, provided you are careful.
 
 ## In an IDE
 
@@ -17,7 +17,7 @@ IDE's integrate the two popular Java test frameworks into them
 so that a developer can easily run them. They also provide
 nice documentation for that process. 
 
-Intellij will even detect if you don't have the library
+Intellij will even detect if you don't have the JUnit library
 downloaded, and will do it for you. 
 
 - [Intellij](https://www.jetbrains.com/help/idea/junit.html#intellij)
@@ -25,8 +25,8 @@ downloaded, and will do it for you.
 
 ## From the Terminal
 
-The easiest way to set up Junit testing in your terminal
-is by using the junit standalone test JAR file, found
+The easiest way to set up JUnit testing in your terminal
+is by using the JUnit standalone test JAR file, found
 [here.](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.9.2/junit-platform-console-standalone-1.9.2.jar)
 
 Simply download this jar and put it in the same directory 

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * A class that contains unit tests for Rectangle
+ * A class that contains unit tests for Rectangle.
  *
  * @author andrekeys
  */
@@ -15,7 +15,7 @@ class RectangleTest {
 
     /**
      * The annotation BeforeEach runs the attached method
-     * before each test case
+     * before each test case.
      */
     @BeforeEach
     public void setUp() {
@@ -25,7 +25,7 @@ class RectangleTest {
 
     /**
      * The annotation AfterEach runs the attached method
-     * after each test case
+     * after each test case.
      */
     @AfterEach
     public void tearDown() {
@@ -38,7 +38,7 @@ class RectangleTest {
      * to execute the attached method as part of the
      * test cases and code coverage.
      *
-     * Tests the perimeter calculation of Rectangle
+     * Tests the perimeter calculation of Rectangle.
      */
     @Test()
     public void testPerimeter() {
@@ -57,7 +57,7 @@ class RectangleTest {
     }
 
     /**
-     * Tests the area calculation of the Rectangle
+     * Tests the area calculation of the Rectangle.
      */
     @Test
     public void testArea() {
@@ -77,7 +77,7 @@ class RectangleTest {
     }
 
     /**
-     * Tests various Rectangles for the isSquare condition
+     * Tests various Rectangles for the isSquare condition.
      */
     @Test
     public void testIsSquare() {
@@ -92,11 +92,11 @@ class RectangleTest {
 
     /**
      * Tests that a rectangle cannot be created with zero or negative
-     * side lengths
+     * side lengths.
      *
-     * Junit5 provides the assertThrows() method for this purpose.
+     * JUnit5 provides the assertThrows() method for this purpose.
      *
-     * more on lambda expressions
+     * More on lambda expressions:
      * <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">here.</a>
      */
     @Test()

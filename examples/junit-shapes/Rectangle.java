@@ -1,6 +1,6 @@
 /**
  * Simple representation of a Rectangle for the purposes of demonstrating
- * junit unit testing
+ * junit unit testing.
  *
  * @author andrekeys
  */
@@ -18,7 +18,7 @@ public class Rectangle implements ShapeInterface {
     }
 
     /**
-     * Calculates the perimeter of this Shape
+     * Calculates the perimeter of this Shape.
      * @return the perimeter
      */
     public int perimeter() {

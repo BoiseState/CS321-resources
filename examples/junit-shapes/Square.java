@@ -1,6 +1,6 @@
 /**
  * A simple class that represents a Square for the purpose of demonstrating
- * Junit tests
+ * JUnit tests.
  *
  * @author andrekeys
  */

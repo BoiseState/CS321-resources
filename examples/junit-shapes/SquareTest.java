@@ -10,7 +10,7 @@ class SquareTest {
 
     /**
      * The annotation BeforeEach runs the attached method
-     * before each test case
+     * before each test case.
      */
     @BeforeEach
     public void setUp() {
@@ -21,7 +21,7 @@ class SquareTest {
 
     /**
      * The annotation AfterEach runs the attached method
-     * after each test case
+     * after each test case.
      */
     @AfterEach
     public void tearDown() {
@@ -31,7 +31,7 @@ class SquareTest {
 
 
     /**
-     * The annotation Test will cause the junit runner
+     * The annotation Test will cause the JUnit runner
      * to execute the attached method as part of the
      * test cases and code coverage.
      *
@@ -44,7 +44,7 @@ class SquareTest {
 
 
     /**
-     * Tests the area calculation of the Square
+     * Tests the area calculation of the Square.
      */
     @Test
     public void testArea() {
@@ -53,7 +53,7 @@ class SquareTest {
 
 
     /**
-     * Tests the Square for the isSquare condition
+     * Tests the Square for the isSquare condition.
      */
     @Test
     public void testIsSquare() {
@@ -62,11 +62,11 @@ class SquareTest {
 
     /**
      * Tests that a rectangle cannot be created with zero or negative
-     * side lengths
+     * side lengths.
      *
      * Junit5 provides the assertThrows() method for this purpose.
      *
-     * more on lambda expressions
+     * More on lambda expressions:
      * <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html">here.</a>
      */
     @Test
