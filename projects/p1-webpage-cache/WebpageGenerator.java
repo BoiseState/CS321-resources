@@ -111,7 +111,7 @@ public class WebpageGenerator {
     /**
      * Prints out each Webpage.
      */
-    public void getWebpages(int debugLevel) {
+    public void printWebpages(int debugLevel) {
         for (int i = 1; i < webpageDatabase.length; i++) {
             // Skips non-existent entries
             if (webpageDatabase[i] != null) {

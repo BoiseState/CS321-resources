@@ -1,0 +1,8 @@
+.classpath
+.project
+Player-List1000.data
+Player-List100000.data
+Player-List50.data
+togo/
+test-cases/
+*.class

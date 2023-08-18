@@ -44,7 +44,7 @@ Finally, remove these instructions from your README.md after you are finished!
 
 ## Notes
 
-* This README template is using Markdown. Here is some help on using Markdown: 
+* This README.md template is using Markdown. Here is some help on using Markdown: 
 [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
