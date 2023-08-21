@@ -8,6 +8,7 @@ do
 	$cmd > out$i
 	timing=$(grep -i Time out$i)
 	echo "          ===> "  $timing
+	dos2unix out$i >& /dev/null
 	diff -B -w -I '^Time.*' -I "--" -I "~~" out$i test-cases/out$i
 	result=$?
 	if test "$result" = 0
