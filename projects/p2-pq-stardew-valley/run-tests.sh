@@ -26,6 +26,7 @@ do
 	else
 	echo "Running Test $i:" $cmd " "
 	$cmd >& out$i
+	dos2unix out$i >& /dev/null
 	diff -w out$i test-cases/out$i > out$i-diff.txt
 	result=$?
 	if test "$result" = 0
