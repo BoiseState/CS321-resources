@@ -40,7 +40,7 @@ class RectangleTest {
      *
      * Tests the perimeter calculation of Rectangle.
      */
-    @Test()
+    @Test
     public void testPerimeter() {
         //test case with the parameters from setUp
         assertEquals(10, r.perimeter());
