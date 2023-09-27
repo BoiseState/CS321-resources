@@ -43,7 +43,7 @@ Functionality: [55 points]
 		-in5/out5:
 		-in6/out6:
 
-Extra Credit: Multiplayer Stardew Valley:
+Extra Credit: Generic MaxHeap:
 	-Used generic MaxHeap [+10 points]:
 		
 
