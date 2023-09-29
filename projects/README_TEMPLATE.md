@@ -4,8 +4,7 @@
 * Class: CS321 Section #
 * Semester: 
 
-**Note: Download this file and add to your repo as README.md**
-**Don't cut and paste it as you won't get the formatting Markdown tags!**
+**Note: Download this file and add to your repo as README.md. Don't cut and paste it as you won't get the formatting Markdown tags!**
 
 ## Overview
 
