@@ -1,17 +1,10 @@
 Name:
 
-Grade: /90
+Grade: /80
 
 Rubric for the Hashing Experiments project
 
 Overall Comments:
-
--Checkpoint [10 points]:
-    -The project files have been copied and set up properly:
-    -Study the provided files and ask questions:
-    -The abstract Hashtable and Linearprobing and DoubleHashing subclasses have been written:
-    -The TwinPrimeGenerator class has been written:
-
 
 -Submission
     -No required files are missing [return to student for fixing, if needed]:
@@ -26,14 +19,14 @@ Documentation [15 points]:
 
     -Appropriate Javadoc and inline comments [5 points]:
 
-Code design and style [15 points]:
+Code design and style [10 points]:
 
-    -Inheritance [5 points]:
+    -Inheritance:
 
         -Hashtable class is abstract that is extended by subclasses for 
          linear probing and double hashing:
 
-    -Class design [5 points]:
+    -Class design:
 
         -HashObject class uses a generic Object type for key:
 
@@ -41,7 +34,7 @@ Code design and style [15 points]:
 
         -Hash functions used are defined appropriately:
 
-    -Separate TwinPrime Generator class [5 points]:
+    -Separate TwinPrime Generator class:
 
 
 Functionality [60 points]:
@@ -56,8 +49,7 @@ Functionality [60 points]:
 
         -date data source [5 points]:
 
-        -wordlist data source [30 points]:
+        -wordlist data source [25 points]:
 
     -Updated run-tests.sh script to run all tests [10 points]:
-
 
