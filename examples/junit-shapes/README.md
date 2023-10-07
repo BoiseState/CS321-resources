@@ -9,9 +9,21 @@ See RectangleTest and SquareTest for the JUnit unit tests.
 
 # Running JUnit
 
-JUnit can be simple to set up, provided you are careful.
+JUnit can be simple to set up, provided you are careful. Here is the user guide for JUnit5:[JUnit5 User Guide](https://junit.org/junit5/docs/snapshot/user-guide/)
 
-## In Intellij/Eclipse
+# In Eclipse
+
+Eclipse has JUnit support built-in so that a developer can easily run and debug tests. For example, to configure this project to run JUnit tests, do the following.
+
+
+* Right click on *Project* menu ->  *Properties* -> *Build Path*.
+* Choose *Libraries* -> *ClassPath* -> Add *Library...* -> Click on *JUnit* -> *Next*
+* Select *JUnit5* -> *Finish*.
+* Click *Apply and Close*
+
+To run a JUnit test, select *Run As* -> *JUnit Test*. That's it.
+
+## In Intellij
 
 Intellj and Eclipse integrate JUnit so that a developer can easily run and debug tests.
 They also provide nice documentation for that process. 
@@ -20,7 +32,9 @@ Intellij will even detect if you don't have the JUnit library
 downloaded, and will do it for you. 
 
 - [Intellij](https://www.jetbrains.com/help/idea/junit.html#intellij)
-- [Eclipse](https://www.eclipse.org/community/eclipse_newsletter/2017/october/article5.php)
+
+
+
 
 ## In VSCode
 
