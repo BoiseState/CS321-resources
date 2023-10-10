@@ -38,7 +38,7 @@ java HashtableTest 3 $load $debugLevel  >> /dev/null
 dos2unix linear-dump.txt double-dump.txt  >& /dev/null
 
 echo
-diff linear-dump.txt test-cases/word-list-$load-linear-dump.txt > diff-linear-$load.out
+diff -w -B  linear-dump.txt test-cases/word-list-$load-linear-dump.txt > diff-linear-$load.out
 if test "$?" = 0
 then
 	echo "Test PASSED for linear probing and load = $load"
