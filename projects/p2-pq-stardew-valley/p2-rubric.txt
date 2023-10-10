@@ -1,19 +1,10 @@
 Name:
 
-Grade: /100
+Grade: /90
 
 Rubric for the Stardew Valley using Priority Queue project
 
 Comments:
-
--Checkpoint [10 point]:
-	-The project files have been copied and set up properly:
-	-Study the provided files and ask questions:
-	-The Task class has been written:
-	-The MaxHeap class has been written:
-	-The MaxHeapTest class has at least been started:
-	-Play the Stardew Valley game (optional):
-
 
 -Submission
 	-Required files are not missing [return to student for fixing, if needed]:
@@ -34,7 +25,8 @@ Code design and style: [15 points]
 	-MaxHeap - grows by doubling the array using a private method:
 
 Functionality: [55 points]
-	-MaxHeapTest - appropriate unit test for MaxHeap class [10 points]:
+	-MaxHeapTest - appropriate unit tests for MaxHeap class [10 points]:
+
 	-Matches outputs for the six inputs in the test-cases subfolder [36 points]:
 		-in1/out1:
 		-in2/out2:
