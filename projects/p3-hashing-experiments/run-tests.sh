@@ -31,7 +31,11 @@ echo
 
 dos2unix test-cases/* >& /dev/null
 debugLevel=1
+<<<<<<< HEAD
 load=0.5
+=======
+load = 0.5
+>>>>>>> 06c015d17861415ae4cd17a8dc07c8e8d11d7ab9
 
 echo "Running java HashtableTest dataSource = 3 loadFactor = $load "
 java HashtableTest 3 $load $debugLevel  >> /dev/null

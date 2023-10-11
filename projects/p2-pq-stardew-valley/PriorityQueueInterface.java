@@ -13,7 +13,7 @@ public interface PriorityQueueInterface {
      *
      * @param task - Task to enqueue
      */
-    public void enqueue(Object task);
+    public void enqueue(Task task);
 
     /**
      * Removes the front element from the list.

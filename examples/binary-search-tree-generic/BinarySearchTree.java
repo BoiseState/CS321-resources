@@ -19,12 +19,12 @@ public class BinarySearchTree<T extends Comparable<T>>
      * @author amit
      *
      */
-    public class Node<S extends Comparable<S>> implements Comparable<Node<S>>
+    private class Node<S extends Comparable<S>> implements Comparable<Node<S>>
     {
-        Node<S> left;
-        Node<S> right;
-        Node<S> parent;
-        S key;
+        private Node<S> left;
+        private Node<S> right;
+        private Node<S> parent;
+        private S key;
 
         /**
          * Constructor for a node.

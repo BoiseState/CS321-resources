@@ -18,10 +18,10 @@ public class BinarySearchTree {
 	 *
 	 */
 	private class Node implements Comparable<Node> {
-		Node left;
-		Node right;
-		Node parent;
-		Integer key;
+		private Node left;
+		private Node right;
+		private Node parent;
+		private Integer key;
 
 		/**
 		 * Constructor for a node.
