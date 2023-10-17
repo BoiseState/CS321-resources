@@ -2,19 +2,11 @@ Team Name:
 
 Team Members:
 
-Grade: /150
+Grade: /135
 
 Rubric for the BTree group project
 
 Overall Comments:
-
--Checkpoint (15 points):
-	-Project repo has been setup and the instructor has been added to the repo.
-	-Reviewed and understood the DiskReadWrite.java example and gone through the project
-	 specifications and asked questions to get the big picture.
-	-Scrum stories have been developed and added as issues to GitHub project board.
-	-BTree interface has been developed and at least some of the unit tests have been written.
-	-Started developing BTree and BTreeNode classes.
 
 -Submission:
 	-Submitted all required files:
