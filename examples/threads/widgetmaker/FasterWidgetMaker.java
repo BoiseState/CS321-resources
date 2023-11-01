@@ -89,15 +89,23 @@ public class FasterWidgetMaker extends Thread
      * @param args
      * @throws InterruptedException
      */
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException
+    {
 
-	if (args.length != 1) {
-	    System.out.println("Usage: java WidgetMaker <number of widgets>");
+	final int DEFAULT_NUM_THREADS = 8;
+	if (args.length != 1 && args.length != 2) {
+	    System.out.println("Usage: java WidgetMaker <number of widgets> [<numThreads>]");
 	    System.exit(INCORRECT_ARGUMENTS);
 	}
 	int n = Integer.parseInt(args[0]);
-	// int numThreads = Runtime.getRuntime().availableProcessors();
-	int numThreads = 8;
+	int numThreads = 0;
+	if (args.length == 2) {
+	    numThreads = Integer.parseInt(args[1]);
+	} else {
+	    numThreads = DEFAULT_NUM_THREADS;
+	}
+	// or ask the system for the number of CPUs available!
+	//numThreads = Runtime.getRuntime().availableProcessors();
 
 	long startTime = System.currentTimeMillis();
 	createAndRunThreads(n, numThreads);
