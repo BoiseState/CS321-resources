@@ -29,4 +29,4 @@ Then run in parallel.
 time mergesort 30000000 -p 3
 ```
 
-This creates one thread for each recrsive call, up to 3 levels deep.
+This creates one thread for each recursive call, up to 3 levels deep.
