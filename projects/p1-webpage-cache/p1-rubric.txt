@@ -27,7 +27,7 @@ Documentation:
 Code design and style: 
 	-Cache class is defined to be generic, method signatures are correct: [10 points]
 
-	-The CacheTest class does not contain any of the Cache functionality 
+	-The CacheExperiment class does not contain any of the Cache functionality
 	(like keeping track of stats on hits/misses): [5 points]
 
 	-Other comments: 
