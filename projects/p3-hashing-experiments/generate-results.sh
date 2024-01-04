@@ -22,8 +22,8 @@ echo > results-random.txt
 for f in 0.5 0.6 0.7 0.8 0.9 0.95 0.99
 do
 	header "results-random.txt"
-	echo "Running java HashtableTest dataSource = 1 loadFactor = $f"
-	java HashtableTest 1 $f >> results-random.txt
+	echo "Running java HashtableExperiment dataSource = 1 loadFactor = $f"
+	java HashtableExperiment 1 $f >> results-random.txt
 	header "results-random.txt"
 	echo >> results-random.txt
 done
@@ -35,8 +35,8 @@ echo > results-date.txt
 for f in 0.5 0.6 0.7 0.8 0.9 0.95 0.99
 do
 	header "results-date.txt"
-	echo "Running java HashtableTest dataSource = 2 loadFactor = $f"
-	java HashtableTest 2 $f >> results-date.txt
+	echo "Running java HashtableExperiment dataSource = 2 loadFactor = $f"
+	java HashtableExperiment 2 $f >> results-date.txt
 	header "results-date.txt"
 	echo >> results-date.txt
 done
@@ -48,8 +48,8 @@ echo > results-word-list.txt
 for f in 0.5 0.6 0.7 0.8 0.9 0.95 0.99
 do
 	header "results-word-list.txt"
-	echo "Running java HashtableTest dataSource = 3 loadFactor = $f"
-	java HashtableTest 3 $f >> results-word-list.txt
+	echo "Running java HashtableExperiment dataSource = 3 loadFactor = $f"
+	java HashtableExperiment 3 $f >> results-word-list.txt
 	header "results-word-list.txt"
 	echo >> results-word-list.txt
 done
