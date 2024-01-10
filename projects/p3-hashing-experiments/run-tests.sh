@@ -14,10 +14,10 @@ echo "Compiling the source code"
 echo
 javac *.java
 
-if ! test -f HashtableTest.class
+if ! test -f HashtableExperiment.class
 then
 	echo
-	echo "HashtableTest.class not found! Not able to test!! "
+	echo "HashtableExperiment.class not found! Not able to test!! "
 	echo
 	exit 1
 fi
@@ -33,8 +33,8 @@ dos2unix test-cases/* >& /dev/null
 debugLevel=1
 load=0.5
 
-echo "Running java HashtableTest dataSource = 3 loadFactor = $load "
-java HashtableTest 3 $load $debugLevel  >> /dev/null
+echo "Running java HashtableExperiment dataSource = 3 loadFactor = $load "
+java HashtableExperiment 3 $load $debugLevel  >> /dev/null
 dos2unix linear-dump.txt double-dump.txt  >& /dev/null
 
 echo
