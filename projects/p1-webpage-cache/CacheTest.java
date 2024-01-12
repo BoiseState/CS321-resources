@@ -31,7 +31,7 @@ class CacheTest {
 
     /**
      * Add some objects and then call get() to retrieve one.
-     * Cache is never full.
+     * In this test, the cache still has capacity left to add more elements.
      */
     @Test
     void getNotFull() {
