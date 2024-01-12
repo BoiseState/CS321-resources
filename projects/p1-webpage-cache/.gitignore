@@ -1,6 +1,5 @@
 .classpath
 .project
 togo/
-test-cases/
 *.class
 out*
