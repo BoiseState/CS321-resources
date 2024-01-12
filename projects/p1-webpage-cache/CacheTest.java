@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Black-box unit tests for the Cache class.
+ * Black-box unit tests for the Cache class. 
+ * See the Wikipedia page <a href="https://en.wikipedia.org/wiki/Black-box_testing">black-box testing</a> for more information.
  *
  * @author CS321 Instructors
  */
