@@ -37,19 +37,21 @@ Code design and style [10 points]:
     -Separate TwinPrime Generator class:
 
 
-Functionality [60 points]:
+Functionality [55 points]:
 
-	-HashtableTest class prints usage message when invoked without command line arguments [5 points]:
+	-HashtableExperiment class prints usage message when invoked without command line arguments [5 points]:
 
 	-The debug levels show approriate debug messages [5 points]
 
-    -The results match what is expected for the given input types [40 points]:
+    -The results match what is expected for the given input types [25 points]:
 
         -random data source [5 points]:
 
         -date data source [5 points]:
 
-        -wordlist data source [25 points]:
+        -wordlist data source [15 points]:
 
     -Updated run-tests.sh script to run all tests [10 points]:
+
+    -Connected to AWS and supplied screenshot of tests running [10 points]:
 
