@@ -18,7 +18,7 @@ class CacheTest {
      * Simple test of adding/getting.
      */
     @Test
-    void addObject() {
+    void testAddObject() {
 
         cache = new Cache<>(100);
 
@@ -35,7 +35,7 @@ class CacheTest {
      * In this test, the cache still has capacity left to add more elements.
      */
     @Test
-    void getNotFull() {
+    void testGetNotFull() {
 
         cache = new Cache<>(100);
 
@@ -61,7 +61,7 @@ class CacheTest {
      * Ensure one of the objects is kicked out when the cache is filled up.
      */
     @Test
-    void getFull() {
+    void testGetFull() {
 
         cache = new Cache<>(4);
 
@@ -85,7 +85,7 @@ class CacheTest {
      * Tests that the right object is removed when the cache becomes full.
      */
     @Test
-    void lru() {
+    void testLRU() {
 
         cache = new Cache<>(4);
 
@@ -107,7 +107,7 @@ class CacheTest {
      * remains in the Cache after adding another.
      */
     @Test
-    void mru() {
+    void testMRU() {
 
         cache = new Cache<>(3);
 
@@ -134,7 +134,7 @@ class CacheTest {
      * When the cache is cleared, there should be nothing in it!
      */
     @Test
-    void clearCache() {
+    void testClearCache() {
 
         cache = new Cache<>(100);
 
