@@ -41,7 +41,7 @@ Functionality [55 points]:
 
 	-HashtableExperiment class prints usage message when invoked without command line arguments [5 points]:
 
-	-The debug levels show approriate debug messages [5 points]
+	-The debug levels show appropriate debug messages [5 points]
 
     -The results match what is expected for the given input types [25 points]:
 
