@@ -37,7 +37,7 @@ public class MemoryVersusDisk {
 	 * system specific command to avoid memory buffer used by the operating system
 	 * that masks the slowness of disk access. 
 	 * 
-	 * The char type uses 2 bytes whereas in uses 4 bytes, so we make an array of 
+	 * The char type uses 2 bytes whereas int uses 4 bytes, so we make an array of
 	 * 2*n char here to match the n int array in the memory test.
 	 * 
 	 * @param n number of accesses to try.
@@ -117,13 +117,13 @@ public class MemoryVersusDisk {
 		int n = 1024; // do this many operations
 		
 		runMemoryTest(n);
-	    System.out.printf("time for memory access = %d microseconds\n", memorySpeed);
+	    System.out.printf("time for memory access = %d milliseconds\n", memorySpeed);
 		
 		runBufferedDiskTest(n);
-        System.out.printf("time for buffered disk access = %d microseconds\n", diskBufferedSpeed);
+        System.out.printf("time for buffered disk access = %d milliseconds\n", diskBufferedSpeed);
 		
 		runDiskTest(n);
-        System.out.printf("time for disk access = %d microseconds\n", diskSpeed);
+        System.out.printf("time for disk access = %d milliseconds\n", diskSpeed);
         
         System.out.println("Raw disk access is " + diskSpeed/(double) memorySpeed + " times slower!");
 		
