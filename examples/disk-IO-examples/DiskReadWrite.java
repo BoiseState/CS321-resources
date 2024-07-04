@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-
-import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -279,21 +277,6 @@ public class DiskReadWrite {
             inorderTreeWalk(diskRead(x.left));
             System.out.println(x.key);
             inorderTreeWalk(diskRead(x.right));
-        }
-    }
-
-    public ArrayList<Long> arrayWalk() throws IOException {
-        ArrayList<Long> result = new ArrayList<>();
-
-        arrayWalk(root, result);
-        return result;
-    }
-
-    private void arrayWalk(Node x, ArrayList<Long> result) throws IOException {
-        if (x != null) {
-            arrayWalk(diskRead(x.left), result);
-            result.add(x.key.getValue());
-            arrayWalk(diskRead(x.right), result);
         }
     }
 
