@@ -11,7 +11,7 @@ import java.math.*;
  */
 public class BigPowerTest
 {
-	private static final boolean DEBUG = false;
+	private static final boolean DEBUG = true;
 
     /**
      * The main driver to run the experiment.
@@ -32,9 +32,9 @@ public class BigPowerTest
         if (DEBUG) System.out.println(result1);
         System.err.println("time taken for version 1 = " + totalTime + " milliseconds\n");
 
-         startTime = System.currentTimeMillis();
+        startTime = System.currentTimeMillis();
         BigInteger result2 = BigPower.power_recursive_doubling(x, n);
-         totalTime = System.currentTimeMillis() - startTime;
+        totalTime = System.currentTimeMillis() - startTime;
         if (DEBUG) System.out.println(result2);
         System.err.println("time taken for version 2 = " + totalTime + " milliseconds\n");
 
