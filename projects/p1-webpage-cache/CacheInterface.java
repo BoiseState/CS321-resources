@@ -1,7 +1,6 @@
 /**
  * TODO - complete the summary javadoc for the class here.
  * @author CS321 Instructors
- * @author <yourname>
  */
 
 public interface CacheInterface<K, V extends KeyInterface<K>> {
