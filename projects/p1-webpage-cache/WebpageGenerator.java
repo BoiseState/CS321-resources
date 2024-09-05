@@ -3,8 +3,8 @@ import java.util.Random;
 /**
  * Web page generator that creates a list of web pages with a Gaussian (aka
  * <a href="https://www.scribbr.com/statistics/normal-distribution/">Normal</a>) distribution. 
- * This means that some web pages are generated more often than others -- like some pages on a 
- * web site are visited a lot more often.
+ * This means that some web pages are generated more often than others -- which is just like 
+ * some pages on a web site are visited a lot more often.
  *
  * @author CS321 instructors
  */
@@ -29,8 +29,18 @@ public class WebpageGenerator {
     public WebpageGenerator(int numberWebpages, double standardDeviation) {
         this.numberWebpages = numberWebpages;
         this.standardDeviation = standardDeviation;
+        
+        int mean = numberWebpages/2;
+        if (mean < 3 * standardDeviation) {
+            System.err.println("Warning! The standard deviation specified is less than 3 times the mean page number,\n"
+            	+ "\t which (number of web pages)/2 (because the page number range is [1..number-of-web-pages]).\n"
+            	+ "\t This will cause a significant amount of the generated data to not be usable, \n"
+            	+ "\t which causes the simulation to be less realistic. \n"
+            	+ "\t Please specify a smaller standard deviation to make the results be more useful.\n");
+            
+        }
 
-        // All generated web pages are stored in Webpage array
+        // All generated web pages are stored in the Webpage array
         webpageDatabase = new Webpage[numberWebpages + 1];
         // To keep track of number of times a page is looked up
         webpageDatabasePings = new int[numberWebpages + 1];
