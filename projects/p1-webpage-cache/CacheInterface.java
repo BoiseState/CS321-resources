@@ -11,29 +11,29 @@ public interface CacheInterface<K, V extends KeyInterface<K>> {
      * @param key
      * @return
      */
-    V get(K key);
+    public V get(K key);
 
     /**
      * TODO - complete the javadoc here
      * @param value
      * @return
      */
-    V add(V value);
+    public V add(V value);
 
     /**
      * TODO - complete the javadoc here
      * @param key
      * @return
      */
-    V remove(K key);
+    public V remove(K key);
 
     /**
      * TODO - complete the javadoc here
      */
-    void clear();
+    public void clear();
 
     /**
      * {@inheritDoc} 
      */
-    String toString();
+    public String toString();
 }

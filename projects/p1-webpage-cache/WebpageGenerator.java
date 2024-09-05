@@ -1,7 +1,10 @@
 import java.util.Random;
 
 /**
- * Webpage Generator creates a list of Webpages with a Gaussian distribution.
+ * Web page generator that creates a list of web pages with a Gaussian (aka
+ * <a href="https://www.scribbr.com/statistics/normal-distribution/">Normal</a>) distribution. 
+ * This means that some web pages are generated more often than others -- like some pages on a 
+ * web site are visited a lot more often.
  *
  * @author CS321 instructors
  */
@@ -18,18 +21,18 @@ public class WebpageGenerator {
     private final int MS_DELAY = 2;
 
     /**
-     * Generates the Webpages.
+     * Generates the web pages.
      *
-     * @param numberWebpages    - number of Webpages to generate
+     * @param numberWebpages    - number of web pages to generate
      * @param standardDeviation - standard deviation to use
      */
     public WebpageGenerator(int numberWebpages, double standardDeviation) {
         this.numberWebpages = numberWebpages;
         this.standardDeviation = standardDeviation;
 
-        // All generated Webpages stored in Webpage array
+        // All generated web pages are stored in Webpage array
         webpageDatabase = new Webpage[numberWebpages + 1];
-        // Tally counter
+        // To keep track of number of times a page is looked up
         webpageDatabasePings = new int[numberWebpages + 1];
 
         rand = new Random();
@@ -37,39 +40,52 @@ public class WebpageGenerator {
     }
 
     /**
-     * Generates the Webpages.
+     * Generates the web pages.
      *
-     * @param numberWebpages    - number of websites to generate
+     * @param numberWebpages    - number of web pages to generate
      * @param standardDeviation - standard deviation to use
      * @param seed              - seed (optional)
      */
     public WebpageGenerator(int numberWebpages, double standardDeviation, long seed) {
-	//call the other constructor first
+        //call the other constructor first
         this(numberWebpages, standardDeviation);
         rand = new Random(seed);
     }
 
     /**
-     * Gets a URL to load.
+     * Gets a URL to load. URLs are generated using the Gaussian distribution.
      *
      * @return websiteURL - URL to load
      */
     public String getURL() {
-        double tempNumber = (rand.nextGaussian() * standardDeviation) + (numberWebpages / 2);
-        int webInt = (int) tempNumber;
+	//Note that Gaussian (or normal) distribution has a mean of 0.0 and a standard deviation of 1.0 so
+	//we will get negative values. If the page numbers range from 0 to 99, we want to generate
+	//page numbers with a mean of 50 and +- stddev. The issue is that we can still get a few outliers
+	//on both the negative and positive sides. We will ignore them as it will not affect the overall 
+	//distribution in any significant way.
+	
+	int webInt = -1;
+	while (webInt < 0 || webInt > numberWebpages) {
+	    double nextRandom = rand.nextGaussian() * standardDeviation;
+	    double nextPage = nextRandom + (numberWebpages / 2);
+	    webInt = (int) nextPage;
+	}
+        
+       
+            
         String websiteURL = "https://someserver.com/page" + webInt;
-        // Tallies ping for the Webpage occurrence
+        // Increment lookups for the Webpage occurrence
         webpageDatabasePings[webInt]++;
         return websiteURL;
     }
 
     /**
-     * Reads a Webpage.
+     * Reads a web page.
      *
      * @param url - the URL of new Webpage
      */
     public Webpage readPage(String url) {
-        // 2ms delay for reading a new Webpage to simulate reading a file
+        // 2ms delay for reading a new Webpage to simulate reading a file from disk
         try {
             Thread.sleep(MS_DELAY);
         } catch (InterruptedException e) {
@@ -86,20 +102,22 @@ public class WebpageGenerator {
         }
         return tempWebby;
     }
+    
 
     /**
-     * Gets the page number of that Webpage.
+     * Get the page number of a web page specified by its URL.
      *
      * @param url - a Webpage's URL
-     * @return the page number of that Webpage
+     * @return the page number of that web page
      */
     public int getPage(String url) {
         String pageNumString = url.substring(PAGE_NUMBER_INDEX);
         return Integer.parseInt(pageNumString);
     }
+    
 
     /**
-     * Gets the content of a Webpage based on its page number.
+     * Get the content of a web page based on its page number.
      *
      * @param pageNum - a Webpage's number
      * @return Lorem Ipsum content for that Webpage
@@ -107,9 +125,10 @@ public class WebpageGenerator {
     public String loadContent(int pageNum) {
         return lorem.getLoremIpsum(pageNum);
     }
+    
 
     /**
-     * Prints out each Webpage.
+     * Prints out each web page.
      */
     public void printWebpages(int debugLevel) {
         for (int i = 1; i < webpageDatabase.length; i++) {
@@ -122,16 +141,18 @@ public class WebpageGenerator {
                 if (debugLevel == 3) {
                     System.out.println(temp.getWebpageURL() + ":" + temp.getWholeWebpageContent());
                 }
+                System.out.println();
             }
         }
     }
+    
 
     /**
-     * Prints out the frequency of the Webpages for debugging.
+     * Prints out the frequency distribution of the web pages for debugging.
      */
     public void getWebpageDatabasePings() {
         for (int i = 1; i < webpageDatabasePings.length; i++) {
-            // Skips non-pinged entries
+            // Skips non-looked up Webpages
             if (webpageDatabasePings[i] != 0) {
                 System.out.println("[../page" + i + "]: " + webpageDatabasePings[i]);
             }
