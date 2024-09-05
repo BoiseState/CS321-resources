@@ -70,8 +70,6 @@ public class WebpageGenerator {
 	    double nextPage = nextRandom + (numberWebpages / 2);
 	    webInt = (int) nextPage;
 	}
-        
-       
             
         String websiteURL = "https://someserver.com/page" + webInt;
         // Increment lookups for the Webpage occurrence
