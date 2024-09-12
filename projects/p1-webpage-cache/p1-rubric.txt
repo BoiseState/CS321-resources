@@ -40,11 +40,11 @@ Functionality: [60 points]
 
 	-Calculates cache hits/misses correctly for all eight sample files: 
 
-		-Results match on all data files: [45 points]
+		-Results match on all tests [45 points]
 
-		-Results are off on one data file: [30 points]
+		-Results are off on one or two tests: [30 points]
 
-		-Results are off on two data files: [15 points] 
+		-Results are off on three or more tests: [15 points] 
 	
 
 
