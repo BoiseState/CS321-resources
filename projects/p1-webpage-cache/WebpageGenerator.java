@@ -19,6 +19,9 @@ public class WebpageGenerator {
 
     private final int PAGE_NUMBER_INDEX = 27;
     private final int MS_DELAY = 2;
+    
+    private final int DISPLAY_SUMMARY = 2;
+    private final int DISPLAY_FULL = 3;
 
     /**
      * Generates the web pages.
@@ -135,18 +138,21 @@ public class WebpageGenerator {
     }
     
 
+    
     /**
-     * Prints out each web page.
+     * Print out the web pages using the debug level parameter. 
+     * @param debugLevel  DISPLAY_SUMMARY prints summary of each web page
+     *                    DISPLAY_FULL prints full contents of each web page
      */
     public void printWebpages(int debugLevel) {
         for (int i = 1; i < webpageDatabase.length; i++) {
             // Skips non-existent entries
             if (webpageDatabase[i] != null) {
                 Webpage temp = webpageDatabase[i];
-                if (debugLevel == 2) {
+                if (debugLevel == DISPLAY_SUMMARY) {
                     System.out.println(temp.getWebpageURL() + ":" + temp.getSummarizedWebpageContent());
                 }
-                if (debugLevel == 3) {
+                if (debugLevel == DISPLAY_FULL) {
                     System.out.println(temp.getWebpageURL() + ":" + temp.getWholeWebpageContent());
                 }
                 System.out.println();
