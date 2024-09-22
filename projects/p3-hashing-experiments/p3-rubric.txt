@@ -53,5 +53,5 @@ Functionality [55 points]:
 
     -Updated run-tests.sh script to run all tests [10 points]:
 
-    -Connected to AWS and supplied screenshot of tests running [10 points]:
+    -Connected to the AWS cloud and supplied screenshot of tests running on AWS [10 points]:
 
