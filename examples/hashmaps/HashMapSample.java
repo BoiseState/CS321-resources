@@ -46,7 +46,6 @@ public class HashMapSample
         if (designDictionary.containsKey(key)) {
             Integer value = designDictionary.get(key);
             System.out.println("value or key " + key + " is: " + value);
-            ;
         }
     }
 

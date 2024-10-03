@@ -48,7 +48,6 @@ public class LinkedHashMapSample
         if (designDictionary.containsKey(key)) {
             Integer value = designDictionary.get(key);
             System.out.println("value or key " + key + " is: " + value);
-            ;
         }
     }
 
