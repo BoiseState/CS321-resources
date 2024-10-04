@@ -75,6 +75,10 @@ Compile the code with
 
     javac -cp .:junit-platform-console-standalone-1.11.2.jar *.java
 
+(you may need to use `./` in front of junit so the system can look for the jar file in the current
+folder).
+
+
 and run it with
 
     java -jar junit-platform-console-standalone-1.11.2.jar execute --class-path . --select-class RectangleTest
