@@ -65,7 +65,7 @@ within, therefore allowing running and debugging within VSCode.
 
 The easiest way to set up JUnit testing in your terminal
 is by using the JUnit standalone test JAR file, found
-[here.](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.11.0/junit-platform-console-standalone-1.11.0.jar)
+[here.](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.11.2/junit-platform-console-standalone-1.11.2.jar)
 
 
 Simply download this jar and put it in the same directory 
@@ -73,11 +73,11 @@ as the Test class you want to run.
 
 Compile the code with 
 
-    javac -cp .:junit-platform-console-standalone-1.11.0.jar *.java
+    javac -cp .:junit-platform-console-standalone-1.11.2.jar *.java
 
 and run it with
 
-    java -jar junit-platform-console-standalone-1.11.0.jar execute --class-path . --select-class RectangleTest
+    java -jar junit-platform-console-standalone-1.11.2.jar execute --class-path . --select-class RectangleTest
 
 See more on running from the command line at this
 [tutorial website.](https://www.baeldung.com/junit-run-from-command-line)
