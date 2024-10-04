@@ -75,7 +75,7 @@ Compile the code with
 
     javac -cp .:junit-platform-console-standalone-1.11.2.jar *.java
 
-(you may need to use `./` in front of junit so the system can look for the jar file in the current
+(you may need to use `./` in front of `junit-` so the system will look for the jar file in the current
 folder).
 
 
