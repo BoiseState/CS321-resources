@@ -1,3 +1,4 @@
+package simple_inheritance_example;
 
 public abstract class Mammal {
 	protected String name;

@@ -1,3 +1,4 @@
+package simple_inheritance_example;
 
 public class Dog extends Mammal {
 
