@@ -4,7 +4,7 @@ First, we need the jar file that contains SQLite executable as well the JDBC cla
 version is provided in this folder and is named:
 
 ```
-sqlite-jdbc-3.36.0.3.jar
+sqlite-jdbc-3.46.1.3.jar
 ```
 
 This contains versions for MS Windows, Linux and Mac OS X. 
@@ -15,9 +15,11 @@ A sample program has been provided: `Sample.java`.  Compile and run it as follow
 
 ```
 >javac Sample.java
->java -classpath ".;sqlite-jdbc-3.36.0.3.jar" Sample   # in Windows
+>java -classpath ".;sqlite-jdbc-3.46.1.3.jar" Sample   # in Windows
+
 or
->java -classpath ".:sqlite-jdbc-3.36.0.3.jar" Sample   # in Mac or Linux
+
+>java -classpath ".:sqlite-jdbc-3.46.1.3.jar" Sample   # in Mac or Linux
 name = leo
 id = 1
 name = yui
