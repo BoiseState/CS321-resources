@@ -4,7 +4,7 @@ Team Members:
 
 Grade: /200
 
-Rubric for the BTree group project
+Rubric for the Bioinformatics-BTree group project
 
 Overall Comments:
 
@@ -19,52 +19,65 @@ Documentation:
 
 	-README-submission.md
 		-README-submission.md file has appropriate sections:
+
 	-Appropriate Javadoc and inline comments:
 
 Code design and style:
 
-First Deliverable - Due at the end of Project Week 2: [35 points]
-    - BTree.java diskRead and diskWrite completed: [10 points]
+First Deliverable - Due at the end of Project Week 2: [50 points]
 
-    - GeneBankFileReader complete and tested with simple gbk file: [10 points]
+    -BTree.java constructor, insert, diskRead and diskWrite completed:
+	-BTreeTest --> testCreate, testCreateDegree, testInsertOneKey should 
+	               be passing: [15 points]
 
-    - Team meeting with the instructor: [5 points]
+    -GeneBankFileReader complete and tested with simple gbk file: [15 points]
+
+    -Team meeting with the instructor: [10 points]
 
     -Evidence of teamwork: [10 points]
     		-Evidence: scrum board, project log, evaluation by teammates via surveys
 
 
-Second Deliverable - Due at the end of Project Week 4: [35 points]
-    - GeneBankSearchDatabase complete and tested: [10 pts]
+Second Deliverable - Due at the end of Project Week 4: [50 points]
 
-    - BTreeTest has all tests passing: [10 points]
+    -GeneBankSearchDatabase complete and tested: [10 pts]
 
-    - GeneBankCreateBTree complete: [10 points]
+    -BTreeTest has all tests passing: [20 points]
 
-    -Evidence of teamwork: [5 points]
+    -GeneBankCreateBTree complete: [10 points]
+
+    -Evidence of teamwork: [10 points]
     		-Evidence: scrum board, project log, evaluation by teammates via surveys
 
 
-Final Deliverable - Due at the end of Project Week 5 [130 points]
+Final Deliverable - Due at the end of Project Week 5 [100 points]
 
-    Functionality: [90 points]
-        -GeneBankCreateBtree functionality: [30 points]
+    Functionality: [50 points]
+        -GeneBankCreateBtree functionality completed: [15 points]
 
-        -GeneBankSearchBtree functionality: [15 points]
+        -GeneBankSearchBtree functionality completed: [10 points]
 
-        -SQLite Database creation and search: [15 points]
+        -SQLite Database creation and search: [10 points]
 
         -Used Cache to improve speed: [15 points]
 
-    Teamwork: [40 points]
+    Teamwork: [50 points]
         -Filled out weekly progress reports/surveys x 5: [15 points]
 
-        -Evidence of teamwork: [25 points]
-            -Evidence: scrum board, project log, evaluation by teammates via surveys
+		-Evidence of teamwork: [35 points]
+         	-scrum board, project log, evaluation by teammates via surveys
 
         -Lack of contribution from a team member can result in a penalty of up to a 100% in
          project 4. This will be handled separately between the instructor and the team.
 
-Extra Credit: [10 points]
-	-Used AWS to run hs_ref_chrY.gbk (submit a screenshot of AWS console and the terminal on your AWS instance
-	 running the BTree create script):
+		-Extra Credit: [10 points]
+	      Used AWS to run hs_ref_chrY.gbk (submit a screenshot of AWS console and the
+	      terminal on your AWS instance running the BTree create script):
+
+
+    Redux: 
+		-If your team did not finish parts of the first two checkpoints but you finish
+		 them by the final submission, you will get 50% of the points lost in the grade
+		 for those parts in the first two checkpoints.
+
+
