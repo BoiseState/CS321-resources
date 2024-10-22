@@ -24,7 +24,8 @@ Documentation:
 
 Code design and style: 
 
-Functionality: [90 points]
+Functionality: 
+
 First Deliverable - Due at the end of Project Week 2: [50 points]
 
     -BTree.java constructor, insert, diskRead and diskWrite completed:
@@ -71,7 +72,7 @@ Teamwork: [50 points]
 
 Redux:
 	-If your team did not finish parts of the first two checkpoints but you finish them by
-	 the final submission, you will get 50% of the points lost in the grade for those parts
-	 int the first two checkpoints.
+	 the final submission, you will get 50% of the points lost in the grade for the first
+	 two checkpoints.
 
 
