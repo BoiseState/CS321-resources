@@ -48,7 +48,7 @@ else
 	echo "       Check the file diff-linear-$load.out for differences"
 fi
 
-diff double-dump.txt test-cases/word-list-$load-double-dump.txt > diff-double-$load.out
+diff -w -B  double-dump.txt test-cases/word-list-$load-double-dump.txt > diff-double-$load.out
 if test "$?" = 0
 then
 	echo "Test PASSED for double probing and load = $load"

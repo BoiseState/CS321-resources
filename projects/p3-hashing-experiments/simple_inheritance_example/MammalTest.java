@@ -13,7 +13,7 @@ public class MammalTest {
 			Mammal m = dog1;
 			System.out.println("MammalTest: " + m.speak());
 			
-			m = cat1; //polymorphism
+			m = cat1;
 			System.out.println("MammalTest: " + m.speak());
 	}
 
