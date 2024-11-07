@@ -10,6 +10,7 @@
 public class TreeObject implements Comparable<TreeObject> {
 	private long value;
 	private long frequency;
+	public static final int BYTES = Long.BYTES * 2;
 	
 	public TreeObject(long value, long frequency) {
 		super();
@@ -20,10 +21,6 @@ public class TreeObject implements Comparable<TreeObject> {
 	public long getValue() { return value;}
 	public long getFrequency() {return frequency;}
 	
-	public static int getDiskSize() {
-		return Long.BYTES * 2;
-	}
-
 	@Override
 	public int compareTo(TreeObject other) {
 		if (value < other.value)

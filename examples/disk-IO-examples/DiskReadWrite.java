@@ -54,9 +54,7 @@ public class DiskReadWrite {
      */
     @SuppressWarnings("resource")
     public DiskReadWrite(File fileName) throws IOException {
-        
-        Node r = new Node(null, false); //dummy root node, not on disk
-        nodeSize = r.getDiskSize();
+        nodeSize = Node.BYTES;
         buffer = ByteBuffer.allocateDirect(nodeSize);
 
         try {
@@ -90,6 +88,11 @@ public class DiskReadWrite {
         private TreeObject key;
         private boolean leaf; 
         private long parent, left, right; //these are byte offsets in the data file
+        /**
+         * Calculate the size of a node as stored on disk (in bytes). We will store boolean 
+         * as 1 byte as its size is not defined in Java
+         */
+        public static final int BYTES = Integer.BYTES + TreeObject.BYTES + 1 + 3 * Long.BYTES;
 
         public Node(TreeObject key, boolean onDisk) {
             n = 0;
@@ -100,18 +103,7 @@ public class DiskReadWrite {
                 address = nextDiskAddress;
                 nextDiskAddress += nodeSize;  //update pointer for next node on disk
             }
-        }
-        
-        /**
-         * Calculate the size of a node as stored on disk (in bytes).
-         * 
-         * @return the size of a node on disk
-         */
-        public int getDiskSize() {
-            // We will store boolean as 1 byte as its size is not defined in Java
-            return Integer.BYTES + TreeObject.getDiskSize() + 1 + 3 * Long.BYTES;
-
-        }
+        }   
     }
 
 
