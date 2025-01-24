@@ -43,7 +43,7 @@ of its decentralized and plugin based build tools.
 
 If setting up VSCode for the first time, use [this guide](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java)
 to configure VSCode properly. Basically, just make sure that VSCode is using the official 
-Java Coding or Extension Pack from Microsoft.
+Java Coding or "Extension Pack for Java" from Microsoft.
 
 When configured, proceed with the below:
 
@@ -52,13 +52,21 @@ When configured, proceed with the below:
 2. Click "Enable Java Tests"
 3. When prompted, select JUnit Jupiter from the list of libraries
 
-If this doesn't work the first time, try right-clicking on the project in VSCode, 
-and selecting "Clean Workspace"
-
 When configured properly, the Testing Tab (the beaker icon) will show each test class and each test case
 within, therefore allowing running and debugging within VSCode.
 
 ![TestingConfigured.png](resources/TestingConfigured.png)
+
+### Troubleshooting Tips for VSCode
+
+If you have followed the above and VSCode still shows that org.junit
+can't be found or other issues, troubleshoot using the following
+steps before contacting the instructor:
+
+1. Select "Clean Workspace" from the "Java Projects" menu. Follow the steps above.
+![CleanWorkspace.png](resources/CleanWorkspace.png)
+2. If that didn't work, uninstall the plugin "Extension Pack for Java". Then, install "Extension Pack for Java". Follow the steps above.
+3. If that didn't work, review the Extensions menu to ensure there are no other Java extensions installed. If there are, uninstall them. Follow the steps above.
 
 
 ## From the Terminal
