@@ -1,6 +1,6 @@
 Name:
 
-Grade: /90
+Grade: /80
 
 Rubric for the Stardew Valley using Priority Queue project
 
@@ -17,17 +17,17 @@ Documentation: [20 points]
 	-Javadoc for all methods:
 	-Appropriate but not excessive inline comments:
 
-Code design and style: [15 points]
+Code design and style: [10 points]
 	-Appropriate variable and method names:
 	-Appropriate code style:
 	-Interfaces - all provided interfaces were implemented:
 	-Inheritance - MyPriorityQueue class extends MaxHeap class appropriately:
 	-MaxHeap - grows by doubling the array using a private method:
 
-Functionality: [55 points]
-	-MaxHeapTest - appropriate unit tests for MaxHeap class [10 points]:
+Functionality: [50 points]
+	-MaxHeapTest - appropriate unit tests for MaxHeap class [20 points]:
 
-	-Matches outputs for the six inputs in the test-cases subfolder [36 points]:
+	-Matches outputs for the six inputs in the test-cases subfolder [5 x 6 = 30 points]:
 		-in1/out1:
 		-in2/out2:
 		-in3/out3:
