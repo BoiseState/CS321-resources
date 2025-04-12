@@ -41,16 +41,6 @@ Second Deliverable - Due at the end of Project Week 4: [40 points]
 Final Deliverable - Due at the end of Project Week 5 [100 points]
 
 
-Documentation:
-	Documentation is a normal professional expectation so their are no points for doing
-	it! However, you may lose up to 25 points for not doing it properly.
-
-	-README-submission.md 
-		-README-submission.md file has appropriate sections filled out:
-
-	-Appropriate Javadoc and inline comments:
-
-	-Code design and style: 
 
 Functionality: [70 points]
 
@@ -76,6 +66,17 @@ Teamwork: [50 points]
 
 	-Lack of contribution from a team member can result in a penalty of up to a 100% in
 	 project 4. This will be handled separately between the instructor and the team.
+
+Documentation:
+	Documentation is a normal professional expectation so their are no points for doing
+	it! However, you may lose up to 25 points for not doing it properly.
+
+	-README-submission.md 
+		-README-submission.md file has appropriate sections filled out:
+
+	-Appropriate Javadoc and inline comments:
+
+	-Code design and style: 
 
 Redux:
 	-If your team did not finish parts of the first two checkpoints but you finish them by
