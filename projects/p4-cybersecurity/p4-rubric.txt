@@ -11,61 +11,68 @@ Overall Comments:
 -Submission:
 	-Submitted all required files:
 	-Did not submit unnecessary files (such as .class files, result files and dumps). In particular,
-	 please remove the results folder and all your BTree binary and dump files.
+	 please remove the results folder and all of your BTree binary and dump files.
 
-Documentation: 
-	-Documentation is a normal professional expectation so their are no points for it
-	 for doing it! However, you may lose up to 25 points for not doing it properly.
-
-	-README-submission.md 
-		-README-submission.md file has appropriate sections:
-
-	-Appropriate Javadoc and inline comments:
-
-Code design and style: 
 
 Functionality: 
 
-First Deliverable - Due at the end of Project Week 2: [50 points]
+First Deliverable - Due at the end of Project Week 2: [40 points]
 
     -BTree.java constructor, insert, diskRead and diskWrite completed:
 	-BTreeTest --> testCreate, testCreateDegree, testInsertOneKey should 
 	               be passing: [15 points]
 
-    -SSHSearchDatabase written and tested with fake data: [15 pts]
+    -SSHSearchDatabase written and tested with dummy data: [15 pts]
 
-    -Team meeting with the instructor: [10 points]
+    -Team meeting with the instructor: [5 points]
 
-    -Evidence of teamwork: [10 points]
+    -Evidence of teamwork: [5 points]
     	-Evidence: scrum board, project log (should have some entries by now), evaluation by teammates via surveys
 
-Second Deliverable - Due at the end of Project Week 4: [50 points]
+Second Deliverable - Due at the end of Project Week 4: [40 points]
 	
     -BTreeTest has all tests passing: [20 points]
 
-	-SSHCreateBtree has been written: [20 points]
+	-SSHCreateBtree has been written: [10 points]
 
     -Evidence of teamwork: [10 points]
     	-Evidence: scrum board, project log (should have more entries), evaluation by teammates via surveys
 
 Final Deliverable - Due at the end of Project Week 5 [100 points]
 
-	-SQLite Database creation from the BTree class: [15 points]
 
-	-SSHSearchBtree functionality complete: [10 points]
+Documentation:
+	Documentation is a normal professional expectation so their are no points for doing
+	it! However, you may lose up to 25 points for not doing it properly.
+
+	-README-submission.md 
+		-README-submission.md file has appropriate sections filled out:
+
+	-Appropriate Javadoc and inline comments:
+
+	-Code design and style: 
+
+Functionality: [70 points]
+
+    -Integration testing: 
+		-create-btrees.sh, search-btrees.sh, and search-db.sh are working and producing appropriate
+		 output 
+		-check-dump-files.sh is passing: [20 points]
+		-check-btree-search.sh is passing: [15 points]
+		-check-db-search.sh is passing: [15 points]
 
 	-Used Cache to improve speed: [15 points]
 
-	-[Extra Credit] Write and test the data wrangler program in Java [20 points]:
-
 	-Used AWS to run tests (submit a screenshot of AWS console and the terminal on your AWS instance
-	 running the BTree create script): [10 points] [Required!]
+	 running the BTree create script): [5 points] [Required!]
+
+	-[Extra Credit] Write and test the data wrangler program in Java [20 points]:
 
 Teamwork: [50 points]
 	-Filled out weekly progress reports/surveys x 5: [15 points] [Required!]
 
 	-Evidence of teamwork: [35 points]
-		-Evidence: scrum board, project log, evaluation by teammates via surveys
+		-Evidence: scrum board, project log, evaluation by teammates via surveys:
 
 	-Lack of contribution from a team member can result in a penalty of up to a 100% in
 	 project 4. This will be handled separately between the instructor and the team.
