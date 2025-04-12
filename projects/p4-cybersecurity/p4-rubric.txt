@@ -27,7 +27,7 @@ First Deliverable - Due at the end of Project Week 2: [40 points]
     -Team meeting with the instructor: [5 points]
 
     -Evidence of teamwork: [5 points]
-    	-Evidence: scrum board, project log (should have some entries by now), evaluation by teammates via surveys
+    	-Scrum board, project log (should have some entries by now), evaluation by teammates via surveys
 
 Second Deliverable - Due at the end of Project Week 4: [40 points]
 	
@@ -36,7 +36,7 @@ Second Deliverable - Due at the end of Project Week 4: [40 points]
 	-SSHCreateBtree has been written: [10 points]
 
     -Evidence of teamwork: [10 points]
-    	-Evidence: scrum board, project log (should have more entries), evaluation by teammates via surveys
+    	-Scrum board, project log (should have more entries), evaluation by teammates via surveys
 
 Final Deliverable - Due at the end of Project Week 5 [70 points]
 
@@ -63,7 +63,7 @@ Teamwork: [50 points]
 	-Filled out weekly progress reports/surveys x 5: [15 points] [Required!]
 
 	-Evidence of teamwork: [35 points]
-		-Evidence: scrum board, project log, evaluation by teammates via surveys:
+		-Scrum board, project log, evaluation by teammates via surveys:
 
 	-Lack of contribution from a team member can result in a penalty of up to a 100% in
 	 project 4. This will be handled separately between the instructor and the team.
@@ -71,10 +71,9 @@ Teamwork: [50 points]
 
 Documentation:
 	Documentation is a normal professional expectation so their are no points for doing
-	it! However, you may lose up to 25 points for not doing it properly.
+	it! However, you may lose up to 25 points for not doing it properly. Here is what expect:
 
-	-README-submission.md 
-		-README-submission.md file has appropriate sections filled out:
+	-README-submission.md file has appropriate sections filled out:
 
 	-Appropriate Javadoc and inline comments:
 
