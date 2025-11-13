@@ -13,7 +13,9 @@ Public resources for CS 321 students. The repository contains three main resourc
  pip install git2md
 
  Then run the following command in the repository root:
-     git2md examples/ --ignore \"*.c\" \"*.h\" \"*.txt\" \"data*\" \"log*\" -o output.md
+
+    git2md examples/ --ignore \"*.c\" \"*.h\" \"*.txt\" \"data*\" \"log*\" \"resources\" \"*.jar\" \"*.db\" \"word-list*\" \"doc*\" -o output.md
+     
 
  This will create a file named output.md containing all the code examples in markdown format.
 
