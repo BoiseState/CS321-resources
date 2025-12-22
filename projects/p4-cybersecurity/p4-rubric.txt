@@ -1,8 +1,11 @@
 Team Name:
 
-Team Members:
-
-Grade: /200
+Team Member 1:
+    Grade: /200
+Team Member 2:
+    Grade: /200
+Team Member 3:
+    Grade: /200
 
 Rubric for the Cybersecurity-BTree group project
 
@@ -16,7 +19,7 @@ Overall Comments:
 
 Functionality: 
 
-First Deliverable - Due at the end of Project Week 2: [40 points]
+First Deliverable - Due at the end of Project Week 2: [50 points]
 
     -BTree.java constructor, insert, diskRead and diskWrite completed:
 	-BTreeTest --> testCreate, testCreateDegree, testInsertOneKey should 
@@ -24,33 +27,47 @@ First Deliverable - Due at the end of Project Week 2: [40 points]
 
     -SSHSearchDatabase written and tested with dummy data: [15 pts]
 
-    -Team meeting with the instructor: [5 points]
+    -Team meeting with the instructor: [10 points]
 
-    -Evidence of teamwork: [5 points]
+    -Evidence of teamwork: [10 points]
     	-Scrum board, project log (should have some entries by now), evaluation by teammates via surveys
+    
+    Team Member 1:
+        Grade: /10
+    Team Member 2:
+        Grade: /10
+    Team Member 3:
+        Grade: /10
 
-Second Deliverable - Due at the end of Project Week 4: [40 points]
+Second Deliverable - Due at the end of Project Week 4: [50 points]
 	
     -BTreeTest has all tests passing: [20 points]
 
-	-SSHCreateBtree has been written: [10 points]
+	-SSHCreateBtree has been written: [20 points]
 
     -Evidence of teamwork: [10 points]
     	-Scrum board, project log (should have more entries), evaluation by teammates via surveys
 
-Final Deliverable - Due at the end of Project Week 5 [70 points]
+    Team Member 1:
+        Grade: /10
+    Team Member 2:
+        Grade: /10
+    Team Member 3:
+        Grade: /10
+
+Final Deliverable - Due at the end of Project Week 5 [100 points]
 
     -Integration testing: 
 		-create-btrees.sh, search-btrees.sh, and search-db.sh are working and producing appropriate
 		 output 
-		-check-dump-files.sh is passing: [20 points]
-		-check-btree-search.sh is passing: [15 points]
-		-check-db-search.sh is passing: [15 points]
+		-check-dump-files.sh is passing: [15 points]
+		-check-btree-search.sh is passing: [5 points]
+		-check-db-search.sh is passing: [5 points]
 
-	-Used Cache to improve speed: [15 points]
+	-Used Cache to improve speed, and Cache Improved Speed: [15 points]
 
 	-Used AWS to run tests (submit a screenshot of AWS console and the terminal on your AWS instance
-	 running the BTree create script): [5 points] [Required!]
+	 running the BTree create script): [10 points] [Required!]
 
 	-[Extra Credit] Write and test the data wrangler program in Java [+20 points]:
 
@@ -69,6 +86,14 @@ Teamwork: [50 points]
 	 project 4. This will be handled separately between the instructor and the team.
 
 
+    Team Member 1:
+        Grade: /50
+    Team Member 2:
+        Grade: /50
+    Team Member 3:
+        Grade: /50
+
+
 Documentation:
 	Documentation is a normal professional expectation so their are no points for doing
 	it! However, you may lose up to 25 points for not doing it properly. Here is what expect:
@@ -78,6 +103,5 @@ Documentation:
 	-Appropriate Javadoc and inline comments:
 
 	-Code design and style: 
-
 
 
