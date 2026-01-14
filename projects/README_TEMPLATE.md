@@ -39,7 +39,7 @@ If you used any sources outside of the lecture notes, class lab files, or text b
 to list them here.
 
 In particular, explain what AI tool you used and how.  For example, if you used CoPilot to help
-you write a function, you need to say that here and include the exact prompt you used. for each
+you write a function, you need to say that here and include the exact prompt you used. For each
 project, you should only use the AI tools as instructed in the project.
 
 Finally, remove these instructions from your README.md after you are finished!
