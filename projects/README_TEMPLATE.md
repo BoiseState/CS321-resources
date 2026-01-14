@@ -33,12 +33,14 @@ about it to use it as quickly as possible?
 This section presents timing and other results of the experiments that 
 you were asked to perform as part of the project.
 
-## Sources used
+## Sources used (this is VERY important!)
 
-If you used any sources outside of the lecture notes, class lab files,
-or text book you need to list them here. If you looked something up on
-stackoverflow.com and fail to cite it in this section it will be
-considered plagiarism and be dealt with accordingly. So be safe CITE!
+If you used any sources outside of the lecture notes, class lab files, or text book you need
+to list them here.
+
+In particular, explain what AI tool you used and how.  For example, if you used CoPilot to help
+you write a function, you need to say that here and include the exact prompt you used. for each
+project, you should only use the AI tools as instructed in the project.
 
 Finally, remove these instructions from your README.md after you are finished!
 
