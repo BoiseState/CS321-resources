@@ -28,7 +28,7 @@ JFLAGS=
 # class files (with date no later than the source .java files).
 # We also must have satisfied the rule named doc.
 
-compile: InsertionSort.class InsertionSortTest.class NativeTiming.class 
+compile: InsertionSort.class InsertionSortTest.class 
 
 # Run javadoc on all hava source files in this directory.
 # This rule depends upon the rule named html, which makes the
