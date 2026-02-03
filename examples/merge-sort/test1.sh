@@ -10,7 +10,7 @@ do
 	echo
 	echo "Starting test for " $size " elements"
 	echo
-	for cutoff in  10 20 30 40 50 100 200 500
+	for cutoff in  10 20 30 40 50 100 200 500 1000
 	do
 		echo -n "cutoff = " $cutoff ": "
 		java MergeSortTest $size $cutoff
