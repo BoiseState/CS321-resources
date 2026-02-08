@@ -15,7 +15,7 @@ Overall Comments:
 Documentation:
 	-README.md: [10 points]
 
-	-Javadoc and inline comments: [5 points]
+	-Javadoc and appropriate inline comments: [5 points]
 
 
 Code design and style: 
