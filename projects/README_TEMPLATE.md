@@ -56,4 +56,4 @@ Finally, remove these instructions from your README.md after you are finished!
 between the Markdown source and preview tabs.
 
 * To preview your README.md output online, you can copy your file contents to a Markdown editor/previewer
-such as [https://stackedit.io/editor](https://stackedit.io/editor).
+such as [https://stackedit.io/app](https://stackedit.io/app).
