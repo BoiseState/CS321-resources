@@ -4,7 +4,8 @@ import java.util.LinkedHashMap;
 public class LinkedHashMapSample
 {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) {
 
         LinkedHashMap<String, Integer> designDictionary = new LinkedHashMap<String, Integer>();
 
@@ -39,9 +40,9 @@ public class LinkedHashMapSample
         designDictionary.put(null, 100);
 
         System.out.println("Size of the map: " + designDictionary.size());
-        // Print the dictionary -- note the order of items is is in the order we
+        // Print the dictionary -- note the order of items is in the order we
         // inserted them -- due to the linked list
-        // entwined with the HashMap
+        // inside with the HashMap
         System.out.println(designDictionary);
 
         String key = "decomposition";

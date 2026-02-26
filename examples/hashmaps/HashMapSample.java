@@ -3,7 +3,8 @@ import java.util.HashMap;
 public class HashMapSample
 {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) {
 
         HashMap<String, Integer> designDictionary = new HashMap<String, Integer>();
 
@@ -21,7 +22,7 @@ public class HashMapSample
         // principles for cybersecurity
 
         // We can actually use the constructor to build a Integer object.
-        // We are showing it here to make a point but t is deprecated as Java
+        // We are showing it here to make a point but it is deprecated as Java
         // will automagically do that for us!
         designDictionary.put("least privilege", new Integer(7));
         designDictionary.put("current authority", 8);
@@ -38,8 +39,8 @@ public class HashMapSample
         designDictionary.put(null, 100);
 
         System.out.println("Size of the map: " + designDictionary.size());
-        // Print the dictionary -- note the order of items is jumbled since it is a hash
-        // table!
+        // Print the dictionary -- note the order of items is jumbled since 
+        // it is a hash table!
         System.out.println(designDictionary);
 
         String key = "decomposition";
