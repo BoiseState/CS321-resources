@@ -1,6 +1,6 @@
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
-import java.util.Hashtable;
+import java.util.HashMap;
 
 /**
  * Example of freeze-drying (or serializing) a hash table to disk. Any class
@@ -11,28 +11,31 @@ import java.util.Hashtable;
 
 public class SaveTable
 {
-    public static void main(String[] args) {
-	Hashtable<Integer, StudentRecord> h = new Hashtable<Integer, StudentRecord>(); // implements Serializable
-	// Hashtable implements the serializable interface
-	// so we can try to freeze dry it
-	StudentRecord s1 = new StudentRecord("Larry", 11122);
-	StudentRecord s2 = new StudentRecord("Moe", 11234);
-	StudentRecord s3 = new StudentRecord("Curly", 32141);
-	StudentRecord s4 = new StudentRecord("MooMoo", 22211);
+	public static void main(String[] args)
+	{
+		HashMap<Integer, StudentRecord> h = new HashMap<Integer, StudentRecord>(); // implements
+																				   // Serializable
+		// HashMap implements the serializable interface
+		// so we can try to freeze dry it
+		StudentRecord s1 = new StudentRecord("Larry", 11122);
+		StudentRecord s2 = new StudentRecord("Moe", 11234);
+		StudentRecord s3 = new StudentRecord("Curly", 32141);
+		StudentRecord s4 = new StudentRecord("MooMoo", 22211);
 
-	h.put(s1.getId(), s1);
-	h.put(s2.getId(), s2);
-	h.put(s3.getId(), s3);
-	h.put(s4.getId(), s4);
+		h.put(s1.getId(), s1);
+		h.put(s2.getId(), s2);
+		h.put(s3.getId(), s3);
+		h.put(s4.getId(), s4);
 
-	try {
-	    FileOutputStream fileout = new FileOutputStream("hash.serial");
-	    ObjectOutputStream out = new ObjectOutputStream(fileout);
-	    out.writeObject(h);
-	    out.close();
-	    System.out.println("SaveTable: serializing hash table in file hash.serial");
-	} catch (Exception e) {
-	    System.out.println(e);
+		try {
+			FileOutputStream fileout = new FileOutputStream("hash.serial");
+			ObjectOutputStream out = new ObjectOutputStream(fileout);
+			out.writeObject(h);
+			out.close();
+			System.out.println(
+					"SaveTable: serializing hash table in file hash.serial");
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
-    }
 }
