@@ -1,10 +1,8 @@
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
 public class LinkedHashMapSample
 {
 
-    @SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 
         LinkedHashMap<String, Integer> designDictionary = new LinkedHashMap<String, Integer>();
