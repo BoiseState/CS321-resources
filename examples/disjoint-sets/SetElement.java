@@ -9,7 +9,7 @@ public class SetElement<T>
 {
 	private int parent;
 	private T element;
-	private int size;
+	private int rank;
 	
 	/**
 	 * Create a set element containing the given value.
@@ -34,13 +34,13 @@ public class SetElement<T>
 	 * Getter for the size of the element.
 	 * @return
 	 */
-	public int getSize() { return size;}
+	public int getRank() { return rank;}
 	
 	/**
 	 * Setter for the size of the element.
 	 * @param size
 	 */
-	public void setSize(int size) { this.size = size; }
+	public void setRank(int size) { this.rank = size; }
 	
 	/**
 	 * Getter for the actual element.
@@ -51,7 +51,7 @@ public class SetElement<T>
 	@Override
 	public String toString()
 	{
-		return "element= " + element.toString() + " " + "size = " + size;
+		return "element= " + element.toString() + " " + "rank = " + rank;
 	}
 
 }

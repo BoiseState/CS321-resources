@@ -11,7 +11,7 @@
 public class DisjointSets<T>
 {
     private SetElement<T>[] sets;
-    private long counter = 0;
+    private long counter = 0; //tracks the number of recursive find calls
     private int n = 0;
 
     /**
@@ -36,7 +36,7 @@ public class DisjointSets<T>
         assert ((x >= 0) && (x < n));
         SetElement<T> element = new SetElement<T>(obj);
         element.setParent(x);
-        element.setSize(1);
+        element.setRank(1);
         sets[x] = element;
     }
 
@@ -71,7 +71,7 @@ public class DisjointSets<T>
      */
     public int find(int x) {
         assert ((x >= 0) && (x < n));
-        counter++;
+        counter++; //helps us find the average height of the forest 
         int parent = sets[x].getParent();
         if (parent != x) {
             sets[x].setParent(find(parent));
@@ -91,14 +91,14 @@ public class DisjointSets<T>
         assert ((x >= 0) && (x < n));
         assert ((y >= 0) && (y < n));
 
-        int sizex = sets[x].getSize();
-        int sizey = sets[y].getSize();
+        int sizex = sets[x].getRank();
+        int sizey = sets[y].getRank();
         if (sizex > sizey) {
             sets[y].setParent(x);
-            sets[x].setSize(sizex + sizey);
+            sets[x].setRank(sizex + sizey);
         } else {
             sets[x].setParent(y);
-            sets[y].setSize(sizex + sizey);
+            sets[y].setRank(sizex + sizey);
         }
         return y;
     }

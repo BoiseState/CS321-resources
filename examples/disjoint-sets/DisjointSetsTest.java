@@ -42,12 +42,12 @@ public class DisjointSetsTest
 	        before = S.getCounter();
 	        Sx = S.find(x);
 	        after = S.getCounter();
-	        maxht = (maxht > (after-before)? maxht: (after-before));
+	        maxht = (maxht > (after - before)? maxht: (after - before));
 
 	        before = S.getCounter();
 	        Sy = S.find(y);
 	        after = S.getCounter();
-	        maxht = (maxht > (after-before)? maxht: (after-before));
+	        maxht = (maxht > (after - before)? maxht: (after - before));
 	        num_finds += 2;
 
 	        // if x and y belong to distinct sets, then
