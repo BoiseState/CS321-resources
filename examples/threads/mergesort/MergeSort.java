@@ -141,7 +141,7 @@ public class MergeSort
 	    System.out.println("Mergesort did not successfully sort list!!");
 	else
 	    System.out.println("Mergesort with" + (parallel ? " " + ((2 << cutoffLevel) - 1) + " " : "out ") + "threads\n"
-	            + "\tNum elements:  " + numElements + "\n\tRuntime: " + totalTime/1000.0
+	            + "\tNum elements:  " + numElements + "\n\tRuntime: " + String.format(" %.2f ", totalTime/1000.0)
 	            + " seconds");
 
     }

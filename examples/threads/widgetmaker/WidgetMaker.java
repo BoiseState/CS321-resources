@@ -69,7 +69,7 @@ public class WidgetMaker
 	robotFactory.make();
 
 	long totalTime = System.currentTimeMillis() - startTime;
-	System.out.println("WidgetMaker: made " + n + " widgets in " + totalTime / 1000.0 + " seconds");
+	System.out.println("WidgetMaker: made " + n + " widgets in " + String.format(" %.2f ",totalTime / 1000.0) + " seconds");
     }
 
 }

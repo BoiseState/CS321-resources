@@ -26,13 +26,13 @@ speedup was around 14x with 32 threads!
 First run sequentially 
 
 ```
-time mergesort 30000000
+time mergesort.Mergesort 30000000
 ```
 
 Then run in parallel.
 
 ```
-time mergesort 30000000 --useThreads 3
+time mergesort.Mergesort 30000000 --useThreads 3
 ```
 
 This creates one thread for each recursive call, up to 3 levels deep. So, for k levels, it uses a
