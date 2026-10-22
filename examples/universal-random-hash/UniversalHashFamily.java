@@ -35,44 +35,45 @@ import java.security.SecureRandom;
  */
 public class UniversalHashFamily
 {
-    private final long a;
-    private final long b;
-    // Mersenne Prime 2^31 - 1 (fits inside a standard signed primitive)
-    private final long prime = 2147483647L;
+	private final long a;
+	private final long b;
+	// Mersenne Prime 2^31 - 1 (fits inside a standard signed primitive)
+	private final long prime = 2147483647L;
 
-    public UniversalHashFamily()
-    {
-	// Secure for security-sensitive applications
-	SecureRandom cryptoRand = new SecureRandom();
+	public UniversalHashFamily()
+	{
+		// Secure for security-sensitive applications
+		SecureRandom cryptoRand = new SecureRandom();
 
-	// 'a' must be non-zero and less than the prime
-	this.a = cryptoRand.nextLong(1, prime);
-	this.b = cryptoRand.nextLong(0, prime);
-    }
-
-
-    /**
-     * Hashes an object dynamically into a variable table size.
-     * 
-     * @param key
-     *                      The object to hash
-     * @param tableSize
-     *                      The current capacity of your array/buckets
-     */
-    public int hash(Object key, int tableSize)
-    {
-	if (key == null) return 0;
-	if (tableSize <= 0) {
-	    throw new IllegalArgumentException("Table size must be greater than 0");
+		// 'a' must be non-zero and less than the prime
+		this.a = cryptoRand.nextLong(1, prime);
+		this.b = cryptoRand.nextLong(0, prime);
 	}
 
-	// Convert the signed 32-bit java hashCode to an unsigned 64-bit long
-	long x = key.hashCode() & 0xFFFFFFFFL;
+	/**
+	 * Hashes an object dynamically into a variable table size.
+	 * 
+	 * @param key
+	 *                      The object to hash
+	 * @param tableSize
+	 *                      The current capacity of your array/buckets
+	 */
+	public int hash(Object key, int tableSize)
+	{
+		if (key == null)
+			return 0;
+		if (tableSize <= 0) {
+			throw new IllegalArgumentException(
+					"Table size must be greater than 0");
+		}
 
-	// Carter-Wegman formula: ((ax + b) % p)
-	long hashValue = ((a * x) + b) % prime;
+		// Convert the signed 32-bit java hashCode to an unsigned 64-bit long
+		long x = key.hashCode() & 0xFFFFFFFFL;
 
-	// Final mapping to the dynamic table size argument
-	return Math.abs((int) hashValue) % tableSize;
-    }
+		// Carter-Wegman formula: ((ax + b) % p)
+		long hashValue = ((a * x) + b) % prime;
+
+		// Final mapping to the dynamic table size argument
+		return Math.abs((int) hashValue) % tableSize;
+	}
 }

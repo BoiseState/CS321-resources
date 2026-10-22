@@ -21,7 +21,7 @@ public class HashMapSample
 
         // principles for cybersecurity
 
-        // We can actually use the constructor to build a Integer object.
+        // We can actually use the constructor to build an Integer object.
         // We are showing it here to make a point but it is deprecated as Java
         // will automagically do that for us!
         designDictionary.put("least privilege", new Integer(7));

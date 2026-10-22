@@ -116,6 +116,8 @@ public class BinarySearchTree<T extends Comparable<T>>
      * @return
      */
     public int getHeight(Node<T> x) {
+		if (x == null) 
+			return 0;
         int height = 0;
         if (x.left != null) height = Math.max(height, getHeight(x.left) + 1);
         if (x.right != null) height = Math.max(height, getHeight(x.right) + 1);
