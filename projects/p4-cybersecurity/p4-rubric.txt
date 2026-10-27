@@ -60,7 +60,7 @@ Final Deliverable - Due at the end of Project Week 5 [100 points]
 		for the first two checkpoints.
 
 	-Teamwork: [30 points]
-		-Filled out weekly progress reports/surveys x 5: [15 points] [Required!]
+		-Filled out weekly progress reports/surveys x 3: [5 x 3 = 15 points] [Required!]
 
 		-Evidence of teamwork: [15 points]
 			-Scrum board, project log, evaluation by teammates via surveys: 
